@@ -4,43 +4,58 @@ AI-powered music tagging system using OpenAI o3 reasoning models to analyze trac
 
 ## 🚀 Quick Start
 
-### Step 0: Generate Fresh Metadata (First Time Setup)
-
-If you're starting fresh or want to clear existing tags:
-
-```bash
-cd tag-analyzer-ts
-
-# Generate skeleton metadata from your FLAC files
-npm run generate:skeleton --force
-
-# This will:
-# ✅ Scan your /flac directory for all .flac files  
-# ✅ Create music_collection_metadata.json with empty tags
-# ⚠️  OVERWRITES existing metadata file (use --force flag)
-```
+**Start from the project root directory** (where this README is located):
 
 ### Step 1: Install Dependencies
 
 ```bash
+# Navigate to the TypeScript analyzer directory
 cd tag-analyzer-ts
+
+# Install required packages
 npm install
 ```
 
 ### Step 2: Set Up API Keys
 
+Create a `.env` file in the `tag-analyzer-ts/` directory:
+
 ```bash
+# Create the .env file
+touch tag-analyzer-ts/.env
+```
+
+Add your API keys to `tag-analyzer-ts/.env`:
+
+```env
 # Required: OpenAI API key (for o3 reasoning model)
 OPENAI_API_KEY=sk-proj-your_openai_key_here
 
 # Optional: Anthropic API key (fallback)
 ANTHROPIC_API_KEY=sk-ant-your_anthropic_key_here
 ```
-Add these to `tag-analyzer-ts/.env` file.
 
-### Step 3: Run Batch Analysis
+### Step 3: Generate Fresh Metadata (First Time Setup)
+
+If you're starting fresh or want to clear existing tags:
 
 ```bash
+# Generate skeleton metadata from your FLAC files
+cd tag-analyzer-ts
+npm run generate:skeleton --force
+
+# This will:
+# ✅ Scan your ../flac directory for all .flac files  
+# ✅ Create ../music_collection_metadata.json with empty tags
+# ⚠️  OVERWRITES existing metadata file (use --force flag)
+```
+
+### Step 4: Run Batch Analysis
+
+```bash
+# Make sure you're in the tag-analyzer-ts directory
+cd tag-analyzer-ts
+
 # Analyze 1 track (default: OpenAI o3 with reasoning)
 npm run analyze:batch 1
 
@@ -72,6 +87,7 @@ npm run analyze:batch 5 --anthropic
 
 - **AI Analysis**: Uses OpenAI o3 reasoning model with web search for deep musical analysis
 - **Curator Tags**: Assigns 10-15 sophisticated tags from a curated taxonomy for DJ use
+- **Key Detection**: Automatically detects and fills in missing musical keys (e.g., "C Major", "F# Minor")
 - **Research Notes**: Provides detailed insights about track history, production, and DJ utility
 - **Confidence Scoring**: Each analysis includes a confidence score (0-100%)
 - **Metadata Integration**: Updates your music collection metadata automatically
@@ -79,18 +95,21 @@ npm run analyze:batch 5 --anthropic
 ## 🏷️ Example Output
 
 ```
-✅ David Bowie - Conversation Piece (2019 Mix)
-   Tags (12): remix, rock-classic, contemporary-classic, emotional-depth, 
-             vocal-magic, textural-beauty, bridge-element, layer-friendly, 
-             mood-shifter, provides-release, crisp-digital, energy-injector
-   Confidence: 85%
-   Research Notes: The 2019 mix revisits Bowie's classic rock roots in modern, 
-                   digitally crisp production...
+✅ MIKA - Grace Kelly
+   Tags (13): euphoric-melody, vocal-magic, harmonic-surprise, crowd-pleaser, 
+             sing-along-potential, instant-impact, warm-up, mainstream-crossover, 
+             pop-sophisticated, dense-production, mashup-ready, vocal-prominent, 
+             nostalgic-hit
+   Confidence: 87%
+   🎹 Detected key: G Major
+   Research Notes: Producer Greg Wells gives the track a glossy, brick-walled sheen 
+                   with stacked piano, handclaps and multitracked choir-style backing 
+                   that evokes Freddie Mercury...
 ```
 
 ## 🔧 Available Commands
 
-All commands should be run from the `tag-analyzer-ts/` directory:
+**All commands should be run from the `tag-analyzer-ts/` directory** (after `cd tag-analyzer-ts` from project root):
 
 **🏗️ Setup & Generation:**
 - `npm run generate:skeleton --force` - Generate fresh metadata skeleton from FLAC files

@@ -699,8 +699,12 @@ Begin your analysis now. Think deeply about this track's place in music history,
           
           // Update the key if one was detected and the original was Unknown/missing
           if (analysisResult.detected_key && 
+              analysisResult.detected_key.trim() !== "" &&
+              analysisResult.detected_key !== "," &&
+              analysisResult.detected_key.length > 1 &&
               (!track.key || track.key === "Unknown" || track.key.trim() === "")) {
             track.key = analysisResult.detected_key;
+            track.key_was_guessed = true;
             console.log(`🎹 Detected key: ${analysisResult.detected_key}`);
           }
 

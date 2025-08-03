@@ -19,6 +19,7 @@ export interface Track {
   isrc: string;
   bpm: string;
   key: string;
+  key_was_guessed?: boolean;
   comment: string;
   grouping: string;
   bitrate: number;
