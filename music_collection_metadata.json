@@ -2546,7 +2546,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "hip-hop-experimental",
+        "jazz-influenced",
+        "head-nodder",
+        "nostalgic-hit",
+        "emotional-depth",
+        "instrumental",
+        "warm-analog",
+        "loop-gold",
+        "breakdown-rich",
+        "needs-layering",
+        "rhythmic-hypnosis",
+        "warm-up",
+        "beatmatched-friendly",
+        "retro-modern"
+      ],
+      "tag_confidence": 87,
+      "research_notes": "Blu & Exile’s “O Heaven” is a sample-driven instrumental that fuses dusty soul-jazz loops with crisp MPC drum programming, placing it in the lineage of early-2000s L.A. beat scene but with a conscious-rap pedigree. The vinyl-sourced chords and trumpet licks create instant nostalgia and emotional weight, while the steady 90-95 BPM boom-bap groove locks into a classic head-nod pocket—ideal for layering acappellas or serving as a warm-up track before peak-time energy. DJs get clean four-bar loops and mid-track dropouts for on-the-fly edits; its warm analog texture and breakdown-rich structure make it both a mixing canvas and a dopamine-triggering crowd favourite among underground hip-hop sets."
     },
     {
       "relative_path": "flac/01-14 Everybody's Trying To Be My Baby.flac",
