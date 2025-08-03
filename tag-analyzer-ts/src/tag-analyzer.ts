@@ -7,21 +7,135 @@ import {
   AnalysisResult,
   TrackAnalysisResult,
 } from "./types";
+import { OpenAIService } from "./openai-service";
 
 export class MusicTagAnalyzer {
-  private client: Anthropic;
+  private client?: Anthropic;
+  private openaiService?: OpenAIService;
   private tagTaxonomy: string;
+  private useOpenAI: boolean;
 
-  constructor(apiKey?: string) {
-    const key = apiKey || process.env.ANTHROPIC_API_KEY;
-    if (!key) {
-      throw new Error(
-        "Anthropic API key is required. Set ANTHROPIC_API_KEY environment variable or pass apiKey parameter"
-      );
+  constructor(apiKey?: string, openaiApiKey?: string, useOpenAI = false) {
+    this.useOpenAI = useOpenAI;
+    
+    if (useOpenAI) {
+      const openaiKey = openaiApiKey || process.env.OPENAI_API_KEY;
+      if (!openaiKey) {
+        throw new Error(
+          "OpenAI API key is required when useOpenAI is true. Set OPENAI_API_KEY environment variable or pass openaiApiKey parameter"
+        );
+      }
+      this.openaiService = new OpenAIService(openaiKey);
+    } else {
+      const key = apiKey || process.env.ANTHROPIC_API_KEY;
+      if (!key) {
+        throw new Error(
+          "Anthropic API key is required. Set ANTHROPIC_API_KEY environment variable or pass apiKey parameter"
+        );
+      }
+      this.client = new Anthropic({ apiKey: key });
     }
-
-    this.client = new Anthropic({ apiKey: key });
+    
     this.tagTaxonomy = this.loadTagTaxonomy();
+  }
+
+  private buildPrompt(trackInfo: any): string {
+    return `You are a world-class music curator, DJ, and music historian with encyclopedic knowledge spanning all genres, eras, and cultures. Your expertise includes music theory, production techniques, cultural movements, and the subtle art of reading dancefloors.
+
+Your task: Conduct a scholarly analysis of this track and select 10-15 tags EXCLUSIVELY from the provided taxonomy below.
+
+🚨 CRITICAL CONSTRAINT: You can ONLY use tags that appear EXACTLY as written in the taxonomy below. Do NOT create any new tags, modify existing tags, or use any tags not explicitly listed. Any response containing tags not in the taxonomy will be rejected.
+
+<track_details>
+Artist: ${trackInfo.artist}
+Title: ${trackInfo.title}
+Album: ${trackInfo.album}
+Genre: ${trackInfo.genre}
+Year: ${trackInfo.date}
+Duration: ${trackInfo.duration}
+BPM: ${trackInfo.bpm}
+Key: ${trackInfo.key}
+Composer: ${trackInfo.composer}
+Current Tags: ${
+      trackInfo.currentTags.length > 0
+        ? trackInfo.currentTags.join(", ")
+        : "None"
+    }
+</track_details>
+
+<available_tags>
+${this.tagTaxonomy}
+</available_tags>
+
+<analysis_methodology>
+PHASE 1: IMMEDIATE SONIC ASSESSMENT
+- Identify the primary genre, subgenre, and micro-genre
+- Determine the energy level, mood, and emotional arc
+- Assess the production era and techniques used
+- Note the BPM range and rhythmic feel (straight/swung/syncopated)
+
+PHASE 2: DEEP MUSICOLOGICAL ANALYSIS
+- Harmonic Analysis: chord progressions, key modulations, tension/release patterns
+- Rhythmic Architecture: groove patterns, polyrhythms, tempo feel
+- Sonic Palette: instrumentation, synthesis methods, sampling sources
+- Production Techniques: mixing style, effects usage, dynamic range
+- Structural Elements: arrangement, build-ups, breakdowns, hooks
+
+PHASE 3: CULTURAL & HISTORICAL CONTEXT
+- Place within artist's career arc and discography
+- Movement/scene affiliation and influence
+- Sampling history (both sampled from and sampled by)
+- Cultural impact and legacy
+- Underground vs. mainstream positioning
+
+PHASE 4: DJ UTILITY ASSESSMENT
+- Mixing compatibility (intro/outro quality, rhythmic stability)
+- Energy trajectory (floor-filler, warm-up, peak-time, comedown)
+- Harmonic mixing potential (compatible keys and modes)
+- Layering possibilities (sparse/dense, frequency distribution)
+- Crowd psychology impact (nostalgic triggers, surprise elements)
+
+PHASE 5: EMOTIONAL & NEUROLOGICAL MAPPING
+- Emotional journey and psychological triggers
+- Nostalgic or futuristic elements
+- Dopaminergic peak moments and pleasure principles
+- Transcendent or meditative qualities
+- Social bonding and collective experience potential
+</analysis_methodology>
+
+<output_format>
+CRITICAL: You MUST end your response with a valid JSON object. Do any research needed, but always conclude with:
+
+{
+  "tags": [
+    "primary-genre-tag",
+    "subgenre-specifier",
+    "energy-descriptor",
+    "era-movement-tag",
+    "technical-dj-tag",
+    "unique-sonic-element",
+    "cultural-significance",
+    "mood-journey-tag",
+    "production-technique",
+    "crowd-impact-tag",
+    "additional-relevant-tags"
+  ],
+  "confidence": 85,
+  "research_notes": "Specific insights about this track including: production history, cultural context, DJ utility observations, and any unique elements that influenced tag selection. Mention specific mixing points, cultural movements, or technical details that make this track significant. 2-3 detailed sentences."
+}
+
+CRITICAL REQUIREMENTS:
+- Use ONLY tags that appear in the provided taxonomy - NO EXCEPTIONS
+- Tags must be copied EXACTLY as written in the taxonomy
+- Base analysis on deep musical knowledge, not assumptions
+- Confidence score should reflect actual knowledge (0-100 scale)
+- Provide 10-15 tags, no more, no less
+- Research notes must contain specific, verifiable insights
+- If you use ANY tag not in the taxonomy, the response will be rejected
+- ALWAYS end with valid JSON - this is mandatory
+
+Begin your analysis now. Think deeply about this track's place in music history, its technical construction, and its utility for sophisticated DJs and curators. End with the JSON object.
+</output_format>`;
   }
 
   private loadTagTaxonomy(): string {
@@ -108,6 +222,75 @@ export class MusicTagAnalyzer {
   }
 
   async analyzeTrackTags(track: Track): Promise<AnalysisResult> {
+    if (this.useOpenAI && this.openaiService) {
+      return this.analyzeWithOpenAI(track);
+    }
+    return this.analyzeWithAnthropic(track);
+  }
+
+  private async analyzeWithOpenAI(track: Track): Promise<AnalysisResult> {
+    const trackInfo = {
+      artist: track.artist || "Unknown",
+      title: track.title || "Unknown",
+      album: track.album || "Unknown",
+      genre: track.genre || "Unknown",
+      date: track.date || "Unknown",
+      duration: track.duration_formatted || "Unknown",
+      bpm: track.bpm || "Unknown",
+      key: track.key || "Unknown",
+      composer: track.composer || "Unknown",
+      currentTags: track.assigned_tags || [],
+    };
+
+    // Print track info before analysis
+    console.log("\n=== TRACK INFO ===");
+    console.log(`Artist: ${trackInfo.artist}`);
+    console.log(`Title: ${trackInfo.title}`);
+    console.log(`Album: ${trackInfo.album}`);
+    console.log(`Genre: ${trackInfo.genre}`);
+    console.log(`Year: ${trackInfo.date}`);
+    console.log(`Duration: ${trackInfo.duration}`);
+    console.log(`BPM: ${trackInfo.bpm}`);
+    console.log(`Key: ${trackInfo.key}`);
+    console.log(`Composer: ${trackInfo.composer}`);
+    console.log(
+      `Current Tags: ${
+        trackInfo.currentTags.length > 0
+          ? trackInfo.currentTags.join(", ")
+          : "None"
+      }`
+    );
+    console.log("==================\n");
+
+    const prompt = this.buildPrompt(trackInfo);
+    
+    try {
+      const result = await this.openaiService!.analyzeTrackTags(prompt);
+      
+      // Validate tags against taxonomy
+      const validation = this.validateTags(result.tags);
+      
+      if (validation.invalid.length > 0) {
+        console.warn(
+          `⚠️  Invalid tags detected (not in taxonomy): ${validation.invalid.join(", ")}`
+        );
+        console.warn(`✅ Valid tags: ${validation.valid.join(", ")}`);
+        
+        return {
+          tags: validation.valid,
+          confidence: Math.max(0, result.confidence - 20),
+          research_notes: result.research_notes + ` (Note: ${validation.invalid.length} invalid tags were filtered out)`,
+        };
+      }
+      
+      return result;
+    } catch (error) {
+      console.error("Error calling OpenAI API:", error);
+      throw new Error("Failed to analyze track tags");
+    }
+  }
+
+  private async analyzeWithAnthropic(track: Track): Promise<AnalysisResult> {
     const trackInfo = {
       artist: track.artist || "Unknown",
       title: track.title || "Unknown",
@@ -266,7 +449,8 @@ For obscure/underground tracks:
 </edge_case_handling>
 
 <output_format>
-Return ONLY a valid JSON object:
+CRITICAL: You MUST end your response with a valid JSON object. Do any research needed, but always conclude with:
+
 {
   "tags": [
     "primary-genre-tag",
@@ -294,14 +478,19 @@ CRITICAL REQUIREMENTS:
 - Provide 10-15 tags, no more, no less
 - Research notes must contain specific, verifiable insights
 - If you use ANY tag not in the taxonomy, the response will be rejected
+- ALWAYS end with valid JSON - this is mandatory
 
-Begin your analysis now. Think deeply about this track's place in music history, its technical construction, and its utility for sophisticated DJs and curators.
+Begin your analysis now. Think deeply about this track's place in music history, its technical construction, and its utility for sophisticated DJs and curators. End with the JSON object.
 </output_format>`;
 
     try {
+      if (!this.client) {
+        throw new Error('Anthropic client not initialized');
+      }
+      
       const response = await this.client.messages.create({
         model: "claude-sonnet-4-20250514",
-        max_tokens: 4000,
+        max_tokens: 12000,
         temperature: 1,
         thinking: {
           type: "enabled",
@@ -311,7 +500,7 @@ Begin your analysis now. Think deeply about this track's place in music history,
           {
             type: "web_search_20250305",
             name: "web_search",
-            max_uses: 5,
+            max_uses: 1,
           } as any,
         ],
         messages: [
@@ -346,9 +535,9 @@ Begin your analysis now. Think deeply about this track's place in music history,
       try {
         // Extract JSON from the response text with improved parsing
         let jsonText = textContent.text.trim();
-        
+
         console.log("Raw API response length:", jsonText.length);
-        console.log("Raw API response preview:", jsonText.substring(0, 500) + "...");
+        console.log("Full API response:", jsonText);
 
         let result = null;
 
@@ -378,7 +567,7 @@ Begin your analysis now. Think deeply about this track's place in music history,
               jsonText = jsonText.substring(jsonStart, jsonEnd).trim();
             }
           }
-          
+
           try {
             result = JSON.parse(jsonText);
             console.log("Successfully parsed JSON using strategy 2");
@@ -389,28 +578,28 @@ Begin your analysis now. Think deeply about this track's place in music history,
 
         // Strategy 3: Find last complete JSON object in response
         if (!result) {
-          const lines = jsonText.split('\n');
+          const lines = jsonText.split("\n");
           let braceCount = 0;
           let jsonStart = -1;
           let jsonLines = [];
-          
+
           for (let i = 0; i < lines.length; i++) {
             const line = lines[i];
-            if (line.trim().startsWith('{') && jsonStart === -1) {
+            if (line.trim().startsWith("{") && jsonStart === -1) {
               jsonStart = i;
               braceCount = 0;
             }
-            
+
             if (jsonStart !== -1) {
               jsonLines.push(line);
               for (const char of line) {
-                if (char === '{') braceCount++;
-                if (char === '}') braceCount--;
+                if (char === "{") braceCount++;
+                if (char === "}") braceCount--;
               }
-              
+
               if (braceCount === 0) {
                 try {
-                  result = JSON.parse(jsonLines.join('\n'));
+                  result = JSON.parse(jsonLines.join("\n"));
                   console.log("Successfully parsed JSON using strategy 3");
                   break;
                 } catch (e) {
@@ -424,7 +613,10 @@ Begin your analysis now. Think deeply about this track's place in music history,
         }
 
         if (!result) {
-          console.error("All JSON parsing strategies failed. Raw response:", jsonText);
+          console.error(
+            "All JSON parsing strategies failed. Raw response:",
+            jsonText
+          );
           return {
             tags: [],
             confidence: 0,
@@ -433,7 +625,7 @@ Begin your analysis now. Think deeply about this track's place in music history,
         }
 
         const analysisResult = result as AnalysisResult;
-        
+
         console.log("Parsed JSON result:", analysisResult);
 
         if (analysisResult.tags && Array.isArray(analysisResult.tags)) {

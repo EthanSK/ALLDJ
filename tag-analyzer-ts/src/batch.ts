@@ -8,28 +8,34 @@ import { MusicTagAnalyzer } from "./tag-analyzer";
 let shouldCancel = false;
 
 // Handle graceful shutdown
-process.on('SIGINT', () => {
-  console.log('\n\n🛑 Received cancellation signal (Ctrl+C)');
-  console.log('🔄 Finishing current track analysis...');
-  console.log('💡 Press Ctrl+C again to force quit');
+process.on("SIGINT", () => {
+  console.log("\n\n🛑 Received cancellation signal (Ctrl+C)");
+  console.log("🔄 Finishing current track analysis...");
+  console.log("💡 Press Ctrl+C again to force quit");
   shouldCancel = true;
-  
+
   // Force quit on second Ctrl+C
-  process.on('SIGINT', () => {
-    console.log('\n💥 Force quitting...');
+  process.on("SIGINT", () => {
+    console.log("\n💥 Force quitting...");
     process.exit(130);
   });
 });
 
 async function main() {
   const batchSize = parseInt(process.argv[2]) || 10;
+  const useOpenAI = process.argv.includes('--anthropic') ? false : true; // Default to OpenAI o3
 
   console.log(`🎵 Running batch analysis for ${batchSize} tracks...`);
+  console.log(`🤖 Using ${useOpenAI ? 'OpenAI o3 (reasoning)' : 'Anthropic Claude'}`);
   console.log(`💡 Press Ctrl+C to gracefully stop after current track`);
   console.log("=".repeat(60));
 
   try {
-    const analyzer = new MusicTagAnalyzer();
+    const analyzer = new MusicTagAnalyzer(
+      process.env.ANTHROPIC_API_KEY,
+      process.env.OPENAI_API_KEY,
+      useOpenAI
+    );
 
     let processed = 0;
     let successful = 0;
@@ -38,7 +44,9 @@ async function main() {
     for (let i = 0; i < batchSize; i++) {
       // Check for cancellation signal
       if (shouldCancel) {
-        console.log(`\n🛑 Batch cancelled gracefully after ${processed} tracks`);
+        console.log(
+          `\n🛑 Batch cancelled gracefully after ${processed} tracks`
+        );
         break;
       }
 
@@ -56,6 +64,10 @@ async function main() {
             console.log("\n✅ No more untagged tracks found. Batch complete!");
             break;
           }
+
+          // Exit completely on any other error
+          console.error("\n💥 Exiting due to analysis failure.");
+          process.exit(1);
         } else {
           console.log(`✅ Successfully analyzed: ${result.track}`);
           console.log(
@@ -67,6 +79,8 @@ async function main() {
       } catch (error) {
         console.error(`❌ Unexpected error processing track ${i + 1}:`, error);
         errors++;
+        console.error("\n💥 Exiting due to unexpected error.");
+        process.exit(1);
       }
 
       processed++;

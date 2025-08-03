@@ -529,7 +529,25 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "emotional-depth",
+        "vocal-magic",
+        "anchor-track",
+        "bridge-element",
+        "vocal-prominent",
+        "timeless-classic",
+        "generational-bridge",
+        "adds-depth",
+        "emotional-rollercoaster",
+        "slow-burn",
+        "emotional-peak",
+        "warm-analog",
+        "boomer-classic",
+        "intricate"
+      ],
+      "tag_confidence": 95,
+      "research_notes": "This Motown masterpiece from 1968 features James Jamerson's legendary bass line and represents peak Motown sophistication. The track's nearly 7-minute album version builds dramatic tension through lush orchestration and Marvin Gaye's paranoid, emotionally complex vocal performance. Its cultural impact spans generations, making it perfect for DJs bridging classic soul with contemporary genres, while the strong rhythmic foundation and analog warmth provide excellent layering opportunities for sophisticated mixing."
     },
     {
       "relative_path": "flac/01-06 Small Axe.flac",
@@ -558,7 +576,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "anchor-track",
+        "vocal-prominent",
+        "timeless-classic",
+        "provides-release",
+        "slow-burn",
+        "layer-friendly",
+        "warm-analog",
+        "boomer-classic",
+        "lush",
+        "world-fusion"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Bob Marley & The Wailers' 'Small Axe' from Burnin' (1973) stands as a seminal reggae record. Its warm analog production, iconic vocal delivery, and timeless classic status make it a beloved nostalgic hit that also serves as a solid anchor track in DJ sets, offering a slow-burn groove with lush musical arrangements that bridge cultural generations and inspire global appreciation."
     },
     {
       "relative_path": "flac/05-08 Conversation Piece.flac",
@@ -587,7 +619,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "remix",
+        "rock-classic",
+        "contemporary-classic",
+        "emotional-depth",
+        "vocal-magic",
+        "textural-beauty",
+        "bridge-element",
+        "layer-friendly",
+        "mood-shifter",
+        "provides-release",
+        "crisp-digital",
+        "energy-injector"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "The 2019 mix of David Bowie's 'Conversation Piece' revisits his classic rock roots in a modern, digitally crisp production. The track’s emotional vocal delivery and immersive sonic textures highlight its emotional depth and vocal magic, making it ideal as a bridging element in DJ sets, while its remix status and contemporary-classic vibe ensure it resonates across generations and set moods."
     },
     {
       "relative_path": "flac/01-02 We The People.flac",
