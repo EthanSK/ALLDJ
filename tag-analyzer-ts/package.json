@@ -5,7 +5,8 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "analyze": "ts-node src/index.ts"
+    "analyze": "ts-node src/index.ts",
+    "clean": "ts-node src/clean-metadata.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.57.0",

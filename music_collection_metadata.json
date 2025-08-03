@@ -210,7 +210,12 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "warm-analog",
+        "funny"
+      ],
+      "tag_confidence": 35,
+      "research_notes": "This 1975 track became Paul Simon's only #1 solo hit, featuring Steve Gadd's legendary linear drum pattern (100 BPM) that was improvised during warm-ups. Produced by Phil Ramone at A&R Studios, the song showcases sophisticated jazz-influenced chord progressions (Em/G, D6, Cmaj7, B7b9) with conversational verses contrasting the sing-along chorus. The track exemplifies mid-70s studio craft with warm analog production, and its humorous take on divorce through rhyming names made it both critically acclaimed and commercially successful. (Note: 12 invalid tags were removed during cleanup)"
     },
     {
       "relative_path": "flac/01-01 Marea (we’ve lost dancing).flac",
@@ -239,7 +244,25 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "electronic-dance",
+        "emotional-depth",
+        "nostalgic-hit",
+        "vocal-prominent",
+        "euphoric-melody",
+        "atmospheric-wash",
+        "cultural-moment",
+        "emotional-crescendo",
+        "peak-time",
+        "instant-impact",
+        "crowd-pleaser",
+        "mainstream-crossover",
+        "flowing",
+        "deep",
+        "dopamine"
+      ],
+      "tag_confidence": 90,
+      "research_notes": "Released February 2021, this pandemic-era anthem samples The Blessed Madonna's speech about losing dancing during COVID-19, creating an emotionally charged deep house track that became a cultural touchstone. The production features warm analog synths with Burial-influenced ghostly textures, brass-like lead melodies, and euphoric breakdowns that made it both a mainstream crossover hit and dancefloor favorite. Featured in the Palme d'Or-winning film 'Triangle of Sadness,' the track captures the collective yearning for connection through its poignant vocal sampling and uplifting 'we gon' make it through' message."
     },
     {
       "relative_path": "flac/01-10 Without Me.flac",
