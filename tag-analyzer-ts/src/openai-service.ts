@@ -27,7 +27,7 @@ export class OpenAIService {
           },
         ],
         reasoning: {
-          effort: "medium",
+          effort: "high",
         },
         tools: [
           {

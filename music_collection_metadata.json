@@ -7157,7 +7157,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "sophisticated-groove",
+        "vocal-magic",
+        "rhythmic-hypnosis",
+        "rhythmic-foundation",
+        "vocal-prominent",
+        "retro-modern",
+        "instant-impact",
+        "warm-up",
+        "breakdown-rich",
+        "punchy-dynamics",
+        "body-mover",
+        "hip-hop-experimental",
+        "indie-cred",
+        "intricate"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Kaytranada’s 2016 cut layers swung, MPC-style drums, woozy Rhodes chords and a sub-leaning bass line with Anderson .Paak’s charismatic vocal, giving it both electronic bounce and hip-hop swagger. The first 16 bars are largely drums and bass—ideal for beat-matching—while the mid-track beat-drop at 2:38 offers a spacious breakdown perfect for creative looping or filter sweeps. Its warm, sample-centric sonics nod to 90s boom-bap and house (retro-modern), yet the syncopated kick patterns and off-grid percussion create a hypnotic pocket (sophisticated-groove/rhythmic-hypnosis). Widely championed by the indie/electronic community, “GLOWED UP” bridges festival main stages and underground sets, functioning as a warm-up energy injector and reliable body-mover."
     },
     {
       "relative_path": "flac/01-07 Jealous Guy.flac",
@@ -7186,7 +7203,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "emotional-depth",
+        "vocal-magic",
+        "timeless-classic",
+        "cool-down",
+        "emotional-peak",
+        "warm-analog",
+        "vocal-prominent",
+        "jazz-influenced",
+        "non-danceable-standalone",
+        "live",
+        "tempo-challenging",
+        "adds-depth"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Hathaway’s 1971 Bitter End performance transforms Lennon’s ballad into a gospel-soaked soul confession with extended jazz voicings on Wurlitzer and an elastic live rhythm section; the tape’s analog warmth and audience ambience create an intimate, timeless feel. The lack of a fixed click and subtle tempo drift make beatmatching difficult, positioning the cut as a tempo-challenging emotional-peak or cool-down moment rather than a dancefloor driver. Ideal for DJs seeking a generational bridge or depth-adding palette cleanser before shifting energies; look for the vocal pickup at 1:48 as a natural loop or drop-in point for harmonic mixing in related keys."
     },
     {
       "relative_path": "flac/01-04 Only A Fool Would Say That.flac",
@@ -7215,7 +7247,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "sophisticated-groove",
+        "harmonic-surprise",
+        "vocal-prominent",
+        "timeless-classic",
+        "cool-down",
+        "warm-up",
+        "layer-friendly",
+        "warm-analog",
+        "jazz-influenced",
+        "head-nodder",
+        "background-perfect",
+        "original"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Recorded in 1972 with session-ace precision, this Steely Dan cut blends soft-rock songwriting with jazz-inflected chord extensions and a subtle Latin swing, giving DJs harmonic richness and a laid-back but tight pocket for head-nodding warm-up or comedown slots. Analog tape warmth, prominent Donald Fagen lead vocals, and nuanced Rhodes/guitar interplay make it layer-friendly and ideal for bridging rock, jazz-funk, and downtempo sections without spiking the energy. Short, clean intros/outros and consistent groove allow smooth transitions while its evergreen status triggers nostalgic dopamine across generations."
     },
     {
       "relative_path": "flac/01-02 Un sospiro.flac",
@@ -7244,7 +7291,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "emotional-depth",
+        "textural-beauty",
+        "instrumental",
+        "timeless-classic",
+        "meditation-inducer",
+        "palate-cleanser",
+        "slow-burn",
+        "subtle-nuance",
+        "tempo-challenging",
+        "non-danceable-standalone",
+        "adds-depth",
+        "cultural-bridge"
+      ],
+      "tag_confidence": 88,
+      "research_notes": "Liszt’s solo-piano étude “Un sospiro” (1850s) is performed here by Van Cliburn in a 1960 studio take remastered in 1999, giving pristine hi-fi detail while preserving warm analog piano tone. The piece unfolds in rubato waves that gradually intensify to a virtuosic climax before resolving into tender quietude—ideal for DJ use as a reflective palate-cleanser or sunrise comedown moment, yet its free tempo and lack of percussion make it tempo-challenging and non-danceable without layering. Its romantic harmonic suspensions and arpeggiated textures add emotional depth and subtle nuance when mixed under spoken-word or ambient stems, and its universal recognition bridges classical tradition with contemporary sets, offering a timeless cultural connection."
     },
     {
       "relative_path": "flac/01-02 Best Part (feat. H.E.R.).flac",
@@ -7273,7 +7335,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "emotional-depth",
+        "vocal-magic",
+        "harmony-rich",
+        "minimal-space",
+        "slow-burn",
+        "comedown",
+        "non-danceable-standalone",
+        "bridge-element",
+        "contemporary-classic",
+        "mainstream-crossover",
+        "fade-outro",
+        "provides-release"
+      ],
+      "tag_confidence": 88,
+      "research_notes": "“Best Part” is a stripped-down neo-soul ballad built almost entirely on warm, lightly compressed electric guitar and intimate dual-lead vocals, creating ample negative space that invites layering or segueing out of higher-energy tracks. Its 63 BPM half-time feel and immediate vocal entrance make it better as a bridge or comedown moment than a rhythmic foundation, while the slow fade at 3:10 offers a clean point for mixing out. Widely streamed since 2017 and now considered a modern R&B standard, the duet’s lush harmonies and romantic lyric cement its status as a contemporary classic with broad mainstream appeal, ideal for resetting dancefloor energy without losing emotional engagement."
     },
     {
       "relative_path": "flac/01-04 Express Yourself.flac",
@@ -7302,7 +7379,23 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-magic",
+        "sophisticated-groove",
+        "anchor-track",
+        "vocal-prominent",
+        "timeless-classic",
+        "lifts-mood",
+        "instant-impact",
+        "set-opener",
+        "mashup-ready",
+        "warm-analog",
+        "crowd-pleaser",
+        "boomer-classic"
+      ],
+      "tag_confidence": 87,
+      "research_notes": "Originally a 1970 funk-soul anthem by Charles Wright & the Watts 103rd St Rhythm Band, this 2007 re-recording preserves the classic horn riff, mid-tempo (~100 BPM) pocket, and call-and-response chorus that was later sampled by N.W.A., DJ Quik and others—making it instantly recognizable on a dancefloor. The dry, punchy drum break and isolated horn stabs at the top give DJs clean entry points and mash-up potential, while the warm, analog-leaning mix and gospel-inflected lead ensure a sing-along dopamine hit that bridges generations. Its upbeat lyric and immediately engaging groove make it a reliable set-opener or anchor during peak nostalgic segments, delivering crowd-pleasing energy without clashing harmonically with adjacent tracks in G-minor/A-flat major blues territory."
     },
     {
       "relative_path": "flac/01-03 Seabird.flac",
@@ -7331,7 +7424,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-magic",
+        "textural-beauty",
+        "timeless-classic",
+        "warm-analog",
+        "sunrise",
+        "cool-down",
+        "flowing",
+        "layer-friendly",
+        "smooth-transitions",
+        "palate-cleanser",
+        "boomer-classic"
+      ],
+      "tag_confidence": 87,
+      "research_notes": "Originally released in 1976 and re-introduced to modern ears on Metronomy’s 2012 Late Night Tales mix, “Seabird” delivers lush West-Coast soft-rock harmonies recorded to warm analog tape, giving DJs a nostalgic but hi-fi palette. Its gentle 4/4 groove (~83 BPM) and airy arrangement leave generous spectral space, making it ideal for layering pads or subtle percussion and for smoothing transitions during post-peak or sunrise sections. The instantly recognizable chorus triggers cross-generational sing-alongs while the extended fade-out offers an effortless mix-out point, cementing the track’s role as a palate-cleansing cool-down moment that still carries emotional weight."
     },
     {
       "relative_path": "flac/01-03 Energy.flac",
@@ -7360,7 +7468,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "electronic-dance",
+        "sophisticated-groove",
+        "vocal-prominent",
+        "retro-modern",
+        "body-mover",
+        "warm-analog",
+        "rhythmic-foundation",
+        "layer-friendly",
+        "sustainer",
+        "instant-dancefloor",
+        "nostalgic-hit",
+        "smooth-transitions"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "“Energy” sits in the duo’s nu-disco/indie-dance lane—think Chic-style guitar chops, rubbery bass and Linn-inspired drum machines but rendered with modern stereo width and side-chain glue. The four-on-the-floor kick and uncluttered verse groove give DJs 32 clean bars for entry, while the chorus opens into a sustained hi-hat lift that locks dancers without spiking tempo, ideal for mid-set sustaining or key-matched overlays. Its retro chord voicings trigger ‘80s nostalgia yet the tight vocal production and crisp mixdown translate on contemporary club systems, making it both a crowd-pleaser and a reliable layer-friendly foundation for harmonic mixing or live filter work."
     },
     {
       "relative_path": "flac/01-12 Morals.flac",

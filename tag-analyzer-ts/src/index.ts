@@ -10,9 +10,9 @@ async function main() {
     // Constructor: (apiKey?: string, openaiApiKey?: string, useOpenAI = false)
     const analyzer = new MusicTagAnalyzer(undefined, undefined, true); // Use OpenAI by default
 
-    // Run analysis for 50 tracks
-    for (let i = 0; i < 50; i++) {
-      console.log(`\n=== Processing track ${i + 1}/50 ===`);
+    // Run analysis for 200 tracks
+    for (let i = 0; i < 200; i++) {
+      console.log(`\n=== Processing track ${i + 1}/200 ===`);
       const result = await analyzer.analyzeAndUpdateTrack();
 
       if ("error" in result) {

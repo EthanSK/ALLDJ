@@ -47,9 +47,26 @@ npm run analyze:batch 1
 # Analyze 5 tracks
 npm run analyze:batch 5
 
-# Use Anthropic Claude instead
-npm run analyze:batch 1 --anthropic
+# Analyze 10 tracks (good for moderate sessions)
+npm run analyze:batch 10
+
+# Analyze 25 tracks (larger batch - takes longer)
+npm run analyze:batch 25
+
+# Use Anthropic Claude instead of OpenAI
+npm run analyze:batch 5 --anthropic
 ```
+
+**📏 Batch Size Guidelines:**
+- **1-5 tracks**: Quick testing, single songs
+- **10-20 tracks**: Standard daily tagging session
+- **25-50 tracks**: Large batch processing (plan for longer runtime)
+- **50+ tracks**: Extended analysis session (several hours)
+
+**⏱️ Time Estimates:**
+- ~2-3 minutes per track with OpenAI o3 reasoning
+- ~1-2 minutes per track with Anthropic Claude
+- Includes 2-second delays between tracks to avoid rate limits
 
 ## 🎵 What It Does
 
@@ -75,11 +92,25 @@ npm run analyze:batch 1 --anthropic
 
 All commands should be run from the `tag-analyzer-ts/` directory:
 
+**🏗️ Setup & Generation:**
 - `npm run generate:skeleton --force` - Generate fresh metadata skeleton from FLAC files
+
+**🎵 Analysis Commands:**
 - `npm run analyze:batch [number]` - Analyze batch of tracks (default: OpenAI o3)
 - `npm run analyze:batch [number] --anthropic` - Use Anthropic Claude instead
+- `npm run analyze:batch 1` - Quick single track analysis
+- `npm run analyze:batch 10` - Standard batch (10 tracks)
+- `npm run analyze:batch 50` - Large batch processing
+
+**🛠️ Development:**
 - `npm run build` - Compile TypeScript
 - `npm run dev` - Development mode
+
+**💡 Pro Tips:**
+- Start with small batches (1-5) to test your setup
+- Use Ctrl+C to gracefully stop after current track
+- Check your API key balance before large batches
+- The system automatically finds untagged tracks to analyze
 
 ## 🧠 AI Models
 
