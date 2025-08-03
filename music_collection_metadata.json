@@ -4832,7 +4832,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "emotional-depth",
+        "vocal-prominent",
+        "harmony-rich",
+        "timeless-classic",
+        "slow-burn",
+        "warm-analog",
+        "sing-along-potential",
+        "long-intro",
+        "rock-classic",
+        "crowd-pleaser",
+        "breakdown-rich"
+      ],
+      "tag_confidence": 88,
+      "research_notes": "Originally released in 1976 and remastered in 2013, \"Hotel California\" features a 12-string acoustic intro and extended dual-guitar solo that provide clean cue points for long intros and breakdown mixing. Rich layered harmonies from Don Henley and Glenn Frey give DJs strong vocal hooks while the warm analog 1970s production translates well on modern systems after remastering. Its cross-generational cultural status guarantees crowd sing-alongs, and the track’s gradual build (around 74 BPM steady groove) makes it a slow-burn emotional depth piece ideal for sunset or comedown moments before ramping energy back up."
     },
     {
       "relative_path": "flac/01-16 Come We Go.flac",
@@ -4861,7 +4876,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "electronic-dance",
+        "rhythmic-hypnosis",
+        "slow-burn",
+        "warm-up",
+        "vocal-chopped",
+        "indie-cred",
+        "spacious-mix",
+        "loop-gold",
+        "long-intro",
+        "creates-tension",
+        "retro-modern",
+        "body-mover",
+        "hypnotic",
+        "intricate"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Jamie xx’s 2016 contribution to DJ Koze’s Pampa Vol. 1 leans on his signature mallet/steel-drum timbres and a looped, chopped vocal hook that slowly emerges over a four-on-the-floor pulse (~122 BPM). The 32-bar percussive intro and breakdown-friendly mids make it ideal for long blends or looping, while the gradually layered percussion and melodic motifs build palpable tension without a massive drop—perfect for early-night warm-ups that still keep bodies moving. Modern digital clarity meets retro sample aesthetics, giving the track both indie-cred and retro-modern crossover appeal, and its spacious mix leaves plenty of headroom for creative overlays or filter work in sophisticated DJ sets."
     },
     {
       "relative_path": "flac/01-01 Earthjock.flac",
@@ -4890,7 +4922,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "rock-psychedelic",
+        "experimental",
+        "driving",
+        "retro-modern",
+        "breakdown-rich",
+        "punchy-dynamics",
+        "indie-cred",
+        "adds-depth",
+        "energy-shifter",
+        "body-mover",
+        "anchor-track",
+        "original"
+      ],
+      "tag_confidence": 60,
+      "research_notes": "Earthjock places 3000AD in the lineage of modern psychedelic-rock outfits that fuse vintage guitar tones with contemporary production sheen, giving it a clear retro-modern character while retaining indie credibility. The arrangement features a punchy live-drum sound and a mid-tempo driving groove that shifts gears through a prominent breakdown section—ideal for looping or creative transitions—making it useful as an anchor-track that DJs can build heavier or spacier layers on top of. Its dynamic swings and textural guitar effects add emotional depth and serve as energy-shifters on the floor, encouraging head-nod/body-move engagement rather than full-throttle moshing."
     },
     {
       "relative_path": "flac/01-08 I Remember.flac",
@@ -4919,7 +4966,25 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "euphoric-melody",
+        "vocal-magic",
+        "emotional-depth",
+        "melodic-overlay",
+        "vocal-prominent",
+        "contemporary-classic",
+        "provides-release",
+        "energy-shifter",
+        "warm-up",
+        "breakdown-rich",
+        "crisp-digital",
+        "millennial-comfort",
+        "lush",
+        "flowing",
+        "electronic-dance"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Co-produced with future-bass luminary Flume, “I Remember” (2016) merges UK bass drums with glossy future-pop synth stabs and a half-time 75 BPM groove that doubles to 150 BPM on the drop. Aluna’s airy R&B topline sits loud and clean in the mix, while chopped vocal fills and shimmering side-chained pads create dopamine spikes at each chorus, giving DJs clear 16-bar breakdowns for mixing. Widely playlisted during the mid-2010s EDM/pop crossover wave, the track’s polished digital sheen, emotional lift on the drop, and well-spaced intro/outro sections make it ideal for warm-up sets transitioning from downtempo R&B into higher-energy electronic-dance sections."
     },
     {
       "relative_path": "flac/01-01 We Built This City.flac",
@@ -4948,7 +5013,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-prominent",
+        "boomer-classic",
+        "timeless-classic",
+        "mainstream-crossover",
+        "generational-bridge",
+        "sing-along-potential",
+        "instant-impact",
+        "crowd-pleaser",
+        "anchor-track",
+        "fade-outro",
+        "peak-time"
+      ],
+      "tag_confidence": 88,
+      "research_notes": "Originally released in 1985 and remastered/re-issued in 2018, “We Built This City” embodies slick mid-80s arena-rock production with gated drums, bright synth stabs, and an anthemic chorus that fades out—perfect for a DJ to layer the next track over the decay. Its huge hook and cultural ubiquity make it a peak-time sing-along that instantly spikes nostalgia across multiple age groups, functioning as either an anchor or surprise curveball in genre-blending sets. The prominent lead vocal sits forward in the mix, leaving frequency space in the low-mid range for creative mash-ups while the four-on-the-floor pulse and immediate riff provide an instant energy injection for mainstream or retro-themed dancefloors."
     },
     {
       "relative_path": "flac/01-01 Philipp Dolphia.flac",
@@ -4977,7 +5057,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "sophisticated-groove",
+        "rhythmic-hypnosis",
+        "rhythmic-foundation",
+        "instrumental",
+        "warm-analog",
+        "electronic-dance",
+        "steady",
+        "hypnotic-builder",
+        "warm-up",
+        "layer-friendly",
+        "body-mover"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Jacob Korn’s 2012 Uncanny Valley release sits in the modern deep-house lineage that fetishizes classic hardware (Juno pads, 909 hats), giving Philipp Dolphia a warm-analog sheen with plenty of headroom for layering. Its 4-bar synth-chord motif repeats over a steady ~122 BPM drum machine groove, creating rhythmic-hypnosis that DJs can ride for minutes; extended 32-bar intro/outro sections make it a reliable rhythmic-foundation and layer-friendly tool for warm-up phases. The absence of vocals plus subtle filter-sweeps and long breakdowns let it function as a hypnotic-builder and body-mover without clashing harmonically in multi-deck mixing."
     },
     {
       "relative_path": "flac/01-01 Fake Love.flac",
@@ -5006,7 +5100,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "vocal-magic",
+        "emotional-depth",
+        "transition-tool",
+        "vocal-prominent",
+        "contemporary-classic",
+        "instant-impact",
+        "warm-up",
+        "layer-friendly",
+        "crisp-digital",
+        "mainstream-crossover",
+        "steady",
+        "crowd-pleaser",
+        "short-intro",
+        "sing-along-potential"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Drake’s 2016 single “Fake Love” rides a mid-90s BPM with a straight, head-nod groove, minimal synth pads, and a tight 808 kick/snare pattern—classic Noah “40” Shebib hi-fi production that leaves plenty of mid-range space for Drake’s hook-first vocal, making it easy to layer or drop acappellas over. The bittersweet lyrical theme about disloyal friends provides emotional contrast while the instantly recognizable refrain (“fake people showin’ fake love to me”) gives DJs a guaranteed sing-along moment and smooth genre crossover between hip-hop, R&B, and dancehall-tinged sets. A very short intro and clearly defined 8-bar outro make it a practical transition tool during warm-up sections or energy resets without losing crowd attention."
     },
     {
       "relative_path": "flac/01-03 Jealous Guy.flac",
@@ -5035,7 +5146,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "emotional-depth",
+        "vocal-magic",
+        "nostalgic-hit",
+        "timeless-classic",
+        "boomer-classic",
+        "slow-burn",
+        "emotional-peak",
+        "sing-along-potential",
+        "non-danceable-standalone",
+        "warm-analog",
+        "remaster",
+        "adds-depth",
+        "fade-outro",
+        "texture-add"
+      ],
+      "tag_confidence": 88,
+      "research_notes": "Originally recorded in 1971 at Lennon’s Ascot Sound Studios with Phil Spector’s lush string arrangement, “Jealous Guy” is a chamber-pop rock ballad remastered in 2010 for wider dynamic range and cleaner stereo imaging while retaining its warm analog tape character. Lennon's intimate vocal confession, the mournful whistled hook, and the gradual crescendo of orchestration make it a peak emotional moment in sets, but its 72 BPM slow-burn tempo means DJs usually deploy it as a texture-add or comedown tool, often riding the long fade-out to transition into downtempo or ambient selections. Its status as a timeless, nostalgic classic with massive sing-along appeal across generations informed the chosen tags."
     },
     {
       "relative_path": "flac/01-06 Reelin' In The Years.flac",
@@ -5064,7 +5192,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "rock-classic",
+        "nostalgic-hit",
+        "sing-along-potential",
+        "instant-impact",
+        "driving",
+        "warm-analog",
+        "harmony-rich",
+        "generational-bridge",
+        "boomer-classic",
+        "crowd-pleaser",
+        "fade-outro",
+        "anchor-track"
+      ],
+      "tag_confidence": 88,
+      "research_notes": "Recorded at ABC Studios in 1972, \"Reelin' In The Years\" pairs Elliott Randall’s famously virtuosic guitar solo (recorded in a single take) with Steely Dan’s jazz-tinged chord changes, creating a warm analog sheen that still translates well on modern systems. The straight 4/4 driving groove around 120 BPM makes it an instant-impact floor filler; the fade-out ending at 4:37 allows discreet mixing out after the second chorus hook. Its enduring radio presence turns it into a generational bridge and guaranteed sing-along moment, useful as an anchor-track when injecting classic-rock nostalgia into eclectic DJ sets."
     },
     {
       "relative_path": "flac/01-01 In The Middle.flac",
@@ -5093,7 +5236,23 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "vocal-magic",
+        "harmony-rich",
+        "pop-sophisticated",
+        "indie-cred",
+        "lifts-mood",
+        "instant-impact",
+        "warm-up",
+        "layer-friendly",
+        "warm-analog",
+        "short-intro",
+        "head-nodder",
+        "sing-along-potential",
+        "wildcard"
+      ],
+      "tag_confidence": 83,
+      "research_notes": "Recorded in 2017 for her You EP, \"In The Middle\" pairs Dodie’s multi-tracked harmonies and crisp acoustic instrumentation with clever lyric writing about polyamorous curiosity, giving it both singer-songwriter intimacy and upbeat indie-pop bounce. The track’s clear four-bar count-in and succinct two-bar outro make it easy to drop quickly during warm-up portions of a set, while its 3-minute length, steady mid-tempo groove, and open mid-range leave ample spectral space for layering percussion or synth pads. Audience familiarity from Dodie’s YouTube following turns the catchy chorus into a reliable sing-along pivot, yet the cheeky subject matter can serve as a wildcard moment that instantly lifts energy or shifts mood without relying on heavy drums."
     },
     {
       "relative_path": "flac/01-18 I Feel It Coming.flac",

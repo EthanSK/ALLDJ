@@ -132,9 +132,9 @@ async function main() {
     }
 
     // Final summary
-    console.log("\n" + colors.header("=".repeat(60)));
+    console.log("\n" + `${colors.bright}${colors.cyan}${"=".repeat(60)}${colors.reset}`);
     colorLog.stats("BATCH ANALYSIS SUMMARY");
-    console.log(colors.header("=".repeat(60)));
+    console.log(`${colors.bright}${colors.cyan}${"=".repeat(60)}${colors.reset}`);
     console.log(`${colors.white}Total processed:${colors.reset} ${colors.bright}${processed}${colors.reset}`);
     console.log(`${colors.green}Successful:${colors.reset} ${colors.bright}${successful}${colors.reset}`);
     console.log(`${colors.red}Errors:${colors.reset} ${colors.bright}${errors}${colors.reset}`);
