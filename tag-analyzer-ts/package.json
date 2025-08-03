@@ -1,0 +1,28 @@
+{
+  "name": "music-tag-analyzer",
+  "version": "1.0.0",
+  "description": "Analyze music tracks and assign tags using Claude Opus 4",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "analyze": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.57.0",
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "music",
+    "tagging",
+    "ai",
+    "claude",
+    "dj"
+  ],
+  "author": "",
+  "license": "MIT"
+}
