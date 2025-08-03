@@ -6,6 +6,7 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "analyze": "ts-node src/index.ts",
+    "analyze:batch": "ts-node src/batch.ts",
     "clean": "ts-node src/clean-metadata.ts"
   },
   "dependencies": {

@@ -299,7 +299,7 @@ Begin your analysis now. Think deeply about this track's place in music history,
 
     try {
       const response = await this.client.messages.create({
-        model: "claude-opus-4-20250514",
+        model: "claude-sonnet-4-20250514",
         max_tokens: 4000,
         temperature: 1,
         thinking: {

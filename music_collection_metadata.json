@@ -291,7 +291,25 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "hip-hop-conscious",
+        "nostalgic-hit",
+        "vocal-prominent",
+        "cultural-moment",
+        "instant-impact",
+        "crowd-pleaser",
+        "wildcard",
+        "funny",
+        "dopamine",
+        "energetic",
+        "timeless-classic",
+        "millennial-comfort",
+        "mainstream-crossover",
+        "attention-grabber",
+        "crisp-digital"
+      ],
+      "tag_confidence": 95,
+      "research_notes": "One of Eminem's most successful singles from The Eminem Show (2002), featuring prominent samples from Malcolm McLaren's 'Buffalo Gals' and production by Jeff Bass with DJ Head's drum programming. The track serves as a comedic return statement with Eminem targeting critics including Moby, the FCC, and his mother, while maintaining sophisticated wordplay and pop-crossover appeal. Its instant recognition factor and millennial nostalgia make it a guaranteed crowd reaction track that works as a wildcard element in DJ sets."
     },
     {
       "relative_path": "flac/01-11 NY Is Killing Me.flac",
@@ -320,7 +338,25 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "electronic-experimental",
+        "spoken-word",
+        "slow-burn",
+        "vocal-prominent",
+        "hypnotic-builder",
+        "textural-beauty",
+        "emotional-depth",
+        "rhythmic-foundation",
+        "layer-friendly",
+        "warm-analog",
+        "cultural-moment",
+        "deep",
+        "drum-bass-layer",
+        "reality-bending",
+        "atmospheric-wash"
+      ],
+      "tag_confidence": 90,
+      "research_notes": "This 2011 Jamie xx rework transforms Scott-Heron's spoken-word blues into a pioneering 140 BPM dubstep/UK bass hybrid. The track features fractured vocal samples over plush sub-bass and shuffling halfstep patterns in B minor, creating what critics called 'transatlantic dancefloor-triumph of urban soul.' The production exemplifies Jamie xx's minimal aesthetic with bashment-influenced subs and twinkling marimba elements, perfectly bridging underground dubstep sensibilities with sophisticated electronic experimentation."
     },
     {
       "relative_path": "flac/01-07 Volare (Nel Blu di Pinto di Blu).flac",
@@ -349,7 +385,25 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "world-fusion",
+        "nostalgic-hit",
+        "euphoric-melody",
+        "vocal-prominent",
+        "timeless-classic",
+        "generational-bridge",
+        "crowd-pleaser",
+        "sing-along-potential",
+        "instant-dancefloor",
+        "warm-analog",
+        "rhythmic-hypnosis",
+        "energy-injector",
+        "energetic",
+        "emotional-depth",
+        "genre-crossover"
+      ],
+      "tag_confidence": 90,
+      "research_notes": "The Gipsy Kings' 1989 version transforms Modugno's 1958 Italian classic into an infectious rumba catalana, blending flamenco guitar rasgueados with pop accessibility. This track exemplifies their signature style where 'Spanish flamenco and Romani rhapsody meet salsa funk,' featuring passionate multi-layered vocals and driving acoustic guitar rhythms that became a guaranteed floor-filler. The production captures the warm analog feel of late 80s European world music, making it perfect for bridging generational audiences with its universal sing-along appeal."
     },
     {
       "relative_path": "flac/01-04 Can’t Keep Checking My Phone.flac",
@@ -378,7 +432,25 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "rock-psychedelic",
+        "textural-beauty",
+        "euphoric-melody",
+        "nostalgic-hit",
+        "sophisticated-groove",
+        "retro-modern",
+        "emotional-depth",
+        "warm-analog",
+        "layer-friendly",
+        "crowd-pleaser",
+        "indie-cred",
+        "peak-time",
+        "instant-dancefloor",
+        "millennial-comfort",
+        "genre-crossover"
+      ],
+      "tag_confidence": 92,
+      "research_notes": "This track represents UMO's breakthrough into mainstream psychedelic pop, featuring Ruban Nielson's signature lo-fi production with Latin rhythms and disco grooves. <cite index=\"5-4\">A tremendous disco groove pulses under the album's first single</cite> while exploring themes of digital-age romance and polyamorous relationships. The track was A-listed at BBC 6 Music and featured in FIFA 16, demonstrating its crossover appeal. Its jangled guitars, synthesizer work, and <cite index=\"7-5\">urgent Latin rhythms</cite> create a perfect bridge between indie credibility and dancefloor functionality, making it ideal for sophisticated DJ sets that blend psychedelic rock with electronic elements."
     },
     {
       "relative_path": "flac/01-12 Kingston Town.flac",
