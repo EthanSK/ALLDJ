@@ -6,35 +6,28 @@ dotenv.config();
 import { MusicTagAnalyzer } from "./tag-analyzer";
 
 async function main() {
-  const filename = process.argv[2];
-
   try {
-    // Use OpenAI by default
-    const analyzer = new MusicTagAnalyzer(undefined, undefined, true);
+    // Constructor: (apiKey?: string, openaiApiKey?: string, useOpenAI = false)
+    const analyzer = new MusicTagAnalyzer(undefined, undefined, true); // Use OpenAI by default
 
-    if (filename) {
-      console.log(`Analyzing specific track: ${filename}`);
-      const result = await analyzer.analyzeAndUpdateTrack(filename);
-
-      if ("error" in result) {
-        console.error(`Error: ${result.error}`);
-        process.exit(1);
-      }
-
-      printResults(result);
-    } else {
-      console.log("Finding first untagged track...");
+    // Run analysis for 10 tracks
+    for (let i = 0; i < 10; i++) {
+      console.log(`\n=== Processing track ${i + 1}/10 ===`);
       const result = await analyzer.analyzeAndUpdateTrack();
 
       if ("error" in result) {
-        console.error(`Error: ${result.error}`);
-        process.exit(1);
+        console.log(`Error: ${result.error}`);
+        if (result.error === "No untagged tracks found") {
+          console.log("No more untagged tracks to process.");
+          break;
+        }
+        continue;
       }
 
       printResults(result);
     }
   } catch (error) {
-    console.error("Error:", error);
+    console.error("Error in main:", error);
     process.exit(1);
   }
 }

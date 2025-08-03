@@ -748,7 +748,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "rock-indie",
+        "vocal-magic",
+        "retro-modern",
+        "textural-beauty",
+        "energetic",
+        "indie-cred",
+        "layer-friendly",
+        "head-nodder",
+        "original",
+        "nostalgic-hit"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Meet the Frownies by Mr Twin Sister is an indie rock track from 2010 characterized by its compelling, soulful vocals and a richly textured sonic palette. The production blends a modern feel with retro influences, making it both emotionally engaging and mix-friendly for DJs seeking layered, groove-oriented tracks with indie cred."
     },
     {
       "relative_path": "flac/01-10 Sun King.flac",
