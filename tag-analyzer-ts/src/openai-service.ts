@@ -1,4 +1,5 @@
 import OpenAI from 'openai';
+import { zodTextFormat } from 'openai/helpers/zod';
 import { z } from 'zod';
 import { AnalysisResult } from './types';
 
@@ -28,6 +29,9 @@ export class OpenAIService {
         reasoning: {
           effort: "medium"
         },
+        text: {
+          format: zodTextFormat(AnalysisResultSchema, 'track_analysis'),
+        },
         store: false, // Zero Data Retention
       } as any);
 
@@ -39,13 +43,8 @@ export class OpenAIService {
         throw new Error('No output text in OpenAI response');
       }
 
-      // Try to extract JSON from the response
-      const jsonMatch = response.output_text.match(/\{[\s\S]*\}/);
-      if (!jsonMatch) {
-        throw new Error('No JSON found in response');
-      }
-
-      const parsed = JSON.parse(jsonMatch[0]);
+      // Parse the structured output directly
+      const parsed = JSON.parse(response.output_text);
       return AnalysisResultSchema.parse(parsed);
     } catch (error) {
       console.error('OpenAI API error:', error);

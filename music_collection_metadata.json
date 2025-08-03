@@ -790,7 +790,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "rock-classic",
+        "timeless-classic",
+        "vocal-magic",
+        "harmony-rich",
+        "remaster",
+        "warm-analog",
+        "subtle-nuance",
+        "layer-friendly",
+        "crowd-pleaser"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Sun King (Remastered) encapsulates the Beatles' iconic 1969 sound, delivering lush vocal harmonies and a warm analog texture that resonates with decades of nostalgic appeal. Its remastered clarity and subtle layering serve as an ideal foundation for DJ sets, bridging eras with timeless classic elements while providing a crowd-pleasing, delicate yet engaging sonic experience."
     },
     {
       "relative_path": "flac/01-35 Symphony No. 9 in D Minor, Op. 125 _Choral_  II. Molto vivace - Presto.flac",
@@ -819,7 +832,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "textural-beauty",
+        "instrumental",
+        "timeless-classic",
+        "lush",
+        "intricate",
+        "anchor-track",
+        "instant-impact",
+        "lifts-mood",
+        "emotional-depth",
+        "cultural-bridge"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Nikolaus Harnoncourt's interpretation elevates Beethoven's Symphony No. 9 by emphasizing its rich orchestral textures and layered emotional narrative. The intricate composition combined with a powerful, fast-paced movement offers a timeless and culturally bridging experience, making it a sophisticated, anchor-track choice for DJs aiming to blend classical mastery with modern set dynamics."
     },
     {
       "relative_path": "flac/01-03 All Mine.flac",
@@ -848,7 +874,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "hip-hop-conscious",
+        "vocal-prominent",
+        "rhythmic-foundation",
+        "instant-impact",
+        "short-intro",
+        "contemporary-classic",
+        "energy-injector",
+        "minimal-space",
+        "layer-friendly",
+        "energetic",
+        "millennial-comfort"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Kanye West's 'All Mine' embodies a modern hip-hop aesthetic with clear vocal prominence and a rhythmic foundation that gives it instant impact, making it ideal for immediate DJ set energy. Its brief, minimal-space arrangement and layer-friendly structure, paired with a contemporary-classic sensibility and millennial appeal, highlight the track's cultural resonance and practical mixing potential."
     },
     {
       "relative_path": "flac/01-03 Everybody Wants To Rule The World.flac",
@@ -877,7 +917,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-magic",
+        "rock-classic",
+        "timeless-classic",
+        "crowd-pleaser",
+        "energy-injector",
+        "melodic-overlay",
+        "peak-time",
+        "gen-x-wisdom",
+        "cultural-moment"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "The track's lush, nostalgic production and signature vocal delivery embody the emotional depth of 1985 rock, making it a staple in both mainstream and alternative playlists. Its well-defined structure and smooth transitions provide excellent mixing opportunities for DJs, while its broad generational appeal and cultural significance ensure sustained resonance on dancefloors."
     },
     {
       "relative_path": "flac/01-02 Sing It Back.flac",
@@ -906,7 +959,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "pop-sophisticated",
+        "remix",
+        "instant-dancefloor",
+        "retro-modern",
+        "beatmatched-friendly",
+        "vocal-magic",
+        "cultural-moment",
+        "lifts-mood",
+        "crisp-digital",
+        "crowd-pleaser",
+        "nostalgic-hit"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Moloko’s Boris Dlugosch remix of 'Sing It Back' transforms the original pop gem into a dancefloor vehicle with a retro-modern edge. The track leverages its iconic, soulful vocal hooks (vocal-magic) and crisp digital production to deliver immediate energy and nostalgia, making it a beatmatched-friendly, crowd-pleaser ideal for transitional sets and peak moments."
     },
     {
       "relative_path": "flac/01-03 Bourée.flac",
@@ -935,7 +1002,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "sophisticated-groove",
+        "bridge-element",
+        "instrumental",
+        "timeless-classic",
+        "rock-classic",
+        "intricate",
+        "adds-depth",
+        "layer-friendly",
+        "mashup-ready"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Bourée by Jethro Tull, released in 1969, is a rock reinterpretation of Bach's classical piece, making it both a nostalgic and timeless classic. Its intricate arrangement and instrumental focus provide sophisticated groove and emotional depth, positioning it as a bridge-element in DJ sets that is layer-friendly and mashup-ready for creative mixing."
     },
     {
       "relative_path": "flac/01-07 What If I Go.flac",
@@ -964,7 +1044,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "electronic-dance",
+        "euphoric-melody",
+        "vocal-prominent",
+        "genre-crossover",
+        "lifts-mood",
+        "instant-impact",
+        "melodic-overlay",
+        "layer-friendly",
+        "crisp-digital",
+        "gen-z-nostalgia",
+        "short-intro"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Mura Masa’s 'What If I Go?' showcases a modern electronic-dance style with uplifting, euphoric melodies and prominent vocal lines that create an engaging emotional lift. Its crisp digital production and concise structure, marked by a short intro, allow for smooth integration into DJ sets as a melodic overlay and a versatile bridge between genres, appealing to a gen-z sensibility while offering instant impact on the dancefloor."
     },
     {
       "relative_path": "flac/01-05 You Sexy Thing.flac",
@@ -993,7 +1087,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-magic",
+        "pop-sophisticated",
+        "boomer-classic",
+        "lifts-mood",
+        "instant-dancefloor",
+        "anchor-track",
+        "original",
+        "energetic",
+        "timeless-classic",
+        "mashup-ready"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "You Sexy Thing by Hot Chocolate, released in 1974, stands as a definitive nostalgic pop hit with an infectious groove and memorable vocal performance that immediately connects with the audience. Its concise structure, iconic melody, and enduring appeal make it ideal as an anchor-track in DJ sets, serving as both a floor-filler and a timeless classic that is mashup-ready for creative modern reinterpretations."
     },
     {
       "relative_path": "flac/01-07 Please Please Me.flac",
@@ -1022,7 +1130,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-magic",
+        "rock-classic",
+        "timeless-classic",
+        "remaster",
+        "short-intro",
+        "instant-impact",
+        "cultural-moment",
+        "warm-analog",
+        "lifts-mood"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "This track, a remastered version of The Beatles' early classic, captures a nostalgic energy with compelling vocal authenticity and a raw, vintage analog texture. Its brief runtime and immediate impact make it ideal for DJs looking to inject classic rock energy, bridging eras and creating memorable, uplifting set moments."
     },
     {
       "relative_path": "flac/01-02 Lowly.flac",
@@ -1051,7 +1172,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "hip-hop-experimental",
+        "experimental",
+        "slow-burn",
+        "contemporary-classic",
+        "transition-tool",
+        "atmospheric-wash",
+        "cultural-bridge",
+        "emotional-depth",
+        "intricate",
+        "background-perfect",
+        "mind-expanding"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "This track from Young Fathers on a film soundtrack brings an experimental hip-hop energy with deep, textured production that fits a cinematic narrative. Its slow-burn progression and atmospheric wash create an immersive mood, while the intricate arrangements and transition-tool mixing potential position it as a cultural bridge between genres. The blend of emotional depth and mind-expanding elements offers sophisticated DJ layering opportunities and stands as a contemporary classic in film soundtracks."
     },
     {
       "relative_path": "flac/01-10 White Rabbit.flac",
@@ -1080,7 +1215,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-magic",
+        "psychedelic-journey",
+        "timeless-classic",
+        "rock-psychedelic",
+        "vocal-prominent",
+        "mind-expanding",
+        "boomer-classic",
+        "bridge-element",
+        "slow-burn"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "White Rabbit by Jefferson Airplane exhibits a timeless, psychedelic sound with iconic vocal delivery by Grace Slick, firmly placing it in a nostalgic and mind-expanding realm. Its structure and sonic atmosphere make it ideal as a bridge element in DJ sets, providing a slow-burn buildup that appeals to a boomer-classic audience while delivering dopaminergic impact through its surreal, immersive experience."
     },
     {
       "relative_path": "flac/01-01 Laughter.flac",
@@ -1109,7 +1257,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "electronic-dance",
+        "electronic-experimental",
+        "euphoric-melody",
+        "contemporary-classic",
+        "beatmatched-friendly",
+        "crisp-digital",
+        "mainstream-crossover",
+        "lifts-mood",
+        "lush",
+        "instant-dancefloor",
+        "instrumental"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Astrocolor’s 'Laughter' from the album 'Hue' (2020) showcases a blend of accessible electronic dance energy with an experimental edge, making it a versatile choice for modern DJ sets. The track’s crisp digital production, lush arrangement, and instrumental nature provide a euphoric melodic drive that works well on the dancefloor while bridging contemporary classic appeal with mainstream crossover potential."
     },
     {
       "relative_path": "flac/01-01 Cherry-coloured Funk.flac",
@@ -1138,7 +1300,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "textural-beauty",
+        "vocal-magic",
+        "vocal-prominent",
+        "rock-indie",
+        "indie-cred",
+        "timeless-classic",
+        "bridge-element",
+        "flowing",
+        "beatmatched-friendly",
+        "adds-depth",
+        "experimental",
+        "layer-friendly"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Cherry-coloured Funk by Cocteau Twins exhibits a lush, atmospheric sound with swirling, signature vocals that immediately cast an ethereal vibe. The track, steeped in rock-indie ethos and experimental production techniques, blends timeless classic sensibilities with layered textures that make it ideal both as a standalone emotional experience and as a bridge-element for sophisticated DJ sets."
     },
     {
       "relative_path": "flac/01-02 Send My Love (To Your New Lover).flac",
@@ -1167,7 +1344,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "vocal-magic",
+        "pop-sophisticated",
+        "contemporary-classic",
+        "instant-impact",
+        "anchor-track",
+        "provides-release",
+        "smooth-transitions",
+        "crisp-digital",
+        "crowd-pleaser",
+        "deep"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "The track’s upbeat yet reflective nature is highlighted by Adele's signature vocal magic, which forms the core emotional component. Its modern production and clear digital sound make it versatile for DJ sets, serving as an anchor track with smooth transitions and immediate impact on the dancefloor, while its deep lyrical themes provide emotional depth."
     },
     {
       "relative_path": "flac/01-01 Espoir.flac",
@@ -1196,7 +1386,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "electronic-dance",
+        "euphoric-melody",
+        "rhythmic-hypnosis",
+        "contemporary-classic",
+        "beatmatched-friendly",
+        "crisp-digital",
+        "instant-dancefloor",
+        "energy-injector",
+        "layer-friendly",
+        "short-intro",
+        "sophisticated-groove"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Espoir by Darius is a 2014 dance track that blends modern digital production with euphoric and hypnotic melodic elements, making it a strong candidate for a contemporary dancefloor staple. Its structure, featuring a short intro and beatmatched-friendly layout, allows DJs to seamlessly integrate and layer the track, while the overall sonic character gives it a timeless, energetic appeal."
     },
     {
       "relative_path": "flac/01-01 Kinda Bonkers.flac",
@@ -1225,7 +1429,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "rock-indie",
+        "experimental",
+        "psychedelic-journey",
+        "textural-beauty",
+        "adds-depth",
+        "indie-cred",
+        "vocal-minimal",
+        "color-synesthesia",
+        "wildcard",
+        "dense-production"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Animal Collective's 'Kinda Bonkers' exemplifies an experimental rock-indie approach that blends unconventional structures with a psychedelic journey. Its intricate, dense-production layering and subtle, minimal vocals evoke immersive sonic landscapes while adding unexpected twists and emotional depth, making it ideal for cutting-edge DJ sets and reflective, genre-fluid programming."
     },
     {
       "relative_path": "flac/01-06 I Am.flac",
@@ -1254,7 +1471,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "hip-hop-conscious",
+        "vocal-magic",
+        "emotional-depth",
+        "sophisticated-groove",
+        "contemporary-classic",
+        "crisp-digital",
+        "layer-friendly",
+        "cultural-bridge",
+        "euphoric-melody",
+        "non-danceable-standalone",
+        "smooth-transitions"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Jorja Smith's 'I Am' blends soulful vocals with intricate, modern production to exemplify hip-hop conscious music. The track's placement on the culturally significant Black Panther album, along with its crisp digital sound and smooth transitions, offers layered DJ potential while evoking deep emotional and euphoric responses."
     },
     {
       "relative_path": "flac/01-09 Congratulations.flac",
@@ -1283,7 +1514,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "pop-sophisticated",
+        "psychedelic-journey",
+        "retro-modern",
+        "vocal-prominent",
+        "adds-depth",
+        "transition-tool",
+        "flowing",
+        "indie-cred",
+        "lush",
+        "layer-friendly",
+        "millennial-comfort"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "MGMT's 'Congratulations' exemplifies a refined pop-rock approach marked by sophisticated production and a subtle psychedelic edge that transports listeners on a mind-expanding journey. The track’s layered, lush arrangements and prominent, slightly ethereal vocals offer excellent transition and overlay potential for DJs, appealing strongly to millennial sensibilities and indie credibility."
     },
     {
       "relative_path": "flac/01-01 Needles and Pins.flac",
@@ -1312,7 +1557,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-magic",
+        "pop-sophisticated",
+        "timeless-classic",
+        "short-intro",
+        "layer-friendly",
+        "sustainer",
+        "steady",
+        "boomer-classic",
+        "mainstream-crossover"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "This version of 'Needles and Pins' by The Searchers, released in 1973, embraces a classic pop sensibility with strong, memorable vocals that evoke the nostalgic spirit of the era. Its concise arrangement and steady, danceable rhythm make it ideal for quick mixing into DJ sets, appealing to both boomer and mainstream audiences while maintaining pop sophistication and a timeless touch."
     },
     {
       "relative_path": "flac/01-08 Stargirl Interlude.flac",
@@ -1341,7 +1599,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "emotional-depth",
+        "textural-beauty",
+        "interlude",
+        "pop-sophisticated",
+        "adds-depth",
+        "short-intro",
+        "vocal-magic",
+        "crisp-digital",
+        "mainstream-crossover",
+        "contemporary-classic"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Stargirl Interlude by The Weeknd is a brief, atmospheric piece that provides layered emotional depth and textured sonic beauty. Its modern, crisp production paired with signature vocal elements positions it as a contemporary-classic in the pop-sophisticated realm, and its short form makes it ideal as an interlude for smooth DJ transitions."
     },
     {
       "relative_path": "flac/01-08 Could You Be Loved.flac",
@@ -1370,7 +1641,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-magic",
+        "rhythmic-hypnosis",
+        "anchor-track",
+        "vocal-prominent",
+        "timeless-classic",
+        "lifts-mood",
+        "sustainer",
+        "warm-analog",
+        "boomer-classic",
+        "instant-dancefloor"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Bob Marley & The Wailers' 'Could You Be Loved' from 1980 carries an iconic reggae groove that locks in the dancefloor through its hypnotic rhythmic pulse and compelling, soulful vocals. Its warm analog production, timeless appeal, and steady energy make it an essential anchor-track for DJs, resonating deeply with boomer audiences while providing a nostalgic hit with effective mixing potential."
     },
     {
       "relative_path": "flac/01-06 Tell Me Why.flac",
@@ -1399,7 +1684,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "rock-classic",
+        "timeless-classic",
+        "vocal-prominent",
+        "remaster",
+        "anchor-track",
+        "crowd-pleaser",
+        "short-intro",
+        "warm-analog",
+        "lifts-mood"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Tell Me Why (Remastered) represents the quintessential Beatles sound from 1964, encapsulating a warm analog production that evokes nostalgic-hit memories while maintaining a timeless-classic appeal. Its prominent vocals, brief song structure with a short-intro, and overall role as an anchor-track that lifts the mood on the dancefloor underscore both its historical and DJ utility significance."
     },
     {
       "relative_path": "flac/01-04 Saturdays (Again).flac",
@@ -1428,7 +1726,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "textural-beauty",
+        "psychedelic-journey",
+        "rock-indie",
+        "experimental",
+        "intricate",
+        "indie-cred",
+        "slow-burn",
+        "flowing",
+        "layer-friendly",
+        "smooth-transitions",
+        "melodic-overlay",
+        "non-danceable-standalone"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Avey Tare's 'Saturdays (Again)' from Cows on Hourglass Pond exhibits a lush, experimental sound marked by immersive textures and a psychedelic journey that resonates with rock-indie sensibilities. Its intricate arrangements and slow-burn energy make it ideal as a melodic overlay and a smooth transitional element in DJ sets, appealing to those who appreciate underground indie credibility and layered sonic complexity."
     },
     {
       "relative_path": "flac/01-01 Hello, Dolly!.flac",
@@ -1457,7 +1770,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-prominent",
+        "timeless-classic",
+        "boomer-classic",
+        "short-intro",
+        "anchor-track",
+        "instant-impact",
+        "warm-analog",
+        "jazz-influenced",
+        "lifts-mood"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Hello, Dolly! by Louis Armstrong is a quintessential example of classic blues and jazz with a strong nostalgic appeal and instantly recognizable vocal performance, making it a standout for its dopaminergic trigger. Its vintage production, short duration, and clear mixing points (like a concise intro and solid anchor quality) make it ideally suited for DJ transitions and contemporary reinterpretations while preserving its timeless-classic aura."
     },
     {
       "relative_path": "flac/01-01 Warm.flac",
@@ -1486,7 +1812,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "textural-beauty",
+        "instrumental",
+        "lo-fi",
+        "flowing",
+        "electronic-ambient",
+        "layer-friendly",
+        "transition-tool",
+        "indie-cred",
+        "non-danceable-standalone",
+        "dream-logic",
+        "retro-modern"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Joey Pecoraro’s 'Warm' (2015) embodies a cinematic, nostalgic feel with a warm, analog quality and lo-fi production that recalls vintage film soundtracks while maintaining modern sensibilities. Its instrumental, atmospheric design and flowing rhythmic structure make it a perfect transition tool and layer-friendly choice for DJs looking to build textured, emotionally rich sets. The track’s dream-logic and retro-modern qualities also add an indie-cred vibe, appealing to connoisseurs of underground yet timeless soundscapes."
     },
     {
       "relative_path": "flac/01-01 Adagio in G Minor.flac",
@@ -1515,7 +1856,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "emotional-depth",
+        "instrumental",
+        "slow-burn",
+        "timeless-classic",
+        "palate-cleanser",
+        "atmospheric-wash",
+        "contemporary-classic",
+        "deep",
+        "layer-friendly",
+        "energy-sustainer"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "The track is a modern reinterpretation of Tomaso Albinoni's classic piece, arranged in 2011 for the Relaxing Classics album. It features a purely instrumental, slow and introspective progression ideal for DJ interludes and layering. The production bridges timeless classical elements with a contemporary touch, making it emotionally profound and effective for maintaining a sustained, immersive atmosphere on the dancefloor."
     },
     {
       "relative_path": "flac/02-06 Comfortably Numb.flac",
@@ -1544,7 +1898,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "emotional-depth",
+        "rock-classic",
+        "timeless-classic",
+        "vocal-magic",
+        "slow-burn",
+        "anchor-track",
+        "warm-analog",
+        "remaster",
+        "psychedelic-journey",
+        "provides-release"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Comfortably Numb by Pink Floyd is a benchmark in rock history, known for its profound emotional depth and iconic guitar solo that guides the listener through a slowly building tension to a powerful release. The remastered version preserves the vintage, warm-analog character of the original, while its nostalgic appeal, innovative sonic journey, and anchor role in DJ sets highlight its timeless, cross-generational impact."
     },
     {
       "relative_path": "flac/01-04 She Loves You.flac",
@@ -1573,7 +1941,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-magic",
+        "rock-classic",
+        "timeless-classic",
+        "remaster",
+        "crowd-pleaser",
+        "warm-analog",
+        "short-intro",
+        "mainstream-crossover",
+        "anchor-track",
+        "instant-impact"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "She Loves You is an iconic Beatles track that embodies the energetic and nostalgic sound of early rock and roll with its raw, compelling vocals and memorable hooks. The remastered mono version preserves its warm-analog charm and provides immediate impact on the dancefloor, making it an anchor track with a short intro ideal for seamless DJ transitions, while its mainstream-crossover appeal continues to resonate across generations."
     },
     {
       "relative_path": "flac/01-01 15 Step.flac",
@@ -1602,7 +1984,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "rock-indie",
+        "experimental",
+        "sophisticated-groove",
+        "vocal-prominent",
+        "driving",
+        "contemporary-classic",
+        "energy-injector",
+        "layer-friendly",
+        "beatmatched-friendly",
+        "adds-depth"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Radiohead’s '15 Step' from In Rainbows features a unique blend of alternative rock and experimental production, marked by intricate, driving rhythms and a sophisticated groove that supports its measured intensity. The track’s iconic, subtly processed vocals and innovative rhythmic structure make it an ideal candidate for mixing, bridging modern production with indie credibility and emotional depth, ensuring its place as a contemporary-classic in DJ sets."
     },
     {
       "relative_path": "flac/01-01 ghostin.flac",
@@ -1631,7 +2026,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "emotional-depth",
+        "hip-hop-experimental",
+        "short-intro",
+        "interlude",
+        "deep",
+        "rhythmic-foundation",
+        "textural-beauty",
+        "layer-friendly",
+        "original",
+        "drum-bass-layer"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "This 2017 track 'ghostin' by knowmadic is a short, experimental hip-hop piece with an introspective and atmospheric quality. The production features a strong, minimal rhythmic foundation and layered sonic textures, making it ideal as an interlude or foundation element in a DJ set, while its deep emotional narrative and compact structure offer unique creative mixing opportunities."
     },
     {
       "relative_path": "flac/01-01 FloriDada.flac",
@@ -1660,7 +2068,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "rock-indie",
+        "psychedelic-journey",
+        "textural-beauty",
+        "bridge-element",
+        "vocal-magic",
+        "experimental",
+        "deep",
+        "adds-depth",
+        "slow-burn",
+        "atmospheric-wash"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Animal Collective's 'FloriDada' from the 2016 album 'Painting With' exemplifies a textured, experimental sound that blends indie rock with psychedelic elements. Its layered production, subtle yet compelling vocals, and gradual slow-burn energy make it ideal for DJs aiming to add depth and atmosphere in transitional moments, driven by an introspective emotional trajectory."
     },
     {
       "relative_path": "flac/01-06 Endless Shore.flac",
@@ -1689,7 +2110,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "emotional-depth",
+        "textural-beauty",
+        "vocal-magic",
+        "psychedelic-journey",
+        "rock-indie",
+        "contemporary-classic",
+        "atmospheric-wash",
+        "flowing",
+        "layer-friendly",
+        "non-danceable-standalone"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Melody's Echo Chamber's 'Endless Shore' features a rich, immersive sonic palette marked by deep emotional layering, lush textures, and ethereal vocals that create a psychedelic journey within an indie framework. The track, released in 2012, blends contemporary-classic production with an atmospheric wash and flowing rhythm, making it ideal for creative DJ layering and setting a reflective mood on the floor despite its non-danceable-standalone nature."
     },
     {
       "relative_path": "flac/01-01 Genesis.flac",
@@ -1718,7 +2152,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "electronic-dance",
+        "rhythmic-hypnosis",
+        "gritty-texture",
+        "full-energy-start",
+        "contemporary-classic",
+        "lifts-mood",
+        "instant-dancefloor",
+        "experimental",
+        "driving",
+        "cultural-moment",
+        "energetic"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Genesis by Justice is a landmark track that fuses aggressive electronic-dance elements with a raw, gritty texture and relentless, driving rhythms. Its full-energy start and experimental approach not only elevate the dancefloor but also position it as a contemporary classic that bridges cultural moments and energizes DJs' sets."
     },
     {
       "relative_path": "flac/01-05 Canyons Sunrise Reprise.flac",
@@ -1747,7 +2195,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "psychedelic-journey",
+        "textural-beauty",
+        "rock-psychedelic",
+        "retro-modern",
+        "vocal-minimal",
+        "long-intro",
+        "layer-friendly",
+        "meditation-inducer",
+        "experimental",
+        "energy-weaver",
+        "indie-cred"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Canyons Sunrise Reprise represents Tame Impala’s signature blend of atmospheric psychedelia and delicate indie rock. Featuring extended instrumental passages and a minimal vocal footprint, the track provides an expansive, experimental soundscape that is both meditative and dynamically woven, making it ideal for progressive DJ sets and appealing deeply to indie cred audiences."
     },
     {
       "relative_path": "flac/01-05 Kids.flac",
@@ -1776,7 +2238,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "euphoric-melody",
+        "psychedelic-journey",
+        "pop-sophisticated",
+        "contemporary-classic",
+        "vocal-prominent",
+        "anchor-track",
+        "layer-friendly",
+        "instant-dancefloor",
+        "smooth-transitions",
+        "hypnotic",
+        "energy-injector"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "MGMT’s 'Kids' is a quintessential track from the mid-2000s that fuses catchy pop sensibilities with psychedelic soundscapes, evoking nostalgic vibes while delivering an uplifting, euphoric melody. Its clear vocal presence, layered synths, and hypnotic groove make it an ideal anchor-track and energy-injector for DJs seeking smooth transitions and dynamic floor response."
     },
     {
       "relative_path": "flac/01-02 Take 3.flac",
@@ -1805,7 +2282,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "rock-indie",
+        "live",
+        "textural-beauty",
+        "vocal-magic",
+        "contemporary-classic",
+        "emotional-depth",
+        "spacious-mix",
+        "indie-cred",
+        "smooth-transitions",
+        "energy-sustainer"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Inner Wave's 'Take 3 (Audiotree Live Version)' features a raw, live energy anchored in the band's alternative indie roots. The live capture highlights textural beauty and vocal magic, making it both a contemporary classic and a track that maintains a consistent vibe for DJ sets, while also resonating with the indie-cred cultural movement."
     },
     {
       "relative_path": "flac/01-01 Turn to Stone.flac",
@@ -1834,7 +2324,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-magic",
+        "rock-classic",
+        "timeless-classic",
+        "lifts-mood",
+        "head-nodder",
+        "beatmatched-friendly",
+        "lush",
+        "energy-injector",
+        "short-intro",
+        "boomer-classic"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Electric Light Orchestra's 'Turn to Stone' combines classic rock energy with lush, layered orchestration, evoking strong nostalgic vibes and strong vocal hooks that have been a mainstay across generations. Its concise arrangement, marked by a short intro and head-nodding groove, makes it beatmatched-friendly and a reliable energy injector for DJ sets, while its timeless appeal bridges the gap between older and modern audiences."
     },
     {
       "relative_path": "flac/01-11 Mean Mr Mustard.flac",
@@ -1863,7 +2367,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "rock-classic",
+        "bridge-element",
+        "vocal-prominent",
+        "timeless-classic",
+        "lifts-mood",
+        "short-intro",
+        "warm-analog",
+        "boomer-classic",
+        "funny"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "The track is a remastered Beatles classic from Abbey Road that retains its nostalgic and vintage warmth while serving as a quirky, transitional bridge in a medley. Its brief duration provides a quick, energetic infusion with prominent vocals, making it an ideal candidate for a playful, humorous mix that appeals across generations."
     },
     {
       "relative_path": "flac/01-10 Blue Ridge Mountains.flac",
