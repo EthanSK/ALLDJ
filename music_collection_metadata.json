@@ -663,7 +663,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "hip-hop-conscious",
+        "vocal-prominent",
+        "retro-modern",
+        "generational-bridge",
+        "sophisticated-groove",
+        "short-intro",
+        "beatmatched-friendly",
+        "adds-depth",
+        "cultural-moment",
+        "crowd-pleaser",
+        "layer-friendly"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "This track, 'We The People....' by A Tribe Called Quest, encapsulates a hip-hop-conscious take with a distinctly vocal-prominent performance that carries both political weight and nostalgic vibe. Its retro-modern production and generational-bridge appeal, combined with a concise short-intro and beatmatched-friendly structure, make it a sophisticated groove that adds depth and serves as a cultural-moment piece, ideal for layering in DJ sets."
     },
     {
       "relative_path": "flac/01-06 He Doesn't Know Why.flac",
@@ -692,7 +706,20 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "emotional-depth",
+        "vocal-magic",
+        "folk-modern",
+        "indie-cred",
+        "lush",
+        "harmony-rich",
+        "contemporary-classic",
+        "interlude",
+        "steady",
+        "bridge-element"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Fleet Foxes' 'He Doesn’t Know Why' exudes deep emotional layers and showcases captivating vocal magic through its rich, harmony-laden arrangement. The acoustic, folk-modern sound paired with a steady, interlude quality makes it an ideal bridge-element in a DJ set, connecting vintage indie aesthetics with contemporary-classic appeal and indie-cred authenticity."
     },
     {
       "relative_path": "flac/01-01 Meet the Frownies.flac",

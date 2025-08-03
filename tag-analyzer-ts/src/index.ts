@@ -9,7 +9,8 @@ async function main() {
   const filename = process.argv[2];
 
   try {
-    const analyzer = new MusicTagAnalyzer();
+    // Use OpenAI by default
+    const analyzer = new MusicTagAnalyzer(undefined, undefined, true);
 
     if (filename) {
       console.log(`Analyzing specific track: ${filename}`);
