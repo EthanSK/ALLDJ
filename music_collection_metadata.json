@@ -2592,7 +2592,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "rock-classic",
+        "nostalgic-hit",
+        "vocal-prominent",
+        "timeless-classic",
+        "lifts-mood",
+        "warm-analog",
+        "crowd-pleaser",
+        "instant-impact",
+        "warm-up",
+        "layer-friendly",
+        "fade-outro",
+        "remaster"
+      ],
+      "tag_confidence": 87,
+      "research_notes": "Originally cut October 18 1964 at Abbey Road, this George Harrison–sung Carl Perkins cover keeps a tight 12-bar rockabilly shuffle around 96 BPM; slap-back echo on the vocal and Gretsch guitar twang preserve vintage warmth even in the 2009 remaster’s broader stereo field. A count-in and immediate full-band hit give DJs an instant-impact entry, while the clean fade-out around 2:24 allows unobtrusive mixing out. Universally recognizable Beatles energy, sing-along chorus, and mid-tempo head-nod groove make it a reliable warm-up crowd-pleaser and an easy layer over steadier rhythmic foundations."
     },
     {
       "relative_path": "flac/01-06 Let It Be.flac",
@@ -2621,7 +2636,23 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "emotional-depth",
+        "vocal-magic",
+        "harmony-rich",
+        "timeless-classic",
+        "slow-burn",
+        "emotional-peak",
+        "warm-analog",
+        "non-danceable-standalone",
+        "fade-outro",
+        "sing-along-potential",
+        "boomer-classic",
+        "provides-release"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Recorded January–April 1970 at Abbey Road and Trident with George Martin’s orchestral overdubs, the track’s gospel piano intro and gradual layering of organ, strings, and guitar solo make it a textbook slow-burn that culminates in an emotional peak, giving DJs a cathartic release point before a comedown. The remaster retains the original warm analog depth while cleaning up hiss, and its unmistakable McCartney lead with rich three-part Beatles harmonies delivers strong nostalgic and sing-along cues that transcend generations. A gentle fade-out provides an easy mix-out, but dense mid-range vocals make it best used as a non-danceable standalone or palate-cleansing emotional centerpiece rather than layered over a driving beat."
     },
     {
       "relative_path": "flac/01-03 Jezahel.flac",
@@ -2650,7 +2681,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "vocal-magic",
+        "emotional-depth",
+        "euphoric-melody",
+        "emotional-crescendo",
+        "vocal-prominent",
+        "timeless-classic",
+        "provides-release",
+        "instant-impact",
+        "lush",
+        "warm-analog",
+        "boomer-classic",
+        "non-danceable-standalone",
+        "short-intro",
+        "remaster"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Shirley Bassey’s 1972 rendition of Delirium’s \"Jesahel\" is built on Johnny Harris’s sweeping orchestral arrangement, giving it a lush, warm-analog texture that feels unmistakably early-’70s while the 2000 remaster adds clarity without altering the dramatic dynamics. Bassey’s powerful, prominently mixed vocal drives an immediate, euphoric lift, then resolves into a cathartic chorus, making the track useful as an emotional-crescendo wildcard in eclectic or nostalgia-focused DJ sets, though its through-sung structure and lack of a dedicated groove keep it non-danceable as a standalone layer. A brief brass-drum fanfare intro (≈4 bars) allows quick drop-ins, and the clean orchestral downbeat ending offers a reliable exit point for creative mixing into modern downtempo or cinematic pieces."
     },
     {
       "relative_path": "flac/01-03 Lucidity.flac",
@@ -2679,7 +2727,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "psychedelic-journey",
+        "bridge-element",
+        "vocal-prominent",
+        "retro-modern",
+        "hypnotic-builder",
+        "warm-up",
+        "loop-gold",
+        "warm-analog",
+        "mind-expanding",
+        "indie-cred",
+        "rock-psychedelic",
+        "hypnotic"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Pilooski’s 2011 remix re-imagines Tame Impala’s psych-rock original as a chugging nu-disco cut around 118 BPM, driven by phased guitars, tape-echo vocals, and saturated drum loops that evoke vintage analog gear while retaining modern punch. The extended 32-bar intro/outro and a filtered breakdown at 3:15 make it prime loop-gold for DJs, functioning as a bridge-element between indie/rock sets and floor-ready electronic grooves. Its hypnotic builder structure and mind-expanding textures deliver indie-cred while gradually lifting energy during warm-up slots without overwhelming the floor."
     },
     {
       "relative_path": "flac/01-08 Fall in Love Too Fast.flac",
@@ -2708,7 +2771,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "euphoric-melody",
+        "vocal-chopped",
+        "retro-modern",
+        "electronic-dance",
+        "bridge-element",
+        "breakdown-rich",
+        "body-mover",
+        "instant-impact",
+        "energy-injector",
+        "warm-analog",
+        "contemporary-classic"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Built around a chopped sample of a 1960s soul ballad, Griz layers crunch-filtered drums, live sax riffs, and side-chained synth stabs, giving the track a warm-analog sheen despite its digital glitch-hop backbone. The 4:20 arrangement hits with a full-energy start, then drops to a spacious vocal-only breakdown at 2:10 that DJs exploit for seamless genre-crossing transitions from hip-hop tempo to house double-time. Released in 2013 at the crest of the electro-soul movement, it remains a contemporary-classic floor piece that instantly injects energy while evoking nostalgic emotion through its vintage sample palette."
     },
     {
       "relative_path": "flac/02-05 Don't Let Me Down.flac",
@@ -2737,7 +2815,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "emotional-depth",
+        "vocal-magic",
+        "timeless-classic",
+        "generational-bridge",
+        "rock-classic",
+        "sing-along-potential",
+        "emotional-peak",
+        "slow-burn",
+        "clean-outro",
+        "needs-layering",
+        "layer-friendly"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Cut during the January 1969 Get Back/Let It Be sessions and famously performed on the Apple rooftop, \"Don’t Let Me Down\" channels Lennon's raw plea over a mid-tempo 4/4 groove (~76 BPM) with prominent Fender Rhodes, fat McCartney bass, and dual-guitar call-and-response, culminating in a repeated gospel-tinged refrain that invites crowd participation. The 2009/2010 remaster sharpens the stereo image while preserving the warm analog tape saturation, giving DJs a clearer top end and a defined drum entrance at bar 3 for slip-cueing; the track ends on a firm final chord, providing a clean-outro for mixing. Its universal lyric, instantly recognizable melody, and moderate tempo make it a potent nostalgic sing-along or emotional peak tool when layered over steadier rhythmic foundations."
     },
     {
       "relative_path": "flac/01-01 Gold Dust.flac",
@@ -2766,7 +2859,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "euphoric-melody",
+        "vocal-prominent",
+        "instant-impact",
+        "peak-time",
+        "electronic-dance",
+        "drop-heavy",
+        "hands-up-moment",
+        "crowd-pleaser",
+        "breakdown-rich",
+        "nostalgic-hit",
+        "punchy-dynamics",
+        "genre-crossover"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Shy FX’s 2012 re-edit repackages DJ Fresh’s 2010 drum-and-bass anthem with classic jungle breakbeats and a tightly-compressed modern mix, clocking around 174 BPM. The iconic vocal hook and Amen-style drums create a huge pre-drop breakdown followed by a full-energy drop, making it a reliable peak-time crowd-pleaser and seamless bridge between pop vocals and high-tempo DnB sections. Crisp digital mastering, punchy side-chained bass, and a clean four-bar breakdown at 1:15 give DJs clear cue points for double-drops or mash-ups, while the nostalgic rave timbre appeals across generations."
     },
     {
       "relative_path": "flac/01-05 Wildfires.flac",
@@ -2795,7 +2903,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "emotional-depth",
+        "vocal-magic",
+        "sophisticated-groove",
+        "transition-tool",
+        "vocal-prominent",
+        "contemporary-classic",
+        "slow-burn",
+        "warm-up",
+        "layer-friendly",
+        "warm-analog",
+        "subtle-nuance",
+        "genre-fluid",
+        "head-nodder",
+        "mood-shifter"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "“Wildfires” sits around 82 BPM with a laid-back pocket driven by loose hi-hats, round bass and minimal guitar stabs, giving DJs a warm-analog, head-nod groove that layers cleanly under spoken-word samples or downtempo percussion loops.  Cleo Sol’s airy yet emotionally potent lead makes the track a vocal-prominent mood-shifter—its chorus line “Thief in the night” creates instant social resonance for crowds attuned to 2020’s protest-era soul, while SAULT’s sparse arrangement leaves frequency space for harmonic overlays and extended blends.  The song’s slow-burn energy arc and clean outro make it a reliable transition-tool during warm-up sections, adding depth and genre-fluid credibility between neo-soul, broken-beat and alternative R&B selections."
     },
     {
       "relative_path": "flac/01-04 Wish You Were Here.flac",
@@ -2824,7 +2949,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "emotional-depth",
+        "textural-beauty",
+        "vocal-prominent",
+        "timeless-classic",
+        "cool-down",
+        "comedown",
+        "layer-friendly",
+        "warm-analog",
+        "boomer-classic",
+        "rock-classic",
+        "non-danceable-standalone",
+        "long-intro",
+        "sing-along-potential"
+      ],
+      "tag_confidence": 88,
+      "research_notes": "Recorded at Abbey Road in 1975, the track opens with nearly 40 seconds of radio-dial SFX and solo acoustic guitar, giving DJs a generous long-intro for overlaying field recordings or segueing from ambient textures before the full band and lead vocal arrive. Its rich analog tape warmth, Gilmour’s delicate 12-string guitar, and subtle synth pads create textural beauty while Roger Waters’ intimate vocal delivers deep nostalgia and emotional depth—crowds of all ages instinctively sing along to the refrain, making it a boomer-classic and timeless-classic that functions as a comedown or cool-down moment after peak energy. Sparse percussion and a steady ~60 BPM groove mean it’s non-danceable standalone yet layer-friendly, allowing harmonic overlays or beat-matched downtempo tracks for creative transitions."
     },
     {
       "relative_path": "flac/01-06 Fortunate Son.flac",
@@ -2853,7 +2995,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-prominent",
+        "timeless-classic",
+        "cultural-moment",
+        "rock-classic",
+        "instant-impact",
+        "loop-gold",
+        "warm-analog",
+        "head-nodder",
+        "sing-along-potential",
+        "attention-grabber",
+        "original",
+        "adds-depth",
+        "energy-injector"
+      ],
+      "tag_confidence": 90,
+      "research_notes": "Recorded in 1969 at Fantasy Studios on 8-track tape, “Fortunate Son” is driven by John Fogerty’s iconic fuzz-guitar riff and urgent vocal delivery, instantly recognizable for both baby-boomer nostalgia and contemporary film/TV syncs. Its tight 132 BPM straight-ahead groove has a brief 4-bar drum-only break after the second chorus that DJs can loop, but the live human timing makes extended beat-matching challenging, favoring creative drop-mix or tone-play entries. As an anti-war anthem released during the Vietnam conflict, it remains a sing-along protest staple that jolts crowd energy while adding lyrical depth to rock or multi-genre sets."
     },
     {
       "relative_path": "flac/01-09 I'm Not In Love.flac",
@@ -2882,7 +3041,23 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "emotional-depth",
+        "textural-beauty",
+        "vocal-magic",
+        "retro-modern",
+        "slow-burn",
+        "sunrise",
+        "layer-friendly",
+        "atmospheric-wash",
+        "lush",
+        "pop-experimental",
+        "non-danceable-standalone",
+        "harmony-rich",
+        "emotional-crescendo"
+      ],
+      "tag_confidence": 88,
+      "research_notes": "Kelsey Lu’s 6:54 reinterpretation of 10cc’s 1975 classic is produced with Rodaidh McDonald and features Jamie xx’s spacious reverbs and Adrian Younge’s tape-warm strings, placing it squarely in the 2019 avant-pop wave. A heartbeat-like kick underpins a very sparse first half, giving DJs a 32-bar atmosphere-only intro and several vocal-only breakdowns around 3:30 for creative layering; the track swells into a lush string climax at 5:00, making it an ideal sunrise or comedown emotional peak tool. Its slow ~74 BPM tempo, haunting harmony stacks, and retro-futurist sound design offer deep emotional contrast inside electronic sets while remaining layer-friendly thanks to the wide stereo but uncluttered low end."
     },
     {
       "relative_path": "flac/01-14 Gimme My Five.flac",
@@ -2911,7 +3086,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "hip-hop-experimental",
+        "lo-fi",
+        "instrumental",
+        "head-nodder",
+        "rhythmic-foundation",
+        "nostalgic-hit",
+        "warm-up",
+        "loop-gold",
+        "layer-friendly",
+        "maintains-vibe",
+        "sophisticated-groove",
+        "filter-friendly"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "David Cutter’s 2016 cut sits in the YouTube-era chill-hop boom: a 90-ish BPM boom-bap pocket, jazzy Rhodes stabs, and vinyl crackle that evoke 90s MPC beat-tapes. The sparse 8-bar loop, clean one-bar intro, and bar-long dropout at 1:12 make it prime loop-gold for live filter sweeps and layering spoken-word or acapellas. With no vocals and a warm yet punchy drum/bass bed, it reliably keeps heads nodding in early-set warm-ups while providing a nostalgic, sample-driven groove foundation for genre-fluid transitions."
     },
     {
       "relative_path": "flac/01-07 All I Want.flac",
@@ -2940,7 +3130,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-magic",
+        "rhythmic-hypnosis",
+        "instant-impact",
+        "crowd-pleaser",
+        "genre-crossover",
+        "mainstream-crossover",
+        "breakdown-rich",
+        "punchy-dynamics",
+        "short-intro",
+        "remix"
+      ],
+      "tag_confidence": 87,
+      "research_notes": "Sunship’s 2001 radio edit (charted again on the U.S. compilation in 2004) turns Mis-Teeq’s R&B original into a definitive 2-step UK-garage anthem: swung snares, syncopated hi-hats and elastic sub-bass give DJs a rhythmic-hypnosis grid that locks at ~132 BPM, while crisp-digital production and staccato vocal chops create instant-impact from bar one—perfect for quick mixing thanks to its short-intro drum count-in. A mid-track breakdown strips to chords and isolated lead, offering a clean, breakdown-rich loop point before the beat slams back, making it a reliable crowd-pleaser and nostalgic-hit for millennials who remember early-’00s garage crossover hits. The remix’s pop-garage hybrid status makes it a genre-crossover and mainstream-crossover tool that can segue between contemporary house sets and hip-hop/R&B moments without losing floor energy."
     },
     {
       "relative_path": "flac/01-01 Imagine.flac",
@@ -2969,7 +3173,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "emotional-depth",
+        "vocal-magic",
+        "timeless-classic",
+        "boomer-classic",
+        "emotional-peak",
+        "slow-burn",
+        "non-danceable-standalone",
+        "finale",
+        "fade-outro",
+        "warm-analog",
+        "adds-depth"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Originally recorded in 1971 and remastered in 2010, \"Imagine\" retains its warm-analog piano-led production and Lennon's intimate vocal delivery, giving DJs a lush, emotionally potent slow-burn that culminates in a gentle fade-out—ideal for a finale or sunrise moment. Its universal lyrics and iconic status evoke strong nostalgia for Boomer audiences while still resonating across generations, providing an emotional-peak point in eclectic, cross-era sets even though the track itself is non-danceable-standalone and best used for mood-setting or a reflective comedown. Clean mid-range space around the vocal and minimal percussion allow creative layering of subtle textures or spoken-word overlays without clashing with the song's harmonic content."
     },
     {
       "relative_path": "flac/01-06 Wish I Didn't Miss You.flac",
@@ -2998,7 +3217,25 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "emotional-depth",
+        "vocal-magic",
+        "nostalgic-hit",
+        "sophisticated-groove",
+        "emotional-crescendo",
+        "vocal-prominent",
+        "retro-modern",
+        "adds-depth",
+        "slow-burn",
+        "warm-up",
+        "layer-friendly",
+        "warm-analog",
+        "millennial-comfort",
+        "head-nodder",
+        "fade-outro"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Built around a prominent interpolation of the O’Jays’ 1972 classic \"Back Stabbers,\" the track blends live-sounding drums, Fender-Rhodes chords and rich backing vocals with Angie Stone’s powerhouse lead, giving it that warm-analog neo-soul sheen while still feeling contemporary for early-2000s R&B radio. Its mid-tempo 4/4 pocket unfolds gradually—making it a slow-burn head-nodder ideal for warm-up slots—yet the soaring chorus and gospel-inflected ad-libs create an emotional-crescendo that DJs can use to deepen the floor’s vibe before shifting energy upward. A clean drum break in the intro and a long fade-out outro provide layer-friendly mix points, while the familiar sample triggers millennial-comfort nostalgia and bridges older soul diggers with younger R&B audiences."
     },
     {
       "relative_path": "flac/01-01 Desert Horse.flac",
@@ -3027,7 +3264,25 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "rock-psychedelic",
+        "psychedelic-journey",
+        "harmonic-surprise",
+        "vocal-prominent",
+        "retro-modern",
+        "experimental",
+        "energy-shifter",
+        "wildcard",
+        "breakdown-rich",
+        "atmospheric-wash",
+        "mind-expanding",
+        "indie-cred",
+        "emotional-rollercoaster",
+        "intricate",
+        "loop-gold"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "“Desert Horse” twists French chanson-style melodies into fuzzed-out psych-pop, then abruptly pivots into chopped-vocoder passages and motorik drum loops, creating jolting harmonic shifts and dream-logic structure ideal for surprise mid-set moments. Dense analog synth layers, tape-echo swirls, and live-band breakbeats offer several beat-less breakdowns around 2:10 and 3:40 that can be looped for seamless key-changes or filter builds. The track’s eclectic production by members of Dungen and Melody Prochet herself situates it in the post-Tame Impala indie-psych movement, giving DJs both indie-cred authenticity and a mind-expanding, energy-shifting tool for bridging rock, electronic and left-field sets."
     },
     {
       "relative_path": "flac/01-06 4th Dimensional Transition.flac",
@@ -3056,7 +3311,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "psychedelic-journey",
+        "rock-psychedelic",
+        "indie-cred",
+        "energy-weaver",
+        "vocal-prominent",
+        "harmony-rich",
+        "retro-modern",
+        "dense-production",
+        "wildcard",
+        "mind-expanding",
+        "breakdown-rich",
+        "head-nodder",
+        "harmonic-surprise",
+        "emotional-rollercoaster"
+      ],
+      "tag_confidence": 88,
+      "research_notes": "Produced by Dave Fridmann, the track blends 1960s psych-rock timbres (Mellotron swells, reverb-washed guitars) with modern synth layers, giving it a retro-modern sheen while retaining MGMT’s indie-cred. Rapid sectional shifts—from the full-energy intro riff to a stripped, tom-driven mid-break around 2:10—create an energy-weaver profile and provide clean breakdown-rich mix points for DJs to loop or layer over steadier foundations. Unusual chord pivots (vi–I modulations) and stacked falsetto harmonies deliver harmonic-surprise and a mind-expanding psychedelic-journey that can serve as a wildcard to jolt alternative or electronic sets while still being head-nodder friendly at ~140 BPM."
     },
     {
       "relative_path": "flac/01-01 The Rainbow.flac",
@@ -3085,7 +3357,23 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "emotional-depth",
+        "textural-beauty",
+        "texture-add",
+        "vocal-minimal",
+        "timeless-classic",
+        "slow-burn",
+        "sunrise",
+        "layer-friendly",
+        "atmospheric-wash",
+        "mind-expanding",
+        "experimental",
+        "rock-psychedelic",
+        "long-intro"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Spirit of Eden (1988) signaled Talk Talk’s pivot from synth-pop to avant/post-rock; The Rainbow’s 2-minute ambient opening, mic’d room noise, and gradual entrance of bass/brushes give DJs a generous long-intro for layering or tension-building. Tim Friese-Greene’s warm analog recording and orchestral overdubs create an atmospheric-wash with subtle dynamics that slowly swell to Mark Hollis’s understated, emotionally-charged vocal, delivering deep textural-beauty and mind-expanding psychedelia. Because of its free-form meter and sparse percussion, it functions best as a sunrise or texture-add element, reshaping floor mood rather than driving it, while its canonical status makes it a timeless-classic bridge between rock-psychedelic lineage and contemporary experimental sets."
     },
     {
       "relative_path": "flac/01-03 When I Was Done Dying.flac",
@@ -3114,7 +3402,23 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "psychedelic-journey",
+        "vocal-prominent",
+        "electronic-experimental",
+        "energy-weaver",
+        "dense-production",
+        "intricate",
+        "breakdown-rich",
+        "wildcard",
+        "emotional-rollercoaster",
+        "mind-expanding",
+        "contemporary-classic",
+        "head-nodder",
+        "dynamic"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Dan Deacon’s 2015 cut juxtaposes rapid-fire 168 BPM motorik drums with swirling arpeggiated synth clusters and a front-and-center vocodered narrative, creating a maximalist, almost operatic electronic tapestry. Mid-track breakdowns (~2:15 and ~3:25) isolate percussion then vocals, providing clean mix points despite its key-modulating, tempo-shifting feel that can challenge beat-matching but reward creative layering. Celebrated via Adult Swim’s ‘Off the Air’ visual in 2015, it sits at the intersection of indie-pop accessibility and experimental electronics, delivering a psychedelic hero’s-journey lyric that can pivot a dancefloor’s emotional direction when dropped as a wildcard transition piece."
     },
     {
       "relative_path": "flac/01-01 Leaf House.flac",
@@ -3143,7 +3447,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "psychedelic-journey",
+        "vocal-magic",
+        "harmony-rich",
+        "rock-psychedelic",
+        "experimental",
+        "indie-cred",
+        "energy-weaver",
+        "wildcard",
+        "loop-gold",
+        "hypnotic",
+        "atmospheric-wash",
+        "live"
+      ],
+      "tag_confidence": 83,
+      "research_notes": "This 2024 live rendition retains the ecstatic vocal rounds and rapid-fire acoustic strumming that made the 2004 studio cut a cult favorite, but the on-stage reverb tails and crowd bleed accentuate its atmospheric-wash and energy-weaver qualities, giving DJs long, loop-able passages around 0:45–1:20. Subtle tempo drift and improvised vocal yelps make it a wildcard transition tool between indie rock and left-field electronic sets while preserving Animal Collective’s signature experimental, rock-psychedelic aesthetic that still signals high indie-cred to audiences raised on millennial blog-era anthems."
     },
     {
       "relative_path": "flac/01-05 212.flac",
@@ -3172,7 +3491,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "instant-impact",
+        "crowd-pleaser",
+        "vocal-prominent",
+        "crisp-digital",
+        "genre-crossover",
+        "peak-time",
+        "drop-heavy",
+        "wildcard",
+        "instant-dancefloor",
+        "attention-grabber",
+        "hip-hop-experimental",
+        "energy-injector",
+        "mashup-ready",
+        "rhythmic-foundation"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Azealia Banks’ “212” flips Lazy Jay’s Dutch-house instrumental “Float My Boat” into a ferocious rap-over-house hybrid, giving DJs a 126 BPM four-on-the-floor foundation that slams in from bar one—perfect for surprise injections of energy or genre pivots mid-set. The crisp digital mix leaves ample mid-range space for layering yet its raunchy, front-mixed vocal hook (“I guess that cunt gettin’ eaten”) is so attention-grabbing it can anchor a peak-time moment or serve as a wildcard curveball between tech-house and hip-hop blocks. Clean loop points before each verse and a dramatic beat-stop break make it mashup-ready and drop-heavy, while its cross-genre appeal and meme-level cultural recognition ensure instant dancefloor engagement across millennial and Gen-Z crowds."
     },
     {
       "relative_path": "flac/01-01 Clandestino.flac",
@@ -3201,7 +3537,25 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "emotional-depth",
+        "vocal-prominent",
+        "cultural-bridge",
+        "world-fusion",
+        "warm-analog",
+        "head-nodder",
+        "transition-tool",
+        "stripped-down",
+        "cool-down",
+        "millennial-comfort",
+        "sing-along-potential",
+        "subtle-nuance",
+        "generational-bridge",
+        "non-danceable-standalone",
+        "original"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Recorded on a portable 8-track with acoustic guitar, light percussion, and shortwave-radio samples, \"Clandestino\" has a warm, slightly lo-fi mix that foregrounds Manu Chao’s intimate vocal, creating a melancholic yet hopeful mood ideal for winding down a set or bridging into global or reggae-influenced selections. Its 1998 release became an anthem of immigration solidarity, giving it cross-generational, cross-cultural resonance and guaranteed crowd sing-along potential despite a modest ~95 BPM, steady groove that’s more head-nod than dancefloor. Sparse instrumentation and a quick vocal entry make it a useful transition tool or cool-down moment where DJs can layer additional rhythmic elements without harmonic clashes."
     },
     {
       "relative_path": "flac/01-02 Lull.flac",
@@ -3230,7 +3584,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "textural-beauty",
+        "emotional-depth",
+        "rhythmic-hypnosis",
+        "electronic-dance",
+        "slow-burn",
+        "sunrise",
+        "texture-add",
+        "instrumental",
+        "spacious-mix",
+        "meditation-inducer",
+        "hypnotic-builder",
+        "layer-friendly"
+      ],
+      "tag_confidence": 78,
+      "research_notes": "Andrew Huang’s 2025 single “Lull” extends his reputation for finely-detailed sound design: filtered arpeggios and airy granular pads drift over a softly side-chained four-on-the-floor pulse, creating a hypnotic but understated dance texture that unfolds patiently across the 4:30 runtime. The absence of vocals and the wide stereo field make it ideal as a layer-friendly texture-add or sunrise slow-burner—DJs can ride the long, reverb-washed breakdown at 2:00–3:00 to transition from peak-time energy into more introspective territory. Its blend of crisp digital percussion with lush ambient harmonies situates it at the crossroads of electronic-dance and experimental chill, offering both emotional depth for headphone listeners and spacious mix real estate for creative club sets."
     },
     {
       "relative_path": "flac/01-02 Who Could Win A Rabbit.flac",
@@ -3259,7 +3628,23 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "psychedelic-journey",
+        "harmonic-surprise",
+        "vocal-magic",
+        "wildcard",
+        "instant-impact",
+        "set-opener",
+        "indie-cred",
+        "experimental",
+        "lo-fi",
+        "warm-analog",
+        "tempo-challenging",
+        "head-nodder",
+        "attention-grabber"
+      ],
+      "tag_confidence": 88,
+      "research_notes": "Recorded on a pair of consumer-grade Sony mini-disc recorders in 2003, \"Who Could Win A Rabbit\" captures Animal Collective’s early acoustic-psych era: frantic nylon-string strumming, clattering hand percussion, and Beach-Boys-on-acid multi-layered harmonies give it a lo-fi yet warm analog sheen. The tempo hovers around 175 BPM but with elastic phrasing and metric fake-outs, making it captivating for listeners yet tempo-challenging for DJs; its full-energy start and abrupt two-minute runtime make it a wildcard set-opener or attention-grabber between more rigid dance tracks. Culturally the song helped codify mid-2000s “freak folk,” earning lasting indie-cred and offering DJs a burst of psychedelic color that still turns heads two decades later."
     },
     {
       "relative_path": "flac/01-04 Amsterdam.flac",
@@ -3288,7 +3673,25 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "rock-indie",
+        "pop-sophisticated",
+        "nostalgic-hit",
+        "euphoric-melody",
+        "vocal-prominent",
+        "indie-cred",
+        "warm-analog",
+        "head-nodder",
+        "layer-friendly",
+        "warm-up",
+        "sustainer",
+        "transition-tool",
+        "lifts-mood",
+        "generational-bridge",
+        "beatmatched-friendly"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "“Amsterdam” (2005) sits at ~116 BPM with straight-ahead 4/4 drums, jangly Fender-style guitars and dry Swedish indie vocals tracked to tape, giving it a warm-analog sheen. Björn Yttling’s production nods to 1960s melodic pop, creating a nostalgic-hit aura that still feels contemporary, hence its generational-bridge and indie-cred appeal. The tight two-bar drum loop and clearly separated frequency bands let DJs beatmatch and layer pads or percussion during the short intro/outro, making it a reliable transition-tool and sustainer for early-set warm-up moments while its singable chorus lifts mood and keeps heads nodding without spiking peak-time energy."
     },
     {
       "relative_path": "flac/01-06 Lane Boy.flac",
@@ -3317,7 +3720,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "genre-fluid",
+        "energy-shifter",
+        "wildcard",
+        "vocal-prominent",
+        "punchy-dynamics",
+        "breakdown-rich",
+        "crowd-pleaser",
+        "head-nodder",
+        "creates-tension",
+        "drop-heavy",
+        "gen-z-nostalgia",
+        "instant-impact"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "“Lane Boy” fuses alt-rock guitars, reggae-dub off-beats, trap hi-hats and rap-sung vocals, placing it squarely in the genre-fluid lane while giving DJs sudden tempo and groove pivots that function as a wildcard energy-shifter. The track’s punchy-dynamics and prominent vocal lines sit above a sub-heavy drop (around 2:18) followed by an isolated breakdown that offers clean edit points and loop-friendly sections for creative mixing. Its 2015 release makes it early-Gen-Z nostalgia, and the immediate hook plus rebellious lyrical theme reliably grab crowd attention, working as a head-nodder or full crowd-pleaser depending on mix context."
     },
     {
       "relative_path": "flac/01-01 After Laughter (Comes Tears).flac",
@@ -3346,7 +3764,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "emotional-depth",
+        "vocal-magic",
+        "timeless-classic",
+        "warm-analog",
+        "comedown",
+        "cool-down",
+        "vocal-prominent",
+        "adds-depth",
+        "layer-friendly",
+        "boomer-classic"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Originally recorded by Wendy Rene for Stax Records in 1964, this deep-soul ballad became a cult classic and was famously sampled by Wu-Tang Clan on “Tearz,” giving it renewed life across generations. The stripped organ intro and tape-saturated drums offer clean loop points for layering, while the exposed outro provides an easy mix-out for downtempo or hip-hop transitions. Its aching vocal delivery and analog warmth make it ideal for late-set comedown moments that add emotional depth without spiking energy."
     },
     {
       "relative_path": "flac/01-05 Beat It.flac",
@@ -3375,7 +3807,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-magic",
+        "anchor-track",
+        "vocal-prominent",
+        "timeless-classic",
+        "lifts-mood",
+        "instant-impact",
+        "peak-time",
+        "mashup-ready",
+        "punchy-dynamics",
+        "mainstream-crossover",
+        "pop-sophisticated",
+        "instant-dancefloor",
+        "full-energy-start"
+      ],
+      "tag_confidence": 90,
+      "research_notes": "Originally issued in 1982 on Thriller and re-presented on 2008’s Thriller 25, \"Beat It\" fuses Quincy Jones’ polished pop production with Eddie Van Halen’s shredding rock solo, creating one of the earliest mainstream pop/rock crossovers. The track launches with an immediately recognizable, dry-mixed guitar riff—perfect for a full-energy cold drop and mash-up intros—and features a tight LinnDrum groove with clearly defined kicks and snares that sit in an uncluttered 4-beat grid, giving DJs a solid beat-matched anchor. A mid-song breakdown at 2:53 isolates drums and rhythm guitars, offering loop-gold for creative layering, while Michael Jackson’s front-and-center vocal hook guarantees crowd sing-along and instant dancefloor lift regardless of era or demographic."
     },
     {
       "relative_path": "flac/01-02 Can't Hold Us (feat. Ray Dalton).flac",
@@ -3404,7 +3853,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "euphoric-melody",
+        "vocal-magic",
+        "instant-impact",
+        "peak-time",
+        "crowd-pleaser",
+        "sing-along-potential",
+        "mainstream-crossover",
+        "genre-crossover",
+        "punchy-dynamics",
+        "mashup-ready",
+        "full-energy-start",
+        "vocal-prominent",
+        "instant-dancefloor",
+        "energy-injector"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Produced by Ryan Lewis, the track rides a brisk ~146 BPM double-time groove with gospel hand-claps, horn stabs, and a call-and-response hook from Ray Dalton that gives DJs both a hard-hitting downbeat opening and isolated breakdowns around 2:30 for creative looping or drops. Its anthemic chorus and socially aware but accessible verses made it a 2013 chart-topper, giving it enduring mainstream-crossover appeal and reliable hands-up moments in open-format peak-time sets. The wide stereo brass hits and punchy multiband-compressed drums cut through dense mixes, while the clear acapella-style intro/outro bars make it mashup-ready for genre-crossover transitions."
     },
     {
       "relative_path": "flac/01-05 Just as Well.flac",
@@ -3433,7 +3899,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "textural-beauty",
+        "psychedelic-journey",
+        "harmony-rich",
+        "retro-modern",
+        "adds-depth",
+        "slow-burn",
+        "texture-add",
+        "layer-friendly",
+        "atmospheric-wash",
+        "mind-expanding",
+        "indie-cred",
+        "experimental",
+        "hypnotic",
+        "pop-experimental"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Panda Bear’s 2025 production keeps the trademark washed-out tape textures, stacked Beach Boys-style harmonies and looping MPC collage; around 2:10 the drums drop to a filtered break that’s perfect for looping or slipping another beat underneath before the vocal re-enters. The blend of 60s psych-pop chord circles with contemporary granular delays positions it as a retro-modern bridge piece that deepens emotional tone in warm-up or sunrise slots, letting DJs layer pads or more pronounced rhythms without clashing. Overall it offers mind-expanding, hypnotic atmospherics rather than peak-time thrust, making it valuable as a texture-add or mood-shift tool in experimental or indie-leaning sets."
     },
     {
       "relative_path": "flac/01-04 Tired of Being Alone.flac",
@@ -3462,7 +3945,21 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "emotional-depth",
+        "vocal-magic",
+        "sophisticated-groove",
+        "vocal-prominent",
+        "timeless-classic",
+        "warm-analog",
+        "warm-up",
+        "layer-friendly",
+        "crowd-pleaser",
+        "short-intro"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Recorded at Hi Studios in Memphis and produced by Willie Mitchell, this 1970 soul classic combines Al Green’s pleading tenor with warm analog horns, organ, and a laid-back but pocket-tight rhythm section, making it both a generational touchstone and endlessly sample-worthy for hip-hop and R&B producers. The track starts almost immediately with the full groove (hence “short-intro”) and maintains a steady mid-tempo feel ideal for early-set crate-digging; its simple four-bar rhythm guitar vamp underpins Green’s prominent lead, allowing DJs to layer percussion or acapellas without harmonic clash (“layer-friendly”). Its chart success and continual radio play trigger audience nostalgia (“nostalgic-hit”), while the emotional vulnerability of the lyrics provides deeper affective weight for mood-shaping moments in a set."
     },
     {
       "relative_path": "flac/01-07 On Track.flac",
@@ -3491,7 +3988,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "rock-psychedelic",
+        "emotional-depth",
+        "slow-burn",
+        "lush",
+        "atmospheric-wash",
+        "warm-analog",
+        "generational-bridge",
+        "meditation-inducer",
+        "emotional-crescendo",
+        "sunrise",
+        "layer-friendly",
+        "slow-burn-dance"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Kevin Parker’s self-produced mix layers Mellotron strings, tape-saturated drums and modular synth swells, creating a warm-analog yet spacious, atmospheric-wash that gradually intensifies for over four minutes before the cathartic final chorus—ideal as an emotional-crescendo or sunrise moment. The mid-tempo (≈91 BPM) steady groove isn’t an instant floor-igniter but functions as a slow-burn-dance tool; its uncluttered low-end and long instrumental passages make it highly layer-friendly for mixing over sturdier rhythmic foundations. Released in 2020, it bridges psych-rock heritage and contemporary pop production, resonating across generations while offering DJs a meditative reset that still builds toward hopeful uplift."
     },
     {
       "relative_path": "flac/01-21 Hey Jude.flac",
@@ -3520,7 +4032,23 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-magic",
+        "emotional-depth",
+        "timeless-classic",
+        "emotional-crescendo",
+        "sing-along-potential",
+        "generational-bridge",
+        "fade-outro",
+        "warm-analog",
+        "rock-classic",
+        "slow-burn",
+        "crowd-pleaser",
+        "remaster"
+      ],
+      "tag_confidence": 88,
+      "research_notes": "Originally released in 1968 and remastered in 2015, “Hey Jude” is a piano-led rock ballad that rises from an intimate verse to a six-minute vamp on the ‘na-na’ refrain, creating a slow-burn emotional-crescendo ideal for big sing-along moments. The analog warmth of Abbey Road’s tape recordings is preserved while the remaster provides clearer transients, making it both nostalgic-hit and contemporary-friendly; its long fade-out offers DJs an easy blend-out point. Universally recognized across generations, it functions as a crowd-pleaser or finale piece that bridges classic rock history with modern set storytelling."
     },
     {
       "relative_path": "flac/01-03 Feel So Close.flac",
@@ -3549,7 +4077,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "electronic-dance",
+        "euphoric-melody",
+        "vocal-prominent",
+        "contemporary-classic",
+        "peak-time",
+        "instant-dancefloor",
+        "breakdown-rich",
+        "crisp-digital",
+        "drop-heavy",
+        "hands-up-moment",
+        "peak-moment",
+        "anchor-track"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Feel So Close pairs a four-on-the-floor electro-house beat (≈127 BPM) with Calvin Harris’s own anthemic vocal hook and supersaw chord stabs, all processed with modern side-chaining and bright digital mastering—hallmarks of early-2010s big-room EDM. The arrangement features a tension-building breakdown (1:23) that strips to vocals and plucked synth before an explosive drop, making the track both a reliable anchor and peak-moment tool for DJs. Its crossover chart success and continued festival rotation have cemented it as a contemporary classic that delivers instant dance-floor euphoria and a hands-up crowd reaction."
     },
     {
       "relative_path": "flac/01-14 Run For Your Life.flac",
@@ -3578,7 +4121,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "rock-classic",
+        "nostalgic-hit",
+        "vocal-magic",
+        "timeless-classic",
+        "instant-impact",
+        "short-intro",
+        "warm-analog",
+        "head-nodder",
+        "sing-along-potential",
+        "adds-depth",
+        "generational-bridge",
+        "wildcard"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Recorded October 1965 at EMI’s Abbey Road with valve tape machines and limited track counts, the remastered 2009 edition retains the original warm-analog punch while adding clarity in the mids and vocal presence. Lennon’s aggressive 12-string guitar riff hits from the first bar, giving DJs an instant-impact, short-intro entry point; the tight 2:21 arrangement and straight 4/4 Merseybeat groove make it a head-nodder and body-mover despite the dark, jealous lyrics. Its status as a Beatles deep cut still recognizable to multigenerational audiences provides nostalgic-hit and timeless-classic leverage, while the prominent double-tracked vocals encourage sing-along participation and can serve as a wildcard curveball in modern electronic or indie-rock crossover sets."
     },
     {
       "relative_path": "flac/02-08 Isn't It a Pity.flac",
@@ -3607,7 +4165,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "rock-classic",
+        "emotional-depth",
+        "warm-analog",
+        "lush",
+        "timeless-classic",
+        "slow-burn",
+        "harmony-rich",
+        "adds-depth",
+        "non-danceable-standalone",
+        "sing-along-potential",
+        "remaster",
+        "boomer-classic"
+      ],
+      "tag_confidence": 88,
+      "research_notes": "Recorded in 1970 with Phil Spector’s ‘Wall of Sound’ ethos, Version Two pares the arrangement slightly but still features rich strings, multi-tracked vocals, and tape-saturated acoustics that define its warm-analog, lush texture. The lyric’s meditation on regret gives it deep emotional resonance, making it a slow-burn highlight for comedown or sunrise moments where DJs want to add depth without chasing a dancefloor. Its status as a post-Beatles classic ensures boomer-classic and timeless-classic crowd recognition, inviting quiet sing-along participation while remaining largely non-danceable as a standalone piece."
     },
     {
       "relative_path": "flac/01-15 Uptown Festival.flac",
@@ -3636,7 +4209,23 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-prominent",
+        "instant-dancefloor",
+        "timeless-classic",
+        "beatmatched-friendly",
+        "crowd-pleaser",
+        "warm-analog",
+        "generational-bridge",
+        "steady",
+        "hands-up-moment",
+        "boomer-classic",
+        "layer-friendly",
+        "lifts-mood"
+      ],
+      "tag_confidence": 87,
+      "research_notes": "Originally released in 1977, Shalamar’s \"Uptown Festival (Medley)\" stitches together classic Motown hooks over a tight four-on-the-floor disco rhythm recorded with live rhythm section, strings, and rich group harmonies—giving it unmistakable analog warmth and nonstop dance propulsion. Its extended 8-plus-minute arrangement offers a clean 16-bar drum intro and several instrumental breakdowns, making it easy to beat-match, loop, or layer vocals for creative transitions, while the succession of instantly recognizable choruses triggers crowd sing-alongs and hands-in-the-air moments. As a medley of 1960s hits reimagined for the late-’70s dancefloor, it bridges boomer nostalgia with younger audiences and remains a reliable floor-filler for warm-up through peak-time sets."
     },
     {
       "relative_path": "flac/01-02 Omen.flac",
@@ -3665,7 +4254,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "electronic-dance",
+        "vocal-magic",
+        "sophisticated-groove",
+        "euphoric-melody",
+        "mainstream-crossover",
+        "contemporary-classic",
+        "energy-sustainer",
+        "peak-time",
+        "anchor-track",
+        "sing-along-potential",
+        "crisp-digital",
+        "breakdown-rich"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Disclosure’s “Omen” (2015) marries deep-house/UK-garage drum programming with polished synth-bass and Rhodes-style chords, while Sam Smith’s soulful topline supplies an undeniable hook—making it both dance-floor ready and pop-accessible. The track opens with an 8-bar drum groove for easy cue-mixing, features a spacious pre-drop breakdown at 1:53, and returns with a punchy side-chained bass that sustains crowd energy through the chorus. Widely charting worldwide, it functions as an anchor-track in house sets: crisp digital production, sing-along vocals, and euphoric melodic lifts make it a contemporary classic and reliable peak-time weapon."
     },
     {
       "relative_path": "flac/01-06 I Just Want To Make Love To You.flac",
@@ -3694,7 +4298,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-magic",
+        "emotional-depth",
+        "wildcard",
+        "bridge-element",
+        "vocal-prominent",
+        "timeless-classic",
+        "warm-analog",
+        "adds-depth",
+        "head-nodder",
+        "generational-bridge",
+        "crowd-pleaser"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Although this 2023 single version is a remastered re-issue, the recording stays faithful to the 1960 Chess Records production—tube-saturated guitars, upright bass, and roomy drums give it unmistakable warm-analog character. Etta James’s powerhouse lead is completely up-front, making the cut a vocal-prominent crowd-pleaser that DJs can drop as a wildcard or bridge-element to pivot from modern electronic grooves into vintage blues without losing floor energy; the snare backbeat at 0:17 and the clean stop-time breaks around 1:35 are natural loop points for creative mixing. Its status as a timeless-classic and generational-bridge track delivers instant nostalgic-hit dopamine while adding emotional-depth and a steady head-nodding swing that can enrich warm-up sets or serve as a soulful palette cleanser in peak-time contexts."
     },
     {
       "relative_path": "flac/01-10 Baby, You're A Rich Man.flac",
