@@ -2409,7 +2409,25 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "emotional-depth",
+        "textural-beauty",
+        "vocal-magic",
+        "harmony-rich",
+        "warm-analog",
+        "lush",
+        "folk-modern",
+        "timeless-classic",
+        "indie-cred",
+        "slow-burn",
+        "sunrise",
+        "texture-add",
+        "layer-friendly",
+        "non-danceable-standalone",
+        "adds-depth"
+      ],
+      "tag_confidence": 88,
+      "research_notes": "Blue Ridge Mountains exemplifies late-2000s indie-folk revival: multi-tracked choral harmonies recorded to analog tape at Laurel Canyon-inspired Bear Creek Studio give it a warm, acoustic sheen with deep reverb tails that DJs can ride as atmospheric pads. The gradual dynamic build (0:00–2:30) into a tambourine-driven climax then settles back, making it ideal as a sunrise/comeback moment or bridge between acoustic and electronic sections. Sparse kick presence and steady 4/4 strum allow subtle beat layering; long instrumental passages (intro/outro) provide clean texture-add loops while the lush, hymn-like vocals trigger nostalgic dopamine for millennial and indie audiences."
     },
     {
       "relative_path": "flac/01-07 A Mi Manera (Comme D'Habitude).flac",
@@ -2438,7 +2456,23 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-magic",
+        "bridge-element",
+        "vocal-prominent",
+        "cultural-bridge",
+        "lifts-mood",
+        "instant-impact",
+        "warm-analog",
+        "world-fusion",
+        "driving",
+        "crowd-pleaser",
+        "sing-along-potential",
+        "intricate"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Flamenco-rumba reinterpretation of the French chanson classic “Comme d’Habitude,” recorded by the Gipsy Kings in 1987 with nylon-string guitars, palmas, and passionate ensemble vocals captured to warm analog tape. The track opens almost immediately with the signature rumba strum (no long intro) and keeps a steady ~120 BPM live groove, making it an instant impact warm-up or mid-set bridge between Latin/world selections and mainstream pop. Universally recognized melody invites crowd sing-alongs and taps nostalgia, while intricate guitar filigrees and shifting rasgueado accents add rhythmic drive for creative looping or filter work during transitions."
     },
     {
       "relative_path": "flac/01-12 Shadows of Tomorrow (feat. Quasimoto).flac",
@@ -2467,7 +2501,23 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "hip-hop-conscious",
+        "experimental",
+        "mind-expanding",
+        "nostalgic-hit",
+        "lo-fi",
+        "spoken-word",
+        "indie-cred",
+        "wildcard",
+        "interlude",
+        "head-nodder",
+        "layer-friendly",
+        "hypnotic-builder",
+        "retro-modern"
+      ],
+      "tag_confidence": 87,
+      "research_notes": "Produced by Madlib in 2003-04 on the SP-303, the track chops Sun Ra’s 1972 poem \"The Shadows of Tomorrow\" over a dusty 90 BPM loop, creating a lo-fi, hypnotic bed for Quasimoto’s pitched-up rap—no chorus, just a cosmic monologue that functions like an interlude between fuller songs on Madvillainy. The sparse drum-bass loop and roomy midrange leave space for layering, and its clean outro at 2:36 makes it a handy wildcard transition or head-nod palate cleanser in hip-hop or downtempo sets. Cultural cachet stems from its underground status and the album’s legendary influence on left-field rap, giving DJs instant indie-cred while bridging retro jazz futurism with 2000s beat-scene aesthetics."
     },
     {
       "relative_path": "flac/01-05 O Heaven.flac",
