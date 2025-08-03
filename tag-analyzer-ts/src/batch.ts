@@ -5,29 +5,52 @@ dotenv.config();
 
 import { MusicTagAnalyzer } from "./tag-analyzer";
 
+let shouldCancel = false;
+
+// Handle graceful shutdown
+process.on('SIGINT', () => {
+  console.log('\n\n🛑 Received cancellation signal (Ctrl+C)');
+  console.log('🔄 Finishing current track analysis...');
+  console.log('💡 Press Ctrl+C again to force quit');
+  shouldCancel = true;
+  
+  // Force quit on second Ctrl+C
+  process.on('SIGINT', () => {
+    console.log('\n💥 Force quitting...');
+    process.exit(130);
+  });
+});
+
 async function main() {
   const batchSize = parseInt(process.argv[2]) || 10;
-  
+
   console.log(`🎵 Running batch analysis for ${batchSize} tracks...`);
+  console.log(`💡 Press Ctrl+C to gracefully stop after current track`);
   console.log("=".repeat(60));
 
   try {
     const analyzer = new MusicTagAnalyzer();
-    
+
     let processed = 0;
     let successful = 0;
     let errors = 0;
 
     for (let i = 0; i < batchSize; i++) {
+      // Check for cancellation signal
+      if (shouldCancel) {
+        console.log(`\n🛑 Batch cancelled gracefully after ${processed} tracks`);
+        break;
+      }
+
       console.log(`\n🔄 Processing track ${i + 1} of ${batchSize}...`);
-      
+
       try {
         const result = await analyzer.analyzeAndUpdateTrack();
 
         if ("error" in result) {
           console.error(`❌ Error: ${result.error}`);
           errors++;
-          
+
           // If no more untagged tracks, break early
           if (result.error.includes("No untagged tracks found")) {
             console.log("\n✅ No more untagged tracks found. Batch complete!");
@@ -35,7 +58,9 @@ async function main() {
           }
         } else {
           console.log(`✅ Successfully analyzed: ${result.track}`);
-          console.log(`   Tags (${result.new_tags.length}): ${result.new_tags.join(", ")}`);
+          console.log(
+            `   Tags (${result.new_tags.length}): ${result.new_tags.join(", ")}`
+          );
           console.log(`   Confidence: ${result.confidence}%`);
           successful++;
         }
@@ -43,13 +68,17 @@ async function main() {
         console.error(`❌ Unexpected error processing track ${i + 1}:`, error);
         errors++;
       }
-      
+
       processed++;
-      
-      // Add a small delay to avoid rate limiting
-      if (i < batchSize - 1) {
+
+      // Add a small delay to avoid rate limiting (but check for cancellation)
+      if (i < batchSize - 1 && !shouldCancel) {
         console.log("⏳ Waiting 2 seconds before next track...");
-        await new Promise(resolve => setTimeout(resolve, 2000));
+        // Use shorter intervals to check for cancellation more frequently
+        for (let j = 0; j < 20; j++) {
+          if (shouldCancel) break;
+          await new Promise((resolve) => setTimeout(resolve, 100));
+        }
       }
     }
 
@@ -60,12 +89,15 @@ async function main() {
     console.log(`Total processed: ${processed}`);
     console.log(`Successful: ${successful}`);
     console.log(`Errors: ${errors}`);
-    console.log(`Success rate: ${processed > 0 ? Math.round((successful / processed) * 100) : 0}%`);
-    
+    console.log(
+      `Success rate: ${
+        processed > 0 ? Math.round((successful / processed) * 100) : 0
+      }%`
+    );
+
     if (successful > 0) {
       console.log("\n🎉 Batch analysis completed successfully!");
     }
-    
   } catch (error) {
     console.error("❌ Fatal error during batch analysis:", error);
     process.exit(1);

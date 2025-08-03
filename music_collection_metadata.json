@@ -479,7 +479,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "vocal-prominent",
+        "retro-modern",
+        "timeless-classic",
+        "cultural-bridge",
+        "warm-analog",
+        "lifts-mood",
+        "emotional-depth",
+        "crowd-pleaser",
+        "gen-x-wisdom",
+        "smooth-transitions",
+        "sing-along-potential",
+        "generational-bridge",
+        "sophisticated-groove"
+      ],
+      "tag_confidence": 65,
+      "research_notes": "Lord Creator's \"Kingston Town\" is a reggae classic that has been reinterpreted multiple times, with this 2024 version likely being a remaster or compilation release given the \"& Friends\" album context. The track exemplifies the cultural bridge between Jamaican reggae traditions and global appeal, featuring Creator's distinctive vocal style over classic reggae rhythms that have made it a cross-generational anthem. Its warm, analog-influenced production and sing-along chorus make it perfect for crowd engagement while maintaining sophisticated musical depth that appeals to discerning listeners across different age groups. (Note: 1 invalid tags were filtered out)"
     },
     {
       "relative_path": "flac/01-01 Can of Worms.flac",
@@ -508,7 +525,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "rock-psychedelic",
+        "nostalgic-hit",
+        "emotional-depth",
+        "textural-beauty",
+        "slow-burn",
+        "warm-analog",
+        "psychedelic-journey",
+        "set-opener",
+        "retro-modern",
+        "layer-friendly",
+        "long-intro",
+        "meditation-inducer",
+        "generational-bridge",
+        "sophisticated-groove"
+      ],
+      "tag_confidence": 68,
+      "research_notes": "<cite index='1-2,3-4'>Gold Celeste's 'Can of Worms' is a neo-psychedelic dream pop track from their debut album 'The Glow' that combines dreamy hypnotic layers with carefully crafted psychedelic melodies</cite>. <cite index='20-14,20-15,20-16'>The track opens as a nearly 7-minute epic with an extended intro featuring TV/film samples and pastoral instrumental sections, taking over two minutes before vocals enter</cite>. <cite index='14-4,19-4'>The Norwegian trio draws from 60s psychedelic pop, 70s soul, 80s indie, and 90s lo-fi/shoegaze, creating an animated sonic palette with nimble drums, bursting organs, and earnest vocals</cite>. (Note: 1 invalid tags were filtered out)"
     },
     {
       "relative_path": "flac/01-01 Leaf House (1).flac",

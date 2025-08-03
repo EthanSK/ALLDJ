@@ -295,7 +295,8 @@ CRITICAL REQUIREMENTS:
 - Research notes must contain specific, verifiable insights
 - If you use ANY tag not in the taxonomy, the response will be rejected
 
-Begin your analysis now. Think deeply about this track's place in music history, its technical construction, and its utility for sophisticated DJs and curators.`;
+Begin your analysis now. Think deeply about this track's place in music history, its technical construction, and its utility for sophisticated DJs and curators.
+</output_format>`;
 
     try {
       const response = await this.client.messages.create({
@@ -343,28 +344,101 @@ Begin your analysis now. Think deeply about this track's place in music history,
       }
 
       try {
-        // Extract JSON from the response text, handling potential markdown formatting
+        // Extract JSON from the response text with improved parsing
         let jsonText = textContent.text.trim();
+        
+        console.log("Raw API response length:", jsonText.length);
+        console.log("Raw API response preview:", jsonText.substring(0, 500) + "...");
 
-        // Look for JSON object in the response
+        let result = null;
+
+        // Strategy 1: Look for JSON object in the response
         const jsonMatch = jsonText.match(/\{[\s\S]*\}/);
         if (jsonMatch) {
-          jsonText = jsonMatch[0];
-        } else {
-          // Remove markdown code block formatting if present
-          if (jsonText.startsWith("```json")) {
-            jsonText = jsonText
-              .replace(/^```json\s*/, "")
-              .replace(/\s*```$/, "");
-          } else if (jsonText.startsWith("```")) {
-            jsonText = jsonText.replace(/^```\s*/, "").replace(/\s*```$/, "");
+          try {
+            result = JSON.parse(jsonMatch[0]);
+            console.log("Successfully parsed JSON using strategy 1");
+          } catch (e) {
+            console.log("Strategy 1 failed, trying strategy 2");
           }
         }
 
-        const result = JSON.parse(jsonText) as AnalysisResult;
-        if (result.tags && Array.isArray(result.tags)) {
+        // Strategy 2: Remove markdown code block formatting if present
+        if (!result) {
+          if (jsonText.includes("```json")) {
+            const jsonStart = jsonText.indexOf("```json") + 7;
+            const jsonEnd = jsonText.indexOf("```", jsonStart);
+            if (jsonEnd !== -1) {
+              jsonText = jsonText.substring(jsonStart, jsonEnd).trim();
+            }
+          } else if (jsonText.includes("```")) {
+            const jsonStart = jsonText.indexOf("```") + 3;
+            const jsonEnd = jsonText.indexOf("```", jsonStart);
+            if (jsonEnd !== -1) {
+              jsonText = jsonText.substring(jsonStart, jsonEnd).trim();
+            }
+          }
+          
+          try {
+            result = JSON.parse(jsonText);
+            console.log("Successfully parsed JSON using strategy 2");
+          } catch (e) {
+            console.log("Strategy 2 failed, trying strategy 3");
+          }
+        }
+
+        // Strategy 3: Find last complete JSON object in response
+        if (!result) {
+          const lines = jsonText.split('\n');
+          let braceCount = 0;
+          let jsonStart = -1;
+          let jsonLines = [];
+          
+          for (let i = 0; i < lines.length; i++) {
+            const line = lines[i];
+            if (line.trim().startsWith('{') && jsonStart === -1) {
+              jsonStart = i;
+              braceCount = 0;
+            }
+            
+            if (jsonStart !== -1) {
+              jsonLines.push(line);
+              for (const char of line) {
+                if (char === '{') braceCount++;
+                if (char === '}') braceCount--;
+              }
+              
+              if (braceCount === 0) {
+                try {
+                  result = JSON.parse(jsonLines.join('\n'));
+                  console.log("Successfully parsed JSON using strategy 3");
+                  break;
+                } catch (e) {
+                  // Continue looking for another JSON object
+                  jsonStart = -1;
+                  jsonLines = [];
+                }
+              }
+            }
+          }
+        }
+
+        if (!result) {
+          console.error("All JSON parsing strategies failed. Raw response:", jsonText);
+          return {
+            tags: [],
+            confidence: 0,
+            research_notes: "Failed to parse JSON response",
+          };
+        }
+
+        const analysisResult = result as AnalysisResult;
+        
+        console.log("Parsed JSON result:", analysisResult);
+
+        if (analysisResult.tags && Array.isArray(analysisResult.tags)) {
           // Validate that all tags are from the taxonomy
-          const validation = this.validateTags(result.tags);
+          const validation = this.validateTags(analysisResult.tags);
 
           if (validation.invalid.length > 0) {
             console.warn(
@@ -377,16 +451,16 @@ Begin your analysis now. Think deeply about this track's place in music history,
             // Return only valid tags
             return {
               tags: validation.valid,
-              confidence: Math.max(0, result.confidence - 20), // Reduce confidence for invalid tags
+              confidence: Math.max(0, analysisResult.confidence - 20), // Reduce confidence for invalid tags
               research_notes:
-                result.research_notes +
+                analysisResult.research_notes +
                 ` (Note: ${validation.invalid.length} invalid tags were filtered out)`,
             };
           }
 
-          return result;
+          return analysisResult;
         } else {
-          console.warn("Response was not a valid object:", textContent.text);
+          console.warn("Response was not a valid object:", result);
           return {
             tags: [],
             confidence: 0,
