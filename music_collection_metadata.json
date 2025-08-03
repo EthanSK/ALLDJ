@@ -7512,7 +7512,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "vocal-magic",
+        "sophisticated-groove",
+        "cultural-bridge",
+        "genre-crossover",
+        "world-fusion",
+        "body-mover",
+        "rhythmic-foundation",
+        "sustainer",
+        "steady",
+        "punchy-dynamics",
+        "layer-friendly",
+        "original"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Recorded during Africa Express’s 2018 Johannesburg sessions, “Morals” fuses Moonchild Sanelly’s Xhosa/English vocal hooks, Mahotella Queens’ mbaqanga harmonies, and Muzi/Mr Jukes’ synth-bass production, giving a crisp 92 BPM backbone that DJs can ride as a mid-set groove keeper. The dense yet punchy mix leaves mid-range space for layering, while continuous four-to-the-floor kicks and rolling shakers make it a reliable body-mover without drastic energy spikes—ideal for sustaining floor momentum or bridging Afro-house to global bass sections. Its cross-generational collaboration exemplifies Africa Express’s mission of cultural exchange, making the track a natural cultural-bridge and genre-crossover tool in eclectic sets."
     },
     {
       "relative_path": "flac/01-01 Monster Hospital (MSTRKRFT Remix).flac",
@@ -7541,7 +7556,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "electronic-dance",
+        "genre-crossover",
+        "rhythmic-foundation",
+        "vocal-chopped",
+        "instant-impact",
+        "peak-time",
+        "drop-heavy",
+        "gritty-texture",
+        "breakdown-rich",
+        "instant-dancefloor",
+        "energy-injector",
+        "remix",
+        "indie-cred",
+        "nostalgic-hit"
+      ],
+      "tag_confidence": 88,
+      "research_notes": "MSTRKRFT’s 2006 take on Metric’s indie anthem grafts a 126 BPM electro-house backbone onto Emily Haines’ hook, using aggressive side-chained synth-bass and bit-crushed drum hits that slam in after an 8-bar filtered intro—perfect cue for beat-matching. Mid-track, a 16-bar vocal-only breakdown (“I fought the war…”) creates a massive tension pocket before the distorted drop, making it a reliable peak-time energy injector and an easy mash point. The remix bridged blog-house and indie-rock scenes, giving millennials club access to an alt-rock staple and cementing its status as a nostalgic yet dance-floor-ready crossover weapon."
     },
     {
       "relative_path": "flac/01-06 Yellow Magic (Tong Poo).flac",
@@ -7570,7 +7602,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "electronic-experimental",
+        "nostalgic-hit",
+        "instrumental",
+        "crisp-digital",
+        "bridge-element",
+        "timeless-classic",
+        "instant-impact",
+        "lifts-mood",
+        "layer-friendly",
+        "body-mover",
+        "intricate",
+        "smooth-transitions"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Originally tracked in 1978 with a Roland MC-8 micro-composer and analog polysynths, then remastered for the 2011 U.S. release, “Yellow Magic (Tong Poo)” pioneered technopop by marrying Kraftwerk-inspired sequencer precision to Sakamoto’s pentatonic lines. A 4-bar drum machine intro and several 8-bar breakdowns provide natural loop points, while its steady ~120 BPM grid and clear frequency pockets let DJs layer vocals or modern house percussion seamlessly. The combination of bright early-digital timbres and unmistakable Oriental motif evokes instant nostalgia yet still drives bodies, making it a dependable bridge between vintage synthwave and current electronic sets."
     },
     {
       "relative_path": "flac/01-05 Relax, Take It Easy.flac",
@@ -7599,7 +7646,24 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "euphoric-melody",
+        "nostalgic-hit",
+        "vocal-prominent",
+        "retro-modern",
+        "lifts-mood",
+        "instant-impact",
+        "warm-up",
+        "mashup-ready",
+        "crisp-digital",
+        "mainstream-crossover",
+        "pop-sophisticated",
+        "crowd-pleaser",
+        "short-intro",
+        "sing-along-potential"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Built around a four-on-the-floor groove at roughly 120 BPM, the track fuses 1980s Cutting Crew–inspired chord changes with 2007-era digital sheen, giving it instant nostalgic familiarity and modern punch. Multi-layered falsetto vocals dominate, yet the 8-bar synth intro and pre-chorus drop offer clear DJ cue points for mashups or key-matched overlays. Its platinum chart success and enduring pop-disco hook make it a reliable mood lifter and crowd-bridging warm-up tool that invites collective sing-alongs while slotting smoothly between indie-dance and mainstream sets."
     },
     {
       "relative_path": "flac/01-01 Grace Kelly.flac",

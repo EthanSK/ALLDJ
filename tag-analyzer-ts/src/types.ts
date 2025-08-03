@@ -48,6 +48,7 @@ export interface AnalysisResult {
   tags: string[];
   confidence: number;
   research_notes: string;
+  detected_key?: string | null;
 }
 
 export interface TrackAnalysisResult {

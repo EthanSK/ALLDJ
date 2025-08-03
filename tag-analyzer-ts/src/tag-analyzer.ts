@@ -42,7 +42,7 @@ export class MusicTagAnalyzer {
   private buildPrompt(trackInfo: any): string {
     return `You are a world-class music curator, DJ, and music historian with encyclopedic knowledge spanning all genres, eras, and cultures. Your expertise includes music theory, production techniques, cultural movements, and the subtle art of reading dancefloors.
 
-Your task: Conduct a scholarly analysis of this track and select 10-15 tags EXCLUSIVELY from the provided taxonomy below.
+Your task: Conduct a scholarly analysis of this track and select 10-15 tags EXCLUSIVELY from the provided taxonomy below. Additionally, if the track's key is not already specified or is listed as "Unknown", attempt to detect and identify the musical key.
 
 🚨 CRITICAL CONSTRAINT: You can ONLY use tags that appear EXACTLY as written in the taxonomy below. Do NOT create any new tags, modify existing tags, or use any tags not explicitly listed. Any response containing tags not in the taxonomy will be rejected.
 
@@ -101,6 +101,14 @@ PHASE 5: EMOTIONAL & NEUROLOGICAL MAPPING
 - Dopaminergic peak moments and pleasure principles
 - Transcendent or meditative qualities
 - Social bonding and collective experience potential
+
+PHASE 6: MUSICAL KEY DETECTION (if key is Unknown or missing)
+- If the track's key is not already specified or is listed as "Unknown"
+- Analyze the harmonic content and tonal center based on your knowledge
+- Determine the musical key (major/minor) and root note
+- Use standard key notation (e.g., "C Major", "A Minor", "F# Major", "Bb Minor")
+- Consider modal variations if applicable (Dorian, Mixolydian, etc.)
+- If the track is atonal or uses mixed keys, indicate as "Atonal" or "Mixed Keys"
 </analysis_methodology>
 
 <output_format>
@@ -121,7 +129,8 @@ CRITICAL: You MUST end your response with a valid JSON object. Do any research n
     "additional-relevant-tags"
   ],
   "confidence": 85,
-  "research_notes": "Specific insights about this track including: production history, cultural context, DJ utility observations, and any unique elements that influenced tag selection. Mention specific mixing points, cultural movements, or technical details that make this track significant. 2-3 detailed sentences."
+  "research_notes": "Specific insights about this track including: production history, cultural context, DJ utility observations, and any unique elements that influenced tag selection. Mention specific mixing points, cultural movements, or technical details that make this track significant. 2-3 detailed sentences.",
+  "detected_key": null
 }
 
 CRITICAL REQUIREMENTS:
@@ -133,6 +142,8 @@ CRITICAL REQUIREMENTS:
 - Research notes must contain specific, verifiable insights
 - If you use ANY tag not in the taxonomy, the response will be rejected
 - ALWAYS end with valid JSON - this is mandatory
+- Include "detected_key" field with the detected key if the original key was Unknown/missing and you can determine it, otherwise set to null
+- Use standard musical key notation for detected_key (e.g., "C Major", "F# Minor") or null if not detected
 
 Begin your analysis now. Think deeply about this track's place in music history, its technical construction, and its utility for sophisticated DJs and curators. End with the JSON object.
 </output_format>`;
@@ -685,6 +696,13 @@ Begin your analysis now. Think deeply about this track's place in music history,
           track.assigned_tags = analysisResult.tags;
           track.tag_confidence = analysisResult.confidence;
           track.research_notes = analysisResult.research_notes;
+          
+          // Update the key if one was detected and the original was Unknown/missing
+          if (analysisResult.detected_key && 
+              (!track.key || track.key === "Unknown" || track.key.trim() === "")) {
+            track.key = analysisResult.detected_key;
+            console.log(`🎹 Detected key: ${analysisResult.detected_key}`);
+          }
 
           const metadataPath = path.resolve(
             __dirname,

@@ -7,6 +7,7 @@ const AnalysisResultSchema = z.object({
   tags: z.array(z.string()),
   confidence: z.number().min(0).max(100),
   research_notes: z.string(),
+  detected_key: z.string().nullable(),
 });
 
 export class OpenAIService {
@@ -27,7 +28,7 @@ export class OpenAIService {
           },
         ],
         reasoning: {
-          effort: "high",
+          effort: "medium",
         },
         tools: [
           {
