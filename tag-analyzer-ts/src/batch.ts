@@ -5,18 +5,55 @@ dotenv.config();
 
 import { MusicTagAnalyzer } from "./tag-analyzer";
 
+// ANSI color codes
+const colors = {
+  reset: '\x1b[0m',
+  bright: '\x1b[1m',
+  dim: '\x1b[2m',
+  
+  // Colors
+  red: '\x1b[31m',
+  green: '\x1b[32m',
+  yellow: '\x1b[33m',
+  blue: '\x1b[34m',
+  magenta: '\x1b[35m',
+  cyan: '\x1b[36m',
+  white: '\x1b[37m',
+  gray: '\x1b[90m',
+  
+  // Background colors
+  bgRed: '\x1b[41m',
+  bgGreen: '\x1b[42m',
+  bgYellow: '\x1b[43m',
+  bgBlue: '\x1b[44m',
+};
+
+// Helper functions for colored output
+const colorLog = {
+  success: (msg: string) => console.log(`${colors.green}✅ ${msg}${colors.reset}`),
+  error: (msg: string) => console.log(`${colors.red}❌ ${msg}${colors.reset}`),
+  warning: (msg: string) => console.log(`${colors.yellow}⚠️  ${msg}${colors.reset}`),
+  info: (msg: string) => console.log(`${colors.blue}ℹ️  ${msg}${colors.reset}`),
+  processing: (msg: string) => console.log(`${colors.cyan}🔄 ${msg}${colors.reset}`),
+  music: (msg: string) => console.log(`${colors.magenta}🎵 ${msg}${colors.reset}`),
+  robot: (msg: string) => console.log(`${colors.yellow}🤖 ${msg}${colors.reset}`),
+  stats: (msg: string) => console.log(`${colors.bright}${colors.white}📊 ${msg}${colors.reset}`),
+  header: (msg: string) => console.log(`${colors.bright}${colors.cyan}${msg}${colors.reset}`),
+  dim: (msg: string) => console.log(`${colors.dim}${colors.gray}${msg}${colors.reset}`),
+};
+
 let shouldCancel = false;
 
 // Handle graceful shutdown
 process.on("SIGINT", () => {
-  console.log("\n\n🛑 Received cancellation signal (Ctrl+C)");
-  console.log("🔄 Finishing current track analysis...");
-  console.log("💡 Press Ctrl+C again to force quit");
+  colorLog.warning("\n\n🛑 Received cancellation signal (Ctrl+C)");
+  colorLog.processing("Finishing current track analysis...");
+  colorLog.dim("💡 Press Ctrl+C again to force quit");
   shouldCancel = true;
 
   // Force quit on second Ctrl+C
   process.on("SIGINT", () => {
-    console.log("\n💥 Force quitting...");
+    colorLog.error("\n💥 Force quitting...");
     process.exit(130);
   });
 });
@@ -25,10 +62,10 @@ async function main() {
   const batchSize = parseInt(process.argv[2]) || 10;
   const useOpenAI = process.argv.includes('--anthropic') ? false : true; // Default to OpenAI o3
 
-  console.log(`🎵 Running batch analysis for ${batchSize} tracks...`);
-  console.log(`🤖 Using ${useOpenAI ? 'OpenAI o3 (reasoning)' : 'Anthropic Claude'}`);
-  console.log(`💡 Press Ctrl+C to gracefully stop after current track`);
-  console.log("=".repeat(60));
+  colorLog.music(`Running batch analysis for ${batchSize} tracks...`);
+  colorLog.robot(`Using ${useOpenAI ? 'OpenAI o3 (reasoning)' : 'Anthropic Claude'}`);
+  colorLog.dim(`💡 Press Ctrl+C to gracefully stop after current track`);
+  colorLog.header("=".repeat(60));
 
   try {
     const analyzer = new MusicTagAnalyzer(
@@ -50,36 +87,34 @@ async function main() {
         break;
       }
 
-      console.log(`\n🔄 Processing track ${i + 1} of ${batchSize}...`);
+      colorLog.processing(`\nProcessing track ${i + 1} of ${batchSize}...`);
 
       try {
         const result = await analyzer.analyzeAndUpdateTrack();
 
         if ("error" in result) {
-          console.error(`❌ Error: ${result.error}`);
+          colorLog.error(`${result.error}`);
           errors++;
 
           // If no more untagged tracks, break early
           if (result.error.includes("No untagged tracks found")) {
-            console.log("\n✅ No more untagged tracks found. Batch complete!");
+            colorLog.success("\nNo more untagged tracks found. Batch complete!");
             break;
           }
 
           // Exit completely on any other error
-          console.error("\n💥 Exiting due to analysis failure.");
+          colorLog.error("\n💥 Exiting due to analysis failure.");
           process.exit(1);
         } else {
-          console.log(`✅ Successfully analyzed: ${result.track}`);
-          console.log(
-            `   Tags (${result.new_tags.length}): ${result.new_tags.join(", ")}`
-          );
-          console.log(`   Confidence: ${result.confidence}%`);
+          colorLog.success(`Successfully analyzed: ${colors.bright}${result.track}${colors.reset}`);
+          console.log(`   ${colors.cyan}Tags (${result.new_tags.length}):${colors.reset} ${colors.yellow}${result.new_tags.join(", ")}${colors.reset}`);
+          console.log(`   ${colors.blue}Confidence:${colors.reset} ${colors.green}${result.confidence}%${colors.reset}`);
           successful++;
         }
       } catch (error) {
-        console.error(`❌ Unexpected error processing track ${i + 1}:`, error);
+        colorLog.error(`Unexpected error processing track ${i + 1}: ${error}`);
         errors++;
-        console.error("\n💥 Exiting due to unexpected error.");
+        colorLog.error("\n💥 Exiting due to unexpected error.");
         process.exit(1);
       }
 
@@ -87,7 +122,7 @@ async function main() {
 
       // Add a small delay to avoid rate limiting (but check for cancellation)
       if (i < batchSize - 1 && !shouldCancel) {
-        console.log("⏳ Waiting 2 seconds before next track...");
+        colorLog.dim("⏳ Waiting 2 seconds before next track...");
         // Use shorter intervals to check for cancellation more frequently
         for (let j = 0; j < 20; j++) {
           if (shouldCancel) break;
@@ -97,23 +132,23 @@ async function main() {
     }
 
     // Final summary
-    console.log("\n" + "=".repeat(60));
-    console.log("📊 BATCH ANALYSIS SUMMARY");
-    console.log("=".repeat(60));
-    console.log(`Total processed: ${processed}`);
-    console.log(`Successful: ${successful}`);
-    console.log(`Errors: ${errors}`);
+    console.log("\n" + colors.header("=".repeat(60)));
+    colorLog.stats("BATCH ANALYSIS SUMMARY");
+    console.log(colors.header("=".repeat(60)));
+    console.log(`${colors.white}Total processed:${colors.reset} ${colors.bright}${processed}${colors.reset}`);
+    console.log(`${colors.green}Successful:${colors.reset} ${colors.bright}${successful}${colors.reset}`);
+    console.log(`${colors.red}Errors:${colors.reset} ${colors.bright}${errors}${colors.reset}`);
     console.log(
-      `Success rate: ${
+      `${colors.blue}Success rate:${colors.reset} ${colors.bright}${colors.green}${
         processed > 0 ? Math.round((successful / processed) * 100) : 0
-      }%`
+      }%${colors.reset}`
     );
 
     if (successful > 0) {
-      console.log("\n🎉 Batch analysis completed successfully!");
+      colorLog.success("\n🎉 Batch analysis completed successfully!");
     }
   } catch (error) {
-    console.error("❌ Fatal error during batch analysis:", error);
+    colorLog.error(`Fatal error during batch analysis: ${error}`);
     process.exit(1);
   }
 }

@@ -4743,7 +4743,23 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "nostalgic-hit",
+        "harmonic-surprise",
+        "emotional-rollercoaster",
+        "bridge-element",
+        "timeless-classic",
+        "rock-classic",
+        "harmony-rich",
+        "warm-analog",
+        "breakdown-rich",
+        "energy-weaver",
+        "boomer-classic",
+        "wildcard",
+        "loop-gold"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Recorded in 1969 at Abbey Road with analog tape and later remastered, this multi-section song shifts from piano ballad to blues shuffle to dreamy lullaby, showcasing Lennon-McCartney’s intricate modulations and unexpected key changes—prime examples of harmonic-surprise and emotional-rollercoaster. The sparse intro piano, clean drum breaks, and isolated bass-drum groove around 1:30 provide ideal loop-gold and breakdown-rich moments for seamless DJ layering, while the tempo/feel shifts make it a wildcard bridge-element that can connect classic rock to modern psychedelic or electronic cuts. Its ubiquity on classic-rock radio and enduring cultural resonance secure its nostalgic-hit, boomer-classic, and timeless-classic status, all wrapped in warm-analog production and stacked vocal harmonies perfect for harmonic mixing."
     },
     {
       "relative_path": "flac/01-01 Iridescent.flac",
@@ -4772,7 +4788,22 @@
       "sample_rate": 44100,
       "channels": 2,
       "bits_per_sample": 16,
-      "assigned_tags": []
+      "assigned_tags": [
+        "textural-beauty",
+        "emotional-depth",
+        "rhythmic-hypnosis",
+        "instrumental",
+        "electronic-ambient",
+        "atmospheric-wash",
+        "spacious-mix",
+        "meditation-inducer",
+        "slow-burn",
+        "sunrise",
+        "layer-friendly",
+        "hypnotic-builder"
+      ],
+      "tag_confidence": 85,
+      "research_notes": "Azaleh’s “Iridescent” blends future-garage pads with granular synth shimmer and a subtle 2-step shuffle, creating an airy yet hypnotic ambience ideal for late-night or sunrise transitions. The absence of vocals leaves a wide spectral window for harmonic layering, while its gradual filter sweeps and reverb-drenched chords make looping the mid-section especially effective for extended ambient builds. Its understated dynamic arc offers DJs a slow-burn option to reset the floor’s energy without breaking flow, positioning it as a texture-add or sunrise set centerpiece."
     },
     {
       "relative_path": "flac/01-17 Hotel California.flac",

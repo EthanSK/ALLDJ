@@ -243,24 +243,24 @@ Begin your analysis now. Think deeply about this track's place in music history,
     };
 
     // Print track info before analysis
-    console.log("\n=== TRACK INFO ===");
-    console.log(`Artist: ${trackInfo.artist}`);
-    console.log(`Title: ${trackInfo.title}`);
-    console.log(`Album: ${trackInfo.album}`);
-    console.log(`Genre: ${trackInfo.genre}`);
-    console.log(`Year: ${trackInfo.date}`);
-    console.log(`Duration: ${trackInfo.duration}`);
-    console.log(`BPM: ${trackInfo.bpm}`);
-    console.log(`Key: ${trackInfo.key}`);
-    console.log(`Composer: ${trackInfo.composer}`);
+    console.log("\n\x1b[36m\x1b[1m=== TRACK INFO ===\x1b[0m");
+    console.log(`\x1b[33mArtist:\x1b[0m \x1b[1m${trackInfo.artist}\x1b[0m`);
+    console.log(`\x1b[33mTitle:\x1b[0m \x1b[1m${trackInfo.title}\x1b[0m`);
+    console.log(`\x1b[33mAlbum:\x1b[0m ${trackInfo.album}`);
+    console.log(`\x1b[33mGenre:\x1b[0m ${trackInfo.genre}`);
+    console.log(`\x1b[33mYear:\x1b[0m ${trackInfo.date}`);
+    console.log(`\x1b[33mDuration:\x1b[0m ${trackInfo.duration}`);
+    console.log(`\x1b[33mBPM:\x1b[0m ${trackInfo.bpm}`);
+    console.log(`\x1b[33mKey:\x1b[0m ${trackInfo.key}`);
+    console.log(`\x1b[33mComposer:\x1b[0m ${trackInfo.composer}`);
     console.log(
-      `Current Tags: ${
+      `\x1b[33mCurrent Tags:\x1b[0m ${
         trackInfo.currentTags.length > 0
-          ? trackInfo.currentTags.join(", ")
-          : "None"
+          ? `\x1b[35m${trackInfo.currentTags.join(", ")}\x1b[0m`
+          : "\x1b[90mNone\x1b[0m"
       }`
     );
-    console.log("==================\n");
+    console.log("\x1b[36m\x1b[1m==================\x1b[0m\n");
 
     const prompt = this.buildPrompt(trackInfo);
     
@@ -305,24 +305,24 @@ Begin your analysis now. Think deeply about this track's place in music history,
     };
 
     // Print track info before analysis
-    console.log("\n=== TRACK INFO ===");
-    console.log(`Artist: ${trackInfo.artist}`);
-    console.log(`Title: ${trackInfo.title}`);
-    console.log(`Album: ${trackInfo.album}`);
-    console.log(`Genre: ${trackInfo.genre}`);
-    console.log(`Year: ${trackInfo.date}`);
-    console.log(`Duration: ${trackInfo.duration}`);
-    console.log(`BPM: ${trackInfo.bpm}`);
-    console.log(`Key: ${trackInfo.key}`);
-    console.log(`Composer: ${trackInfo.composer}`);
+    console.log("\n\x1b[36m\x1b[1m=== TRACK INFO ===\x1b[0m");
+    console.log(`\x1b[33mArtist:\x1b[0m \x1b[1m${trackInfo.artist}\x1b[0m`);
+    console.log(`\x1b[33mTitle:\x1b[0m \x1b[1m${trackInfo.title}\x1b[0m`);
+    console.log(`\x1b[33mAlbum:\x1b[0m ${trackInfo.album}`);
+    console.log(`\x1b[33mGenre:\x1b[0m ${trackInfo.genre}`);
+    console.log(`\x1b[33mYear:\x1b[0m ${trackInfo.date}`);
+    console.log(`\x1b[33mDuration:\x1b[0m ${trackInfo.duration}`);
+    console.log(`\x1b[33mBPM:\x1b[0m ${trackInfo.bpm}`);
+    console.log(`\x1b[33mKey:\x1b[0m ${trackInfo.key}`);
+    console.log(`\x1b[33mComposer:\x1b[0m ${trackInfo.composer}`);
     console.log(
-      `Current Tags: ${
+      `\x1b[33mCurrent Tags:\x1b[0m ${
         trackInfo.currentTags.length > 0
-          ? trackInfo.currentTags.join(", ")
-          : "None"
+          ? `\x1b[35m${trackInfo.currentTags.join(", ")}\x1b[0m`
+          : "\x1b[90mNone\x1b[0m"
       }`
     );
-    console.log("==================\n");
+    console.log("\x1b[36m\x1b[1m==================\x1b[0m\n");
 
     const prompt = `You are a world-class music curator, DJ, and music historian with encyclopedic knowledge spanning all genres, eras, and cultures. Your expertise includes music theory, production techniques, cultural movements, and the subtle art of reading dancefloors.
 
