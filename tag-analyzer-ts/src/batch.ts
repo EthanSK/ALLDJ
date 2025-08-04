@@ -65,14 +65,19 @@ async function main() {
   colorLog.music(`Running batch analysis for ${batchSize} tracks...`);
   colorLog.robot(`Using ${useOpenAI ? 'OpenAI o3 (reasoning)' : 'Anthropic Claude'}`);
   colorLog.dim(`💡 Press Ctrl+C to gracefully stop after current track`);
+  
+  // Show initial progress before starting
+  const analyzer = new MusicTagAnalyzer(
+    process.env.ANTHROPIC_API_KEY,
+    process.env.OPENAI_API_KEY,
+    useOpenAI
+  );
+  const initialCounts = analyzer.getTaggedTracksCount();
+  colorLog.stats(`Collection status: ${initialCounts.tagged}/${initialCounts.total} tracks tagged (${Math.round((initialCounts.tagged / initialCounts.total) * 100)}%)`);
+  
   colorLog.header("=".repeat(60));
 
   try {
-    const analyzer = new MusicTagAnalyzer(
-      process.env.ANTHROPIC_API_KEY,
-      process.env.OPENAI_API_KEY,
-      useOpenAI
-    );
 
     let processed = 0;
     let successful = 0;
@@ -89,33 +94,80 @@ async function main() {
 
       colorLog.processing(`\nProcessing track ${i + 1} of ${batchSize}...`);
 
-      try {
-        const result = await analyzer.analyzeAndUpdateTrack();
-
-        if ("error" in result) {
-          colorLog.error(`${result.error}`);
-          errors++;
-
-          // If no more untagged tracks, break early
-          if (result.error.includes("No untagged tracks found")) {
-            colorLog.success("\nNo more untagged tracks found. Batch complete!");
-            break;
+      let attempts = 0;
+      let success = false;
+      const maxRetries = 3;
+      
+      while (attempts <= maxRetries && !success && !shouldCancel) {
+        try {
+          if (attempts > 0) {
+            colorLog.warning(`Retry attempt ${attempts}/${maxRetries}...`);
           }
+          
+          const result = await analyzer.analyzeAndUpdateTrack();
 
-          // Exit completely on any other error
-          colorLog.error("\n💥 Exiting due to analysis failure.");
-          process.exit(1);
-        } else {
-          colorLog.success(`Successfully analyzed: ${colors.bright}${result.track}${colors.reset}`);
-          console.log(`   ${colors.cyan}Tags (${result.new_tags.length}):${colors.reset} ${colors.yellow}${result.new_tags.join(", ")}${colors.reset}`);
-          console.log(`   ${colors.blue}Confidence:${colors.reset} ${colors.green}${result.confidence}%${colors.reset}`);
-          successful++;
+          if ("error" in result) {
+            if (result.error.includes("No untagged tracks found")) {
+              colorLog.success("\nNo more untagged tracks found. Batch complete!");
+              success = true;
+              break;
+            }
+            
+            // This is a failure, increment attempts
+            attempts++;
+            if (attempts <= maxRetries) {
+              colorLog.error(`${result.error}`);
+              colorLog.warning(`Attempt ${attempts} failed. Waiting 10 seconds before retry...`);
+              
+              // Wait 10 seconds with cancellation check
+              for (let j = 0; j < 100; j++) {
+                if (shouldCancel) break;
+                await new Promise((resolve) => setTimeout(resolve, 100));
+              }
+            } else {
+              colorLog.error(`${result.error}`);
+              colorLog.error("\n💥 Max retries exceeded. Exiting.");
+              process.exit(1);
+            }
+          } else {
+            // Success!
+            colorLog.success(`Successfully analyzed: ${colors.bright}${result.track}${colors.reset}`);
+            console.log(`   ${colors.cyan}Tags (${result.new_tags.length}):${colors.reset} ${colors.yellow}${result.new_tags.join(", ")}${colors.reset}`);
+            console.log(`   ${colors.blue}Confidence:${colors.reset} ${colors.green}${result.confidence}%${colors.reset}`);
+            
+            // Show current progress in the collection
+            const counts = analyzer.getTaggedTracksCount();
+            console.log(`   ${colors.dim}${colors.gray}Progress: ${counts.tagged}/${counts.total} tracks tagged (${Math.round((counts.tagged / counts.total) * 100)}%)${colors.reset}`);
+            
+            if (attempts > 0) {
+              colorLog.success(`✨ Success after ${attempts} retries!`);
+            }
+            
+            successful++;
+            success = true;
+          }
+        } catch (error) {
+          attempts++;
+          if (attempts <= maxRetries) {
+            colorLog.error(`Unexpected error on attempt ${attempts}: ${error}`);
+            colorLog.warning(`Waiting 10 seconds before retry...`);
+            
+            // Wait 10 seconds with cancellation check
+            for (let j = 0; j < 100; j++) {
+              if (shouldCancel) break;
+              await new Promise((resolve) => setTimeout(resolve, 100));
+            }
+          } else {
+            colorLog.error(`Unexpected error processing track ${i + 1}: ${error}`);
+            errors++;
+            colorLog.error("\n💥 Max retries exceeded. Exiting.");
+            process.exit(1);
+          }
         }
-      } catch (error) {
-        colorLog.error(`Unexpected error processing track ${i + 1}: ${error}`);
+      }
+      
+      if (!success && !shouldCancel) {
         errors++;
-        colorLog.error("\n💥 Exiting due to unexpected error.");
-        process.exit(1);
       }
 
       processed++;
