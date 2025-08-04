@@ -93,3 +93,9 @@ old/
 # Large metadata backups (keep main metadata file)
 *backup*.json
 *_backup.json
+
+# Generated playlists (too many files, can be regenerated)
+rekordbox_playlists/
+*.m3u8
+*.m3u
+*.pls

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DJ_PLAYLISTS Version="1.0.0">
+  <PLAYLISTS>
+    
+    <!-- DOPAMINE SOURCE -->
+    <NODE Type="1" Name="🧠 DOPAMINE SOURCE" Count="0" Expanded="1">
+      <NODE Type="1" Name="Nostalgic Hit" Count="0" Expanded="0">
+        <SMARTLIST Name="Nostalgic Hit" Count="0" SearchCriteria="Comment contains nostalgic-hit" />
+      </NODE>
+      <NODE Type="1" Name="Euphoric Melody" Count="0" Expanded="0">
+        <SMARTLIST Name="Euphoric Melody" Count="0" SearchCriteria="Comment contains euphoric-melody" />
+      </NODE>
+      <NODE Type="1" Name="Emotional Depth" Count="0" Expanded="0">
+        <SMARTLIST Name="Emotional Depth" Count="0" SearchCriteria="Comment contains emotional-depth" />
+      </NODE>
+      <NODE Type="1" Name="Textural Beauty" Count="0" Expanded="0">
+        <SMARTLIST Name="Textural Beauty" Count="0" SearchCriteria="Comment contains textural-beauty" />
+      </NODE>
+      <NODE Type="1" Name="Rhythmic Hypnosis" Count="0" Expanded="0">
+        <SMARTLIST Name="Rhythmic Hypnosis" Count="0" SearchCriteria="Comment contains rhythmic-hypnosis" />
+      </NODE>
+      <NODE Type="1" Name="Harmonic Surprise" Count="0" Expanded="0">
+        <SMARTLIST Name="Harmonic Surprise" Count="0" SearchCriteria="Comment contains harmonic-surprise" />
+      </NODE>
+      <NODE Type="1" Name="Vocal Magic" Count="0" Expanded="0">
+        <SMARTLIST Name="Vocal Magic" Count="0" SearchCriteria="Comment contains vocal-magic" />
+      </NODE>
+      <NODE Type="1" Name="Psychedelic Journey" Count="0" Expanded="0">
+        <SMARTLIST Name="Psychedelic Journey" Count="0" SearchCriteria="Comment contains psychedelic-journey" />
+      </NODE>
+      <NODE Type="1" Name="Sophisticated Groove" Count="0" Expanded="0">
+        <SMARTLIST Name="Sophisticated Groove" Count="0" SearchCriteria="Comment contains sophisticated-groove" />
+      </NODE>
+    </NODE>
+
+    <!-- MIXING ROLE -->
+    <NODE Type="1" Name="🎛️ MIXING ROLE" Count="0" Expanded="1">
+      <NODE Type="1" Name="Rhythmic Foundation" Count="0" Expanded="0">
+        <SMARTLIST Name="Rhythmic Foundation" Count="0" SearchCriteria="Comment contains rhythmic-foundation" />
+      </NODE>
+      <NODE Type="1" Name="Melodic Overlay" Count="0" Expanded="0">
+        <SMARTLIST Name="Melodic Overlay" Count="0" SearchCriteria="Comment contains melodic-overlay" />
+      </NODE>
+      <NODE Type="1" Name="Bridge Element" Count="0" Expanded="0">
+        <SMARTLIST Name="Bridge Element" Count="0" SearchCriteria="Comment contains bridge-element" />
+      </NODE>
+      <NODE Type="1" Name="Texture Add" Count="0" Expanded="0">
+        <SMARTLIST Name="Texture Add" Count="0" SearchCriteria="Comment contains texture-add" />
+      </NODE>
+      <NODE Type="1" Name="Anchor Track" Count="0" Expanded="0">
+        <SMARTLIST Name="Anchor Track" Count="0" SearchCriteria="Comment contains anchor-track" />
+      </NODE>
+      <NODE Type="1" Name="Wildcard" Count="0" Expanded="0">
+        <SMARTLIST Name="Wildcard" Count="0" SearchCriteria="Comment contains wildcard" />
+      </NODE>
+      <NODE Type="1" Name="Transition Tool" Count="0" Expanded="0">
+        <SMARTLIST Name="Transition Tool" Count="0" SearchCriteria="Comment contains transition-tool" />
+      </NODE>
+      <NODE Type="1" Name="Emotional Crescendo" Count="0" Expanded="0">
+        <SMARTLIST Name="Emotional Crescendo" Count="0" SearchCriteria="Comment contains emotional-crescendo" />
+      </NODE>
+      <NODE Type="1" Name="Palate Cleanser" Count="0" Expanded="0">
+        <SMARTLIST Name="Palate Cleanser" Count="0" SearchCriteria="Comment contains palate-cleanser" />
+      </NODE>
+    </NODE>
+
+    <!-- DANCEABILITY -->
+    <NODE Type="1" Name="🕺 DANCEABILITY" Count="0" Expanded="1">
+      <NODE Type="1" Name="Instant Dancefloor" Count="0" Expanded="0">
+        <SMARTLIST Name="Instant Dancefloor" Count="0" SearchCriteria="Comment contains instant-dancefloor" />
+      </NODE>
+      <NODE Type="1" Name="Crowd Pleaser" Count="0" Expanded="0">
+        <SMARTLIST Name="Crowd Pleaser" Count="0" SearchCriteria="Comment contains crowd-pleaser" />
+      </NODE>
+      <NODE Type="1" Name="Peak Time" Count="0" Expanded="0">
+        <SMARTLIST Name="Peak Time" Count="0" SearchCriteria="Comment contains peak-time" />
+      </NODE>
+      <NODE Type="1" Name="Body Mover" Count="0" Expanded="0">
+        <SMARTLIST Name="Body Mover" Count="0" SearchCriteria="Comment contains body-mover" />
+      </NODE>
+      <NODE Type="1" Name="Head Nodder" Count="0" Expanded="0">
+        <SMARTLIST Name="Head Nodder" Count="0" SearchCriteria="Comment contains head-nodder" />
+      </NODE>
+      <NODE Type="1" Name="Non-Danceable Standalone" Count="0" Expanded="0">
+        <SMARTLIST Name="Non-Danceable Standalone" Count="0" SearchCriteria="Comment contains non-danceable-standalone" />
+      </NODE>
+    </NODE>
+
+    <!-- ENERGY DYNAMICS -->
+    <NODE Type="1" Name="⚡ ENERGY DYNAMICS" Count="0" Expanded="1">
+      <NODE Type="1" Name="Energetic" Count="0" Expanded="0">
+        <SMARTLIST Name="Energetic" Count="0" SearchCriteria="Comment contains energetic" />
+      </NODE>
+      <NODE Type="1" Name="Energy Injector" Count="0" Expanded="0">
+        <SMARTLIST Name="Energy Injector" Count="0" SearchCriteria="Comment contains energy-injector" />
+      </NODE>
+      <NODE Type="1" Name="Energy Sustainer" Count="0" Expanded="0">
+        <SMARTLIST Name="Energy Sustainer" Count="0" SearchCriteria="Comment contains energy-sustainer" />
+      </NODE>
+      <NODE Type="1" Name="Energy Shifter" Count="0" Expanded="0">
+        <SMARTLIST Name="Energy Shifter" Count="0" SearchCriteria="Comment contains energy-shifter" />
+      </NODE>
+      <NODE Type="1" Name="Instant Impact" Count="0" Expanded="0">
+        <SMARTLIST Name="Instant Impact" Count="0" SearchCriteria="Comment contains instant-impact" />
+      </NODE>
+      <NODE Type="1" Name="Slow Burn" Count="0" Expanded="0">
+        <SMARTLIST Name="Slow Burn" Count="0" SearchCriteria="Comment contains slow-burn" />
+      </NODE>
+      <NODE Type="1" Name="Lifts Mood" Count="0" Expanded="0">
+        <SMARTLIST Name="Lifts Mood" Count="0" SearchCriteria="Comment contains lifts-mood" />
+      </NODE>
+    </NODE>
+
+    <!-- GENRES -->
+    <NODE Type="1" Name="🎵 GENRES" Count="0" Expanded="1">
+      <NODE Type="1" Name="Electronic Dance" Count="0" Expanded="0">
+        <SMARTLIST Name="Electronic Dance" Count="0" SearchCriteria="Comment contains electronic-dance" />
+      </NODE>
+      <NODE Type="1" Name="Electronic Experimental" Count="0" Expanded="0">
+        <SMARTLIST Name="Electronic Experimental" Count="0" SearchCriteria="Comment contains electronic-experimental" />
+      </NODE>
+      <NODE Type="1" Name="Electronic Ambient" Count="0" Expanded="0">
+        <SMARTLIST Name="Electronic Ambient" Count="0" SearchCriteria="Comment contains electronic-ambient" />
+      </NODE>
+      <NODE Type="1" Name="Rock Psychedelic" Count="0" Expanded="0">
+        <SMARTLIST Name="Rock Psychedelic" Count="0" SearchCriteria="Comment contains rock-psychedelic" />
+      </NODE>
+      <NODE Type="1" Name="Rock Indie" Count="0" Expanded="0">
+        <SMARTLIST Name="Rock Indie" Count="0" SearchCriteria="Comment contains rock-indie" />
+      </NODE>
+      <NODE Type="1" Name="Rock Classic" Count="0" Expanded="0">
+        <SMARTLIST Name="Rock Classic" Count="0" SearchCriteria="Comment contains rock-classic" />
+      </NODE>
+      <NODE Type="1" Name="Hip-Hop Conscious" Count="0" Expanded="0">
+        <SMARTLIST Name="Hip-Hop Conscious" Count="0" SearchCriteria="Comment contains hip-hop-conscious" />
+      </NODE>
+      <NODE Type="1" Name="Hip-Hop Experimental" Count="0" Expanded="0">
+        <SMARTLIST Name="Hip-Hop Experimental" Count="0" SearchCriteria="Comment contains hip-hop-experimental" />
+      </NODE>
+      <NODE Type="1" Name="Pop Sophisticated" Count="0" Expanded="0">
+        <SMARTLIST Name="Pop Sophisticated" Count="0" SearchCriteria="Comment contains pop-sophisticated" />
+      </NODE>
+      <NODE Type="1" Name="World Fusion" Count="0" Expanded="0">
+        <SMARTLIST Name="World Fusion" Count="0" SearchCriteria="Comment contains world-fusion" />
+      </NODE>
+    </NODE>
+
+    <!-- ERA BRIDGING -->
+    <NODE Type="1" Name="🕰️ ERA BRIDGING" Count="0" Expanded="1">
+      <NODE Type="1" Name="Timeless Classic" Count="0" Expanded="0">
+        <SMARTLIST Name="Timeless Classic" Count="0" SearchCriteria="Comment contains timeless-classic" />
+      </NODE>
+      <NODE Type="1" Name="Contemporary Classic" Count="0" Expanded="0">
+        <SMARTLIST Name="Contemporary Classic" Count="0" SearchCriteria="Comment contains contemporary-classic" />
+      </NODE>
+      <NODE Type="1" Name="Retro Modern" Count="0" Expanded="0">
+        <SMARTLIST Name="Retro Modern" Count="0" SearchCriteria="Comment contains retro-modern" />
+      </NODE>
+      <NODE Type="1" Name="Genre Crossover" Count="0" Expanded="0">
+        <SMARTLIST Name="Genre Crossover" Count="0" SearchCriteria="Comment contains genre-crossover" />
+      </NODE>
+      <NODE Type="1" Name="Cultural Moment" Count="0" Expanded="0">
+        <SMARTLIST Name="Cultural Moment" Count="0" SearchCriteria="Comment contains cultural-moment" />
+      </NODE>
+      <NODE Type="1" Name="Generational Bridge" Count="0" Expanded="0">
+        <SMARTLIST Name="Generational Bridge" Count="0" SearchCriteria="Comment contains generational-bridge" />
+      </NODE>
+    </NODE>
+
+    <!-- GENERATIONAL APPEAL -->
+    <NODE Type="1" Name="👥 GENERATIONAL APPEAL" Count="0" Expanded="1">
+      <NODE Type="1" Name="Gen-Z Nostalgia" Count="0" Expanded="0">
+        <SMARTLIST Name="Gen-Z Nostalgia" Count="0" SearchCriteria="Comment contains gen-z-nostalgia" />
+      </NODE>
+      <NODE Type="1" Name="Millennial Comfort" Count="0" Expanded="0">
+        <SMARTLIST Name="Millennial Comfort" Count="0" SearchCriteria="Comment contains millennial-comfort" />
+      </NODE>
+      <NODE Type="1" Name="Gen-X Wisdom" Count="0" Expanded="0">
+        <SMARTLIST Name="Gen-X Wisdom" Count="0" SearchCriteria="Comment contains gen-x-wisdom" />
+      </NODE>
+      <NODE Type="1" Name="Boomer Classic" Count="0" Expanded="0">
+        <SMARTLIST Name="Boomer Classic" Count="0" SearchCriteria="Comment contains boomer-classic" />
+      </NODE>
+      <NODE Type="1" Name="Indie Cred" Count="0" Expanded="0">
+        <SMARTLIST Name="Indie Cred" Count="0" SearchCriteria="Comment contains indie-cred" />
+      </NODE>
+      <NODE Type="1" Name="Mainstream Crossover" Count="0" Expanded="0">
+        <SMARTLIST Name="Mainstream Crossover" Count="0" SearchCriteria="Comment contains mainstream-crossover" />
+      </NODE>
+    </NODE>
+
+    <!-- MIXING COMPATIBILITY -->
+    <NODE Type="1" Name="🔧 MIXING COMPATIBILITY" Count="0" Expanded="1">
+      <NODE Type="1" Name="Layer Friendly" Count="0" Expanded="0">
+        <SMARTLIST Name="Layer Friendly" Count="0" SearchCriteria="Comment contains layer-friendly" />
+      </NODE>
+      <NODE Type="1" Name="Breakdown Rich" Count="0" Expanded="0">
+        <SMARTLIST Name="Breakdown Rich" Count="0" SearchCriteria="Comment contains breakdown-rich" />
+      </NODE>
+      <NODE Type="1" Name="Loop Gold" Count="0" Expanded="0">
+        <SMARTLIST Name="Loop Gold" Count="0" SearchCriteria="Comment contains loop-gold" />
+      </NODE>
+      <NODE Type="1" Name="Mashup Ready" Count="0" Expanded="0">
+        <SMARTLIST Name="Mashup Ready" Count="0" SearchCriteria="Comment contains mashup-ready" />
+      </NODE>
+      <NODE Type="1" Name="Beatmatched Friendly" Count="0" Expanded="0">
+        <SMARTLIST Name="Beatmatched Friendly" Count="0" SearchCriteria="Comment contains beatmatched-friendly" />
+      </NODE>
+      <NODE Type="1" Name="Smooth Transitions" Count="0" Expanded="0">
+        <SMARTLIST Name="Smooth Transitions" Count="0" SearchCriteria="Comment contains smooth-transitions" />
+      </NODE>
+    </NODE>
+
+    <!-- SET POSITIONING -->
+    <NODE Type="1" Name="🎚️ SET POSITIONING" Count="0" Expanded="1">
+      <NODE Type="1" Name="Set Opener" Count="0" Expanded="0">
+        <SMARTLIST Name="Set Opener" Count="0" SearchCriteria="Comment contains set-opener" />
+      </NODE>
+      <NODE Type="1" Name="Warm Up" Count="0" Expanded="0">
+        <SMARTLIST Name="Warm Up" Count="0" SearchCriteria="Comment contains warm-up" />
+      </NODE>
+      <NODE Type="1" Name="Peak Time" Count="0" Expanded="0">
+        <SMARTLIST Name="Peak Time" Count="0" SearchCriteria="Comment contains peak-time" />
+      </NODE>
+      <NODE Type="1" Name="Emotional Peak" Count="0" Expanded="0">
+        <SMARTLIST Name="Emotional Peak" Count="0" SearchCriteria="Comment contains emotional-peak" />
+      </NODE>
+      <NODE Type="1" Name="Comedown" Count="0" Expanded="0">
+        <SMARTLIST Name="Comedown" Count="0" SearchCriteria="Comment contains comedown" />
+      </NODE>
+      <NODE Type="1" Name="Sunrise" Count="0" Expanded="0">
+        <SMARTLIST Name="Sunrise" Count="0" SearchCriteria="Comment contains sunrise" />
+      </NODE>
+      <NODE Type="1" Name="Interlude" Count="0" Expanded="0">
+        <SMARTLIST Name="Interlude" Count="0" SearchCriteria="Comment contains interlude" />
+      </NODE>
+    </NODE>
+
+    <!-- PSYCHEDELIC/CONSCIOUSNESS -->
+    <NODE Type="1" Name="🧘 PSYCHEDELIC/CONSCIOUSNESS" Count="0" Expanded="1">
+      <NODE Type="1" Name="Mind Expanding" Count="0" Expanded="0">
+        <SMARTLIST Name="Mind Expanding" Count="0" SearchCriteria="Comment contains mind-expanding" />
+      </NODE>
+      <NODE Type="1" Name="Reality Bending" Count="0" Expanded="0">
+        <SMARTLIST Name="Reality Bending" Count="0" SearchCriteria="Comment contains reality-bending" />
+      </NODE>
+      <NODE Type="1" Name="Time Dilation" Count="0" Expanded="0">
+        <SMARTLIST Name="Time Dilation" Count="0" SearchCriteria="Comment contains time-dilation" />
+      </NODE>
+      <NODE Type="1" Name="Dream Logic" Count="0" Expanded="0">
+        <SMARTLIST Name="Dream Logic" Count="0" SearchCriteria="Comment contains dream-logic" />
+      </NODE>
+      <NODE Type="1" Name="Color Synesthesia" Count="0" Expanded="0">
+        <SMARTLIST Name="Color Synesthesia" Count="0" SearchCriteria="Comment contains color-synesthesia" />
+      </NODE>
+      <NODE Type="1" Name="Meditation Inducer" Count="0" Expanded="0">
+        <SMARTLIST Name="Meditation Inducer" Count="0" SearchCriteria="Comment contains meditation-inducer" />
+      </NODE>
+    </NODE>
+
+    <!-- PERSONAL TAGS -->
+    <NODE Type="1" Name="🎭 PERSONAL TAGS" Count="0" Expanded="1">
+      <NODE Type="1" Name="Deep" Count="0" Expanded="0">
+        <SMARTLIST Name="Deep" Count="0" SearchCriteria="Comment contains deep" />
+      </NODE>
+      <NODE Type="1" Name="Dopamine" Count="0" Expanded="0">
+        <SMARTLIST Name="Dopamine" Count="0" SearchCriteria="Comment contains dopamine" />
+      </NODE>
+      <NODE Type="1" Name="Funny" Count="0" Expanded="0">
+        <SMARTLIST Name="Funny" Count="0" SearchCriteria="Comment contains funny" />
+      </NODE>
+      <NODE Type="1" Name="Drum-Bass Layer" Count="0" Expanded="0">
+        <SMARTLIST Name="Drum-Bass Layer" Count="0" SearchCriteria="Comment contains drum-bass-layer" />
+      </NODE>
+    </NODE>
+
+    <!-- COMBO PLAYLISTS -->
+    <NODE Type="1" Name="🎯 COMBO PLAYLISTS" Count="0" Expanded="1">
+      <NODE Type="1" Name="Dancefloor Classics" Count="0" Expanded="0">
+        <SMARTLIST Name="Dancefloor Classics" Count="0" SearchCriteria="Comment contains instant-dancefloor AND Comment contains timeless-classic" />
+      </NODE>
+      <NODE Type="1" Name="Energetic Crowd Pleasers" Count="0" Expanded="0">
+        <SMARTLIST Name="Energetic Crowd Pleasers" Count="0" SearchCriteria="Comment contains energetic AND Comment contains crowd-pleaser" />
+      </NODE>
+      <NODE Type="1" Name="Euphoric Peak Time" Count="0" Expanded="0">
+        <SMARTLIST Name="Euphoric Peak Time" Count="0" SearchCriteria="Comment contains euphoric-melody AND Comment contains peak-time" />
+      </NODE>
+      <NODE Type="1" Name="Nostalgic Dancefloor" Count="0" Expanded="0">
+        <SMARTLIST Name="Nostalgic Dancefloor" Count="0" SearchCriteria="Comment contains nostalgic-hit AND Comment contains instant-dancefloor" />
+      </NODE>
+      <NODE Type="1" Name="Psychedelic Journey Layers" Count="0" Expanded="0">
+        <SMARTLIST Name="Psychedelic Journey Layers" Count="0" SearchCriteria="Comment contains psychedelic-journey AND Comment contains layer-friendly" />
+      </NODE>
+      <NODE Type="1" Name="Electronic Dance Foundations" Count="0" Expanded="0">
+        <SMARTLIST Name="Electronic Dance Foundations" Count="0" SearchCriteria="Comment contains electronic-dance AND Comment contains rhythmic-foundation" />
+      </NODE>
+      <NODE Type="1" Name="Vocal Magic Overlays" Count="0" Expanded="0">
+        <SMARTLIST Name="Vocal Magic Overlays" Count="0" SearchCriteria="Comment contains vocal-magic AND Comment contains melodic-overlay" />
+      </NODE>
+      <NODE Type="1" Name="Contemporary Classics" Count="0" Expanded="0">
+        <SMARTLIST Name="Contemporary Classics" Count="0" SearchCriteria="Comment contains contemporary-classic AND Comment contains layer-friendly" />
+      </NODE>
+    </NODE>
+
+  </PLAYLISTS>
+</DJ_PLAYLISTS>

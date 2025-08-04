@@ -8,11 +8,17 @@
     "analyze": "ts-node src/index.ts",
     "analyze:batch": "ts-node src/batch.ts",
     "generate:skeleton": "ts-node src/generate-skeleton.ts",
-    "clean": "ts-node src/clean-metadata.ts"
+    "clean": "ts-node src/clean-metadata.ts",
+    "tag:flac": "ts-node src/flac-tagger.ts",
+    "tag:dry-run": "ts-node src/flac-tagger.ts --dry-run",
+    "verify": "ts-node src/verify-tags.ts",
+    "playlists": "ts-node src/generate-m3u8-playlists.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.57.0",
     "dotenv": "^17.2.1",
+    "flac-metadata": "^0.1.1",
+    "music-metadata": "^11.7.3",
     "openai": "^5.11.0",
     "zod": "^3.25.76"
   },
