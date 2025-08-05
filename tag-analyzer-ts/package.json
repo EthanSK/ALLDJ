@@ -12,7 +12,9 @@
     "tag:flac": "ts-node src/flac-tagger.ts",
     "tag:dry-run": "ts-node src/flac-tagger.ts --dry-run",
     "verify": "ts-node src/verify-tags.ts",
-    "playlists": "ts-node src/generate-m3u8-playlists.ts"
+    "playlists": "ts-node src/generate-m3u8-playlists.ts",
+    "smart-playlists": "ts-node src/create-rekordbox-smart-playlists.ts",
+    "rekordbox-export": "ts-node src/create-rekordbox-export-format.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.57.0",

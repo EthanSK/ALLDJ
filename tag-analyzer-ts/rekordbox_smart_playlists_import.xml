@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DJ_PLAYLISTS Version="1.0.0">
+  <PRODUCT Name="rekordbox" Version="6.8.5" Company="AlphaTheta"/>
+  <PLAYLISTS>
+    <NODE Type="1" Name="DOPAMINE SOURCE" Count="0" Expanded="1">
+      <NODE Type="2" Name="Nostalgic Hit" Count="0" Expanded="0">
+        <SMARTLIST Name="Nostalgic Hit" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="nostalgic-hit"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Euphoric Melody" Count="0" Expanded="0">
+        <SMARTLIST Name="Euphoric Melody" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="euphoric-melody"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Emotional Depth" Count="0" Expanded="0">
+        <SMARTLIST Name="Emotional Depth" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="emotional-depth"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Textural Beauty" Count="0" Expanded="0">
+        <SMARTLIST Name="Textural Beauty" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="textural-beauty"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Rhythmic Hypnosis" Count="0" Expanded="0">
+        <SMARTLIST Name="Rhythmic Hypnosis" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="rhythmic-hypnosis"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Harmonic Surprise" Count="0" Expanded="0">
+        <SMARTLIST Name="Harmonic Surprise" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="harmonic-surprise"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Vocal Magic" Count="0" Expanded="0">
+        <SMARTLIST Name="Vocal Magic" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="vocal-magic"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Psychedelic Journey" Count="0" Expanded="0">
+        <SMARTLIST Name="Psychedelic Journey" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="psychedelic-journey"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Sophisticated Groove" Count="0" Expanded="0">
+        <SMARTLIST Name="Sophisticated Groove" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="sophisticated-groove"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+    </NODE>
+    <NODE Type="1" Name="MIXING ROLE" Count="0" Expanded="1">
+      <NODE Type="2" Name="Rhythmic Foundation" Count="0" Expanded="0">
+        <SMARTLIST Name="Rhythmic Foundation" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="rhythmic-foundation"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Melodic Overlay" Count="0" Expanded="0">
+        <SMARTLIST Name="Melodic Overlay" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="melodic-overlay"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Bridge Element" Count="0" Expanded="0">
+        <SMARTLIST Name="Bridge Element" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="bridge-element"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Texture Add" Count="0" Expanded="0">
+        <SMARTLIST Name="Texture Add" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="texture-add"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Anchor Track" Count="0" Expanded="0">
+        <SMARTLIST Name="Anchor Track" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="anchor-track"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Wildcard" Count="0" Expanded="0">
+        <SMARTLIST Name="Wildcard" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="wildcard"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Transition Tool" Count="0" Expanded="0">
+        <SMARTLIST Name="Transition Tool" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="transition-tool"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Emotional Crescendo" Count="0" Expanded="0">
+        <SMARTLIST Name="Emotional Crescendo" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="emotional-crescendo"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Palate Cleanser" Count="0" Expanded="0">
+        <SMARTLIST Name="Palate Cleanser" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="palate-cleanser"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+    </NODE>
+    <NODE Type="1" Name="DANCEABILITY" Count="0" Expanded="1">
+      <NODE Type="2" Name="Instant Dancefloor" Count="0" Expanded="0">
+        <SMARTLIST Name="Instant Dancefloor" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="instant-dancefloor"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Crowd Pleaser" Count="0" Expanded="0">
+        <SMARTLIST Name="Crowd Pleaser" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="crowd-pleaser"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Peak Time" Count="0" Expanded="0">
+        <SMARTLIST Name="Peak Time" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="peak-time"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Body Mover" Count="0" Expanded="0">
+        <SMARTLIST Name="Body Mover" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="body-mover"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Head Nodder" Count="0" Expanded="0">
+        <SMARTLIST Name="Head Nodder" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="head-nodder"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Non Danceable Standalone" Count="0" Expanded="0">
+        <SMARTLIST Name="Non Danceable Standalone" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="non-danceable-standalone"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+    </NODE>
+    <NODE Type="1" Name="ENERGY DYNAMICS" Count="0" Expanded="1">
+      <NODE Type="2" Name="Energetic" Count="0" Expanded="0">
+        <SMARTLIST Name="Energetic" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="energetic"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Energy Injector" Count="0" Expanded="0">
+        <SMARTLIST Name="Energy Injector" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="energy-injector"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Energy Sustainer" Count="0" Expanded="0">
+        <SMARTLIST Name="Energy Sustainer" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="energy-sustainer"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Energy Shifter" Count="0" Expanded="0">
+        <SMARTLIST Name="Energy Shifter" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="energy-shifter"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Instant Impact" Count="0" Expanded="0">
+        <SMARTLIST Name="Instant Impact" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="instant-impact"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Slow Burn" Count="0" Expanded="0">
+        <SMARTLIST Name="Slow Burn" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="slow-burn"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Lifts Mood" Count="0" Expanded="0">
+        <SMARTLIST Name="Lifts Mood" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="lifts-mood"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+    </NODE>
+    <NODE Type="1" Name="GENRES" Count="0" Expanded="1">
+      <NODE Type="2" Name="Electronic Dance" Count="0" Expanded="0">
+        <SMARTLIST Name="Electronic Dance" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="electronic-dance"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Electronic Experimental" Count="0" Expanded="0">
+        <SMARTLIST Name="Electronic Experimental" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="electronic-experimental"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Electronic Ambient" Count="0" Expanded="0">
+        <SMARTLIST Name="Electronic Ambient" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="electronic-ambient"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Rock Psychedelic" Count="0" Expanded="0">
+        <SMARTLIST Name="Rock Psychedelic" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="rock-psychedelic"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Rock Indie" Count="0" Expanded="0">
+        <SMARTLIST Name="Rock Indie" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="rock-indie"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Rock Classic" Count="0" Expanded="0">
+        <SMARTLIST Name="Rock Classic" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="rock-classic"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Hip Hop Conscious" Count="0" Expanded="0">
+        <SMARTLIST Name="Hip Hop Conscious" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="hip-hop-conscious"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Hip Hop Experimental" Count="0" Expanded="0">
+        <SMARTLIST Name="Hip Hop Experimental" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="hip-hop-experimental"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Pop Sophisticated" Count="0" Expanded="0">
+        <SMARTLIST Name="Pop Sophisticated" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="pop-sophisticated"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="World Fusion" Count="0" Expanded="0">
+        <SMARTLIST Name="World Fusion" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="world-fusion"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+    </NODE>
+    <NODE Type="1" Name="ERA BRIDGING" Count="0" Expanded="1">
+      <NODE Type="2" Name="Timeless Classic" Count="0" Expanded="0">
+        <SMARTLIST Name="Timeless Classic" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="timeless-classic"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Contemporary Classic" Count="0" Expanded="0">
+        <SMARTLIST Name="Contemporary Classic" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="contemporary-classic"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Retro Modern" Count="0" Expanded="0">
+        <SMARTLIST Name="Retro Modern" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="retro-modern"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Genre Crossover" Count="0" Expanded="0">
+        <SMARTLIST Name="Genre Crossover" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="genre-crossover"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Cultural Moment" Count="0" Expanded="0">
+        <SMARTLIST Name="Cultural Moment" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="cultural-moment"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Generational Bridge" Count="0" Expanded="0">
+        <SMARTLIST Name="Generational Bridge" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="generational-bridge"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+    </NODE>
+    <NODE Type="1" Name="GENERATIONAL APPEAL" Count="0" Expanded="1">
+      <NODE Type="2" Name="Gen Z Nostalgia" Count="0" Expanded="0">
+        <SMARTLIST Name="Gen Z Nostalgia" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="gen-z-nostalgia"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Millennial Comfort" Count="0" Expanded="0">
+        <SMARTLIST Name="Millennial Comfort" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="millennial-comfort"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Gen X Wisdom" Count="0" Expanded="0">
+        <SMARTLIST Name="Gen X Wisdom" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="gen-x-wisdom"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Boomer Classic" Count="0" Expanded="0">
+        <SMARTLIST Name="Boomer Classic" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="boomer-classic"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Indie Cred" Count="0" Expanded="0">
+        <SMARTLIST Name="Indie Cred" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="indie-cred"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Mainstream Crossover" Count="0" Expanded="0">
+        <SMARTLIST Name="Mainstream Crossover" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="mainstream-crossover"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+    </NODE>
+    <NODE Type="1" Name="MIXING COMPATIBILITY" Count="0" Expanded="1">
+      <NODE Type="2" Name="Layer Friendly" Count="0" Expanded="0">
+        <SMARTLIST Name="Layer Friendly" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="layer-friendly"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Breakdown Rich" Count="0" Expanded="0">
+        <SMARTLIST Name="Breakdown Rich" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="breakdown-rich"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Loop Gold" Count="0" Expanded="0">
+        <SMARTLIST Name="Loop Gold" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="loop-gold"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Mashup Ready" Count="0" Expanded="0">
+        <SMARTLIST Name="Mashup Ready" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="mashup-ready"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Beatmatched Friendly" Count="0" Expanded="0">
+        <SMARTLIST Name="Beatmatched Friendly" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="beatmatched-friendly"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Smooth Transitions" Count="0" Expanded="0">
+        <SMARTLIST Name="Smooth Transitions" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="smooth-transitions"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+    </NODE>
+    <NODE Type="1" Name="SET POSITIONING" Count="0" Expanded="1">
+      <NODE Type="2" Name="Set Opener" Count="0" Expanded="0">
+        <SMARTLIST Name="Set Opener" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="set-opener"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Warm Up" Count="0" Expanded="0">
+        <SMARTLIST Name="Warm Up" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="warm-up"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Peak Time" Count="0" Expanded="0">
+        <SMARTLIST Name="Peak Time" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="peak-time"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Emotional Peak" Count="0" Expanded="0">
+        <SMARTLIST Name="Emotional Peak" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="emotional-peak"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Comedown" Count="0" Expanded="0">
+        <SMARTLIST Name="Comedown" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="comedown"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Sunrise" Count="0" Expanded="0">
+        <SMARTLIST Name="Sunrise" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="sunrise"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Interlude" Count="0" Expanded="0">
+        <SMARTLIST Name="Interlude" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="interlude"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+    </NODE>
+    <NODE Type="1" Name="PSYCHEDELIC/CONSCIOUSNESS" Count="0" Expanded="1">
+      <NODE Type="2" Name="Mind Expanding" Count="0" Expanded="0">
+        <SMARTLIST Name="Mind Expanding" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="mind-expanding"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Reality Bending" Count="0" Expanded="0">
+        <SMARTLIST Name="Reality Bending" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="reality-bending"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Time Dilation" Count="0" Expanded="0">
+        <SMARTLIST Name="Time Dilation" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="time-dilation"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Dream Logic" Count="0" Expanded="0">
+        <SMARTLIST Name="Dream Logic" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="dream-logic"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Color Synesthesia" Count="0" Expanded="0">
+        <SMARTLIST Name="Color Synesthesia" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="color-synesthesia"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Meditation Inducer" Count="0" Expanded="0">
+        <SMARTLIST Name="Meditation Inducer" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="meditation-inducer"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+    </NODE>
+    <NODE Type="1" Name="PERSONAL TAGS" Count="0" Expanded="1">
+      <NODE Type="2" Name="Deep" Count="0" Expanded="0">
+        <SMARTLIST Name="Deep" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="deep"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Dopamine" Count="0" Expanded="0">
+        <SMARTLIST Name="Dopamine" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="dopamine"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Funny" Count="0" Expanded="0">
+        <SMARTLIST Name="Funny" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="funny"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Drum Bass Layer" Count="0" Expanded="0">
+        <SMARTLIST Name="Drum Bass Layer" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="drum-bass-layer"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+    </NODE>
+    <NODE Type="1" Name="COMBO PLAYLISTS" Count="0" Expanded="1">
+      <NODE Type="2" Name="Dancefloor Classics" Count="0" Expanded="0">
+        <SMARTLIST Name="Dancefloor Classics" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="instant-dancefloor" LogicalOperator="And"/>
+            <CRITERIA Field="Comment" Operator="Contains" Value="timeless-classic"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Energetic Crowd Pleasers" Count="0" Expanded="0">
+        <SMARTLIST Name="Energetic Crowd Pleasers" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="energetic" LogicalOperator="And"/>
+            <CRITERIA Field="Comment" Operator="Contains" Value="crowd-pleaser"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Euphoric Peak Time" Count="0" Expanded="0">
+        <SMARTLIST Name="Euphoric Peak Time" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="euphoric-melody" LogicalOperator="And"/>
+            <CRITERIA Field="Comment" Operator="Contains" Value="peak-time"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Nostalgic Dancefloor" Count="0" Expanded="0">
+        <SMARTLIST Name="Nostalgic Dancefloor" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="nostalgic-hit" LogicalOperator="And"/>
+            <CRITERIA Field="Comment" Operator="Contains" Value="instant-dancefloor"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Psychedelic Journey Layers" Count="0" Expanded="0">
+        <SMARTLIST Name="Psychedelic Journey Layers" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="psychedelic-journey" LogicalOperator="And"/>
+            <CRITERIA Field="Comment" Operator="Contains" Value="layer-friendly"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Electronic Dance Foundations" Count="0" Expanded="0">
+        <SMARTLIST Name="Electronic Dance Foundations" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="electronic-dance" LogicalOperator="And"/>
+            <CRITERIA Field="Comment" Operator="Contains" Value="rhythmic-foundation"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Vocal Magic Overlays" Count="0" Expanded="0">
+        <SMARTLIST Name="Vocal Magic Overlays" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="vocal-magic" LogicalOperator="And"/>
+            <CRITERIA Field="Comment" Operator="Contains" Value="melodic-overlay"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+      <NODE Type="2" Name="Contemporary Layer Friendly" Count="0" Expanded="0">
+        <SMARTLIST Name="Contemporary Layer Friendly" Count="0">
+          <SMARTCRITERIA>
+            <CRITERIA Field="Comment" Operator="Contains" Value="contemporary-classic" LogicalOperator="And"/>
+            <CRITERIA Field="Comment" Operator="Contains" Value="layer-friendly"/>
+          </SMARTCRITERIA>
+        </SMARTLIST>
+      </NODE>
+    </NODE>
+  </PLAYLISTS>
+</DJ_PLAYLISTS>
