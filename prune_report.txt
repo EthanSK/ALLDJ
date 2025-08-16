@@ -1,0 +1,531 @@
+Source-of-truth: [1882161093] all liked stems
+Root folder:     [154149518] ALLDJ Stems
+Subtree nodes:   360 (including folders)
+Allowed tracks (by ContentID) in source: 2177
+Playable playlists under root: 300
+[PRUNE] nostalgic-hit — 3 to remove
+   - REMOVE: The Blue Danube (Vocals)
+   - REMOVE: The Caves Of Altamira (Vocals)
+   - REMOVE: The Diary of Horace Wimp (Vocals)
+[PRUNE] euphoric-melody — 1 to remove
+   - REMOVE: The Diary of Horace Wimp (Vocals)
+[PRUNE] emotional-depth — 6 to remove
+   - REMOVE: Suite Bergamasque, L. 75: III. Clair De Lune (Vocals)
+   - REMOVE: Sun It Rises (Vocals)
+   - REMOVE: Take 3 (Audiotree Live Version) (Vocals)
+   - REMOVE: Take Me To Church (Vocals)
+   - REMOVE: TERRITORY (SOMMA REMIX) (Vocals)
+   - REMOVE: The High Road (Album Version) (Vocals)
+[PRUNE] textural-beauty — 5 to remove
+   - REMOVE: Suite Bergamasque, L. 75: III. Clair De Lune (Vocals)
+   - REMOVE: Sun It Rises (Vocals)
+   - REMOVE: Take 3 (Audiotree Live Version) (Vocals)
+   - REMOVE: TERRITORY (SOMMA REMIX) (Vocals)
+   - REMOVE: The Blue Danube (Vocals)
+[OK]    rhythmic-hypnosis — no removals needed
+[PRUNE] harmonic-surprise — 2 to remove
+   - REMOVE: The Caves Of Altamira (Vocals)
+   - REMOVE: The Diary of Horace Wimp (Vocals)
+[PRUNE] vocal-magic — 4 to remove
+   - REMOVE: Take 3 (Audiotree Live Version) (Vocals)
+   - REMOVE: Take Me To Church (Vocals)
+   - REMOVE: The Diary of Horace Wimp (Vocals)
+   - REMOVE: The High Road (Album Version) (Vocals)
+[OK]    psychedelic-journey — no removals needed
+[PRUNE] sophisticated-groove — 1 to remove
+   - REMOVE: The Caves Of Altamira (Vocals)
+[OK]    nostalgic-hit — no removals needed
+[OK]    euphoric-melody — no removals needed
+[OK]    emotional-depth — no removals needed
+[OK]    textural-beauty — no removals needed
+[OK]    rhythmic-hypnosis — no removals needed
+[OK]    harmonic-surprise — no removals needed
+[OK]    vocal-magic — no removals needed
+[OK]    psychedelic-journey — no removals needed
+[OK]    sophisticated-groove — no removals needed
+[OK]    rhythmic-foundation — no removals needed
+[PRUNE] melodic-overlay — 1 to remove
+   - REMOVE: The Caves Of Altamira (Vocals)
+[PRUNE] bridge-element — 1 to remove
+   - REMOVE: The Diary of Horace Wimp (Vocals)
+[PRUNE] texture-add — 1 to remove
+   - REMOVE: Sun It Rises (Vocals)
+[PRUNE] anchor-track — 1 to remove
+   - REMOVE: Take Me To Church (Vocals)
+[PRUNE] wildcard — 8 to remove
+   - REMOVE: Everybody Wants To Be Famous (Vocals)
+   - REMOVE: Grass (Vocals)
+   - REMOVE: Heavydirtysoul (Vocals)
+   - REMOVE: Helter Skelter (Remastered) (Vocals)
+   - REMOVE: Lane Boy (Vocals)
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Vocals)
+   - REMOVE: The Blue Danube (Vocals)
+   - REMOVE: The Purple Bottle (Vocals)
+[PRUNE] transition-tool — 1 to remove
+   - REMOVE: The High Road (Album Version) (Vocals)
+[PRUNE] emotional-crescendo — 3 to remove
+   - REMOVE: Take Me To Church (Vocals)
+   - REMOVE: TERRITORY (SOMMA REMIX) (Vocals)
+   - REMOVE: The Blue Danube (Vocals)
+[PRUNE] palate-cleanser — 2 to remove
+   - REMOVE: Suite Bergamasque, L. 75: III. Clair De Lune (Vocals)
+   - REMOVE: The Blue Danube (Vocals)
+[OK]    rhythmic-foundation — no removals needed
+[OK]    melodic-overlay — no removals needed
+[OK]    bridge-element — no removals needed
+[OK]    texture-add — no removals needed
+[OK]    anchor-track — no removals needed
+[PRUNE] wildcard — 1 to remove
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Instrumental)
+[OK]    transition-tool — no removals needed
+[OK]    emotional-crescendo — no removals needed
+[OK]    palate-cleanser — no removals needed
+[PRUNE] vocal-prominent — 7 to remove
+   - REMOVE: Everybody Wants To Be Famous (Vocals)
+   - REMOVE: Grass (Vocals)
+   - REMOVE: Heavydirtysoul (Vocals)
+   - REMOVE: Lane Boy (Vocals)
+   - REMOVE: Take Me To Church (Vocals)
+   - REMOVE: The High Road (Album Version) (Vocals)
+   - REMOVE: The Purple Bottle (Vocals)
+[OK]    vocal-minimal — no removals needed
+[OK]    vocal-isolated — no removals needed
+[PRUNE] instrumental — 3 to remove
+   - REMOVE: Suite Bergamasque, L. 75: III. Clair De Lune (Vocals)
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Vocals)
+   - REMOVE: The Blue Danube (Vocals)
+[OK]    vocal-chopped — no removals needed
+[PRUNE] harmony-rich — 4 to remove
+   - REMOVE: Grass (Vocals)
+   - REMOVE: Sun It Rises (Vocals)
+   - REMOVE: The Diary of Horace Wimp (Vocals)
+   - REMOVE: The Purple Bottle (Vocals)
+[OK]    spoken-word — no removals needed
+[OK]    vocal-prominent — no removals needed
+[OK]    vocal-minimal — no removals needed
+[OK]    vocal-isolated — no removals needed
+[PRUNE] instrumental — 1 to remove
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Instrumental)
+[OK]    vocal-chopped — no removals needed
+[OK]    harmony-rich — no removals needed
+[OK]    spoken-word — no removals needed
+[PRUNE] retro-modern — 2 to remove
+   - REMOVE: Everybody Wants To Be Famous (Vocals)
+   - REMOVE: The High Road (Album Version) (Vocals)
+[PRUNE] genre-crossover — 1 to remove
+   - REMOVE: The Purple Bottle (Vocals)
+[PRUNE] generational-bridge — 3 to remove
+   - REMOVE: The Blue Danube (Vocals)
+   - REMOVE: The Caves Of Altamira (Vocals)
+   - REMOVE: The Diary of Horace Wimp (Vocals)
+[OK]    cultural-moment — no removals needed
+[PRUNE] timeless-classic — 7 to remove
+   - REMOVE: Helter Skelter (Remastered) (Vocals)
+   - REMOVE: Suite Bergamasque, L. 75: III. Clair De Lune (Vocals)
+   - REMOVE: Sun It Rises (Vocals)
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Vocals)
+   - REMOVE: The Blue Danube (Vocals)
+   - REMOVE: The Caves Of Altamira (Vocals)
+   - REMOVE: The Diary of Horace Wimp (Vocals)
+[OK]    vintage-revival — no removals needed
+[PRUNE] contemporary-classic — 2 to remove
+   - REMOVE: Take 3 (Audiotree Live Version) (Vocals)
+   - REMOVE: Take Me To Church (Vocals)
+[OK]    retro-modern — no removals needed
+[OK]    genre-crossover — no removals needed
+[OK]    generational-bridge — no removals needed
+[OK]    cultural-moment — no removals needed
+[PRUNE] timeless-classic — 1 to remove
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Instrumental)
+[OK]    vintage-revival — no removals needed
+[OK]    contemporary-classic — no removals needed
+[PRUNE] lifts-mood — 2 to remove
+   - REMOVE: Everybody Wants To Be Famous (Vocals)
+   - REMOVE: The Diary of Horace Wimp (Vocals)
+[PRUNE] adds-depth — 4 to remove
+   - REMOVE: Sun It Rises (Vocals)
+   - REMOVE: Take Me To Church (Vocals)
+   - REMOVE: The Caves Of Altamira (Vocals)
+   - REMOVE: The High Road (Album Version) (Vocals)
+[PRUNE] creates-tension — 2 to remove
+   - REMOVE: Lane Boy (Vocals)
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Vocals)
+[OK]    provides-release — no removals needed
+[OK]    maintains-vibe — no removals needed
+[PRUNE] contrast-element — 2 to remove
+   - REMOVE: Grass (Vocals)
+   - REMOVE: Heavydirtysoul (Vocals)
+[OK]    reset-button — no removals needed
+[PRUNE] emotional-rollercoaster — 1 to remove
+   - REMOVE: The Purple Bottle (Vocals)
+[PRUNE] meditation-inducer — 1 to remove
+   - REMOVE: Suite Bergamasque, L. 75: III. Clair De Lune (Vocals)
+[OK]    lifts-mood — no removals needed
+[OK]    adds-depth — no removals needed
+[PRUNE] creates-tension — 1 to remove
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Instrumental)
+[OK]    provides-release — no removals needed
+[OK]    maintains-vibe — no removals needed
+[OK]    contrast-element — no removals needed
+[OK]    reset-button — no removals needed
+[OK]    emotional-rollercoaster — no removals needed
+[OK]    meditation-inducer — no removals needed
+[PRUNE] slow-burn — 3 to remove
+   - REMOVE: Sun It Rises (Vocals)
+   - REMOVE: Take Me To Church (Vocals)
+   - REMOVE: The High Road (Album Version) (Vocals)
+[PRUNE] instant-impact — 6 to remove
+   - REMOVE: Everybody Wants To Be Famous (Vocals)
+   - REMOVE: Grass (Vocals)
+   - REMOVE: Heavydirtysoul (Vocals)
+   - REMOVE: Helter Skelter (Remastered) (Vocals)
+   - REMOVE: Lane Boy (Vocals)
+   - REMOVE: The Diary of Horace Wimp (Vocals)
+[PRUNE] sustainer — 1 to remove
+   - REMOVE: The Caves Of Altamira (Vocals)
+[PRUNE] energy-shifter — 2 to remove
+   - REMOVE: Heavydirtysoul (Vocals)
+   - REMOVE: Lane Boy (Vocals)
+[OK]    peak-moment — no removals needed
+[PRUNE] cool-down — 1 to remove
+   - REMOVE: Suite Bergamasque, L. 75: III. Clair De Lune (Vocals)
+[PRUNE] energy-weaver — 2 to remove
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Vocals)
+   - REMOVE: The Purple Bottle (Vocals)
+[PRUNE] hypnotic-builder — 1 to remove
+   - REMOVE: TERRITORY (SOMMA REMIX) (Vocals)
+[OK]    slow-burn — no removals needed
+[OK]    instant-impact — no removals needed
+[OK]    sustainer — no removals needed
+[OK]    energy-shifter — no removals needed
+[OK]    peak-moment — no removals needed
+[OK]    cool-down — no removals needed
+[PRUNE] energy-weaver — 1 to remove
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Instrumental)
+[OK]    hypnotic-builder — no removals needed
+[OK]    set-opener — no removals needed
+[PRUNE] warm-up — 1 to remove
+   - REMOVE: The High Road (Album Version) (Vocals)
+[PRUNE] peak-time — 2 to remove
+   - REMOVE: Heavydirtysoul (Vocals)
+   - REMOVE: Helter Skelter (Remastered) (Vocals)
+[OK]    emotional-peak — no removals needed
+[OK]    comedown — no removals needed
+[PRUNE] sunrise — 3 to remove
+   - REMOVE: Suite Bergamasque, L. 75: III. Clair De Lune (Vocals)
+   - REMOVE: Sun It Rises (Vocals)
+   - REMOVE: TERRITORY (SOMMA REMIX) (Vocals)
+[OK]    interlude — no removals needed
+[OK]    finale — no removals needed
+[OK]    set-opener — no removals needed
+[OK]    warm-up — no removals needed
+[OK]    peak-time — no removals needed
+[OK]    emotional-peak — no removals needed
+[OK]    comedown — no removals needed
+[OK]    sunrise — no removals needed
+[OK]    interlude — no removals needed
+[OK]    finale — no removals needed
+[PRUNE] layer-friendly — 6 to remove
+   - REMOVE: Everybody Wants To Be Famous (Vocals)
+   - REMOVE: Suite Bergamasque, L. 75: III. Clair De Lune (Vocals)
+   - REMOVE: Sun It Rises (Vocals)
+   - REMOVE: TERRITORY (SOMMA REMIX) (Vocals)
+   - REMOVE: The Caves Of Altamira (Vocals)
+   - REMOVE: The High Road (Album Version) (Vocals)
+[OK]    tempo-flexible — no removals needed
+[PRUNE] key-adaptable — 3 to remove
+   - REMOVE: Grass (Vocals)
+   - REMOVE: The Diary of Horace Wimp (Vocals)
+   - REMOVE: The Purple Bottle (Vocals)
+[PRUNE] breakdown-rich — 5 to remove
+   - REMOVE: Heavydirtysoul (Vocals)
+   - REMOVE: Helter Skelter (Remastered) (Vocals)
+   - REMOVE: Lane Boy (Vocals)
+   - REMOVE: Take Me To Church (Vocals)
+   - REMOVE: TERRITORY (SOMMA REMIX) (Vocals)
+[PRUNE] loop-gold — 1 to remove
+   - REMOVE: Everybody Wants To Be Famous (Vocals)
+[PRUNE] mashup-ready — 1 to remove
+   - REMOVE: Heavydirtysoul (Vocals)
+[OK]    filter-friendly — no removals needed
+[OK]    layer-friendly — no removals needed
+[OK]    tempo-flexible — no removals needed
+[OK]    key-adaptable — no removals needed
+[OK]    breakdown-rich — no removals needed
+[OK]    loop-gold — no removals needed
+[OK]    mashup-ready — no removals needed
+[OK]    filter-friendly — no removals needed
+[PRUNE] warm-analog — 3 to remove
+   - REMOVE: The Caves Of Altamira (Vocals)
+   - REMOVE: The Diary of Horace Wimp (Vocals)
+   - REMOVE: The High Road (Album Version) (Vocals)
+[PRUNE] crisp-digital — 1 to remove
+   - REMOVE: Everybody Wants To Be Famous (Vocals)
+[PRUNE] gritty-texture — 1 to remove
+   - REMOVE: Helter Skelter (Remastered) (Vocals)
+[PRUNE] spacious-mix — 1 to remove
+   - REMOVE: Take 3 (Audiotree Live Version) (Vocals)
+[OK]    dense-production — no removals needed
+[OK]    minimal-space — no removals needed
+[PRUNE] atmospheric-wash — 2 to remove
+   - REMOVE: Sun It Rises (Vocals)
+   - REMOVE: TERRITORY (SOMMA REMIX) (Vocals)
+[PRUNE] punchy-dynamics — 3 to remove
+   - REMOVE: Grass (Vocals)
+   - REMOVE: Heavydirtysoul (Vocals)
+   - REMOVE: Lane Boy (Vocals)
+[PRUNE] subtle-nuance — 1 to remove
+   - REMOVE: Suite Bergamasque, L. 75: III. Clair De Lune (Vocals)
+[OK]    warm-analog — no removals needed
+[OK]    crisp-digital — no removals needed
+[OK]    gritty-texture — no removals needed
+[OK]    spacious-mix — no removals needed
+[OK]    dense-production — no removals needed
+[OK]    minimal-space — no removals needed
+[OK]    atmospheric-wash — no removals needed
+[OK]    punchy-dynamics — no removals needed
+[OK]    subtle-nuance — no removals needed
+[OK]    mind-expanding — no removals needed
+[OK]    reality-bending — no removals needed
+[OK]    geometric-patterns — no removals needed
+[OK]    color-synesthesia — no removals needed
+[OK]    time-dilation — no removals needed
+[OK]    dream-logic — no removals needed
+[OK]    mind-expanding — no removals needed
+[OK]    reality-bending — no removals needed
+[OK]    geometric-patterns — no removals needed
+[OK]    color-synesthesia — no removals needed
+[OK]    time-dilation — no removals needed
+[OK]    dream-logic — no removals needed
+[PRUNE] gen-z-nostalgia — 3 to remove
+   - REMOVE: Everybody Wants To Be Famous (Vocals)
+   - REMOVE: Heavydirtysoul (Vocals)
+   - REMOVE: Lane Boy (Vocals)
+[OK]    millennial-comfort — no removals needed
+[OK]    gen-x-wisdom — no removals needed
+[PRUNE] boomer-classic — 2 to remove
+   - REMOVE: Helter Skelter (Remastered) (Vocals)
+   - REMOVE: The Blue Danube (Vocals)
+[PRUNE] indie-cred — 4 to remove
+   - REMOVE: Everybody Wants To Be Famous (Vocals)
+   - REMOVE: Grass (Vocals)
+   - REMOVE: Take 3 (Audiotree Live Version) (Vocals)
+   - REMOVE: The High Road (Album Version) (Vocals)
+[OK]    mainstream-crossover — no removals needed
+[PRUNE] cultural-bridge — 1 to remove
+   - REMOVE: Heavydirtysoul (Vocals)
+[OK]    gen-z-nostalgia — no removals needed
+[OK]    millennial-comfort — no removals needed
+[OK]    gen-x-wisdom — no removals needed
+[OK]    boomer-classic — no removals needed
+[OK]    indie-cred — no removals needed
+[OK]    mainstream-crossover — no removals needed
+[OK]    cultural-bridge — no removals needed
+[PRUNE] experimental — 2 to remove
+   - REMOVE: Grass (Vocals)
+   - REMOVE: The Purple Bottle (Vocals)
+[OK]    psychedelic — no removals needed
+[PRUNE] intricate — 2 to remove
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Vocals)
+   - REMOVE: The Purple Bottle (Vocals)
+[OK]    stripped-down — no removals needed
+[PRUNE] lush — 4 to remove
+   - REMOVE: Suite Bergamasque, L. 75: III. Clair De Lune (Vocals)
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Vocals)
+   - REMOVE: The Blue Danube (Vocals)
+   - REMOVE: The High Road (Album Version) (Vocals)
+[OK]    lo-fi — no removals needed
+[OK]    experimental — no removals needed
+[OK]    psychedelic — no removals needed
+[PRUNE] intricate — 1 to remove
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Instrumental)
+[OK]    stripped-down — no removals needed
+[PRUNE] lush — 1 to remove
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Instrumental)
+[OK]    lo-fi — no removals needed
+[PRUNE] steady — 1 to remove
+   - REMOVE: The High Road (Album Version) (Vocals)
+[PRUNE] dynamic — 1 to remove
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Vocals)
+[OK]    hypnotic — no removals needed
+[OK]    choppy — no removals needed
+[PRUNE] flowing — 1 to remove
+   - REMOVE: The Blue Danube (Vocals)
+[PRUNE] driving — 3 to remove
+   - REMOVE: Grass (Vocals)
+   - REMOVE: Helter Skelter (Remastered) (Vocals)
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Vocals)
+[OK]    shuffle — no removals needed
+[OK]    steady — no removals needed
+[PRUNE] dynamic — 1 to remove
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Instrumental)
+[OK]    hypnotic — no removals needed
+[OK]    choppy — no removals needed
+[OK]    flowing — no removals needed
+[PRUNE] driving — 1 to remove
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Instrumental)
+[OK]    shuffle — no removals needed
+[OK]    electronic-experimental — no removals needed
+[PRUNE] electronic-dance — 1 to remove
+   - REMOVE: TERRITORY (SOMMA REMIX) (Vocals)
+[OK]    electronic-ambient — no removals needed
+[OK]    rock-psychedelic — no removals needed
+[PRUNE] rock-indie — 5 to remove
+   - REMOVE: Grass (Vocals)
+   - REMOVE: Take 3 (Audiotree Live Version) (Vocals)
+   - REMOVE: Take Me To Church (Vocals)
+   - REMOVE: The High Road (Album Version) (Vocals)
+   - REMOVE: The Purple Bottle (Vocals)
+[PRUNE] rock-classic — 3 to remove
+   - REMOVE: Helter Skelter (Remastered) (Vocals)
+   - REMOVE: The Caves Of Altamira (Vocals)
+   - REMOVE: The Diary of Horace Wimp (Vocals)
+[OK]    pop-sophisticated — no removals needed
+[PRUNE] pop-experimental — 1 to remove
+   - REMOVE: Everybody Wants To Be Famous (Vocals)
+[OK]    hip-hop-conscious — no removals needed
+[OK]    hip-hop-experimental — no removals needed
+[PRUNE] jazz-influenced — 1 to remove
+   - REMOVE: The Caves Of Altamira (Vocals)
+[PRUNE] folk-modern — 1 to remove
+   - REMOVE: Sun It Rises (Vocals)
+[OK]    world-fusion — no removals needed
+[PRUNE] genre-fluid — 2 to remove
+   - REMOVE: Heavydirtysoul (Vocals)
+   - REMOVE: Lane Boy (Vocals)
+[OK]    electronic-experimental — no removals needed
+[OK]    electronic-dance — no removals needed
+[OK]    electronic-ambient — no removals needed
+[OK]    rock-psychedelic — no removals needed
+[OK]    rock-indie — no removals needed
+[OK]    rock-classic — no removals needed
+[OK]    pop-sophisticated — no removals needed
+[OK]    pop-experimental — no removals needed
+[OK]    hip-hop-conscious — no removals needed
+[OK]    hip-hop-experimental — no removals needed
+[OK]    jazz-influenced — no removals needed
+[OK]    folk-modern — no removals needed
+[OK]    world-fusion — no removals needed
+[OK]    genre-fluid — no removals needed
+[OK]    instant-dancefloor — no removals needed
+[OK]    needs-layering — no removals needed
+[OK]    slow-burn-dance — no removals needed
+[PRUNE] non-danceable-standalone — 3 to remove
+   - REMOVE: Suite Bergamasque, L. 75: III. Clair De Lune (Vocals)
+   - REMOVE: Sun It Rises (Vocals)
+   - REMOVE: The Blue Danube (Vocals)
+[PRUNE] crowd-pleaser — 3 to remove
+   - REMOVE: Helter Skelter (Remastered) (Vocals)
+   - REMOVE: Lane Boy (Vocals)
+   - REMOVE: The Diary of Horace Wimp (Vocals)
+[OK]    niche-dancer — no removals needed
+[PRUNE] body-mover — 2 to remove
+   - REMOVE: Everybody Wants To Be Famous (Vocals)
+   - REMOVE: The Purple Bottle (Vocals)
+[PRUNE] head-nodder — 3 to remove
+   - REMOVE: Lane Boy (Vocals)
+   - REMOVE: The Diary of Horace Wimp (Vocals)
+   - REMOVE: The High Road (Album Version) (Vocals)
+[OK]    instant-dancefloor — no removals needed
+[OK]    needs-layering — no removals needed
+[OK]    slow-burn-dance — no removals needed
+[OK]    non-danceable-standalone — no removals needed
+[OK]    crowd-pleaser — no removals needed
+[OK]    niche-dancer — no removals needed
+[OK]    body-mover — no removals needed
+[OK]    head-nodder — no removals needed
+[PRUNE] long-intro — 1 to remove
+   - REMOVE: TERRITORY (SOMMA REMIX) (Vocals)
+[PRUNE] short-intro — 1 to remove
+   - REMOVE: Grass (Vocals)
+[OK]    clean-outro — no removals needed
+[PRUNE] fade-outro — 1 to remove
+   - REMOVE: Take Me To Church (Vocals)
+[OK]    breakdown-intro — no removals needed
+[OK]    full-energy-start — no removals needed
+[OK]    beatmatched-friendly — no removals needed
+[PRUNE] tempo-challenging — 2 to remove
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Vocals)
+   - REMOVE: The Blue Danube (Vocals)
+[PRUNE] drop-heavy — 1 to remove
+   - REMOVE: Lane Boy (Vocals)
+[PRUNE] smooth-transitions — 1 to remove
+   - REMOVE: Take 3 (Audiotree Live Version) (Vocals)
+[OK]    long-intro — no removals needed
+[OK]    short-intro — no removals needed
+[OK]    clean-outro — no removals needed
+[OK]    fade-outro — no removals needed
+[OK]    breakdown-intro — no removals needed
+[OK]    full-energy-start — no removals needed
+[OK]    beatmatched-friendly — no removals needed
+[PRUNE] tempo-challenging — 1 to remove
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Instrumental)
+[OK]    drop-heavy — no removals needed
+[OK]    smooth-transitions — no removals needed
+[PRUNE] energy-injector — 3 to remove
+   - REMOVE: Grass (Vocals)
+   - REMOVE: Heavydirtysoul (Vocals)
+   - REMOVE: Helter Skelter (Remastered) (Vocals)
+[PRUNE] energy-sustainer — 1 to remove
+   - REMOVE: Take 3 (Audiotree Live Version) (Vocals)
+[OK]    energy-bridge — no removals needed
+[OK]    mood-shifter — no removals needed
+[PRUNE] attention-grabber — 3 to remove
+   - REMOVE: Everybody Wants To Be Famous (Vocals)
+   - REMOVE: Heavydirtysoul (Vocals)
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Vocals)
+[OK]    background-perfect — no removals needed
+[PRUNE] sing-along-potential — 3 to remove
+   - REMOVE: Everybody Wants To Be Famous (Vocals)
+   - REMOVE: Helter Skelter (Remastered) (Vocals)
+   - REMOVE: Take Me To Church (Vocals)
+[PRUNE] hands-up-moment — 2 to remove
+   - REMOVE: TERRITORY (SOMMA REMIX) (Vocals)
+   - REMOVE: The Purple Bottle (Vocals)
+[OK]    energy-injector — no removals needed
+[OK]    energy-sustainer — no removals needed
+[OK]    energy-bridge — no removals needed
+[OK]    mood-shifter — no removals needed
+[PRUNE] attention-grabber — 1 to remove
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Instrumental)
+[OK]    background-perfect — no removals needed
+[OK]    sing-along-potential — no removals needed
+[OK]    hands-up-moment — no removals needed
+[OK]    original — no removals needed
+[PRUNE] remix — 1 to remove
+   - REMOVE: TERRITORY (SOMMA REMIX) (Vocals)
+[PRUNE] live — 1 to remove
+   - REMOVE: Take 3 (Audiotree Live Version) (Vocals)
+[OK]    edit — no removals needed
+[OK]    remaster — no removals needed
+[OK]    acoustic — no removals needed
+[PRUNE] instrumental — 3 to remove
+   - REMOVE: Suite Bergamasque, L. 75: III. Clair De Lune (Vocals)
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Vocals)
+   - REMOVE: The Blue Danube (Vocals)
+[OK]    original — no removals needed
+[OK]    remix — no removals needed
+[OK]    live — no removals needed
+[OK]    edit — no removals needed
+[OK]    remaster — no removals needed
+[OK]    acoustic — no removals needed
+[PRUNE] instrumental — 1 to remove
+   - REMOVE: Symphony No. 9 in D Minor, Op. 125 "Choral": II. Molto vivace - Presto (Instrumental)
+[OK]    funny — no removals needed
+[OK]    deep — no removals needed
+[OK]    dopamine — no removals needed
+[PRUNE] energetic — 1 to remove
+   - REMOVE: Grass (Vocals)
+[OK]    funny — no removals needed
+[OK]    deep — no removals needed
+[OK]    dopamine — no removals needed
+[OK]    energetic — no removals needed
+
+SUMMARY
+======
+Tracks examined:   27836
+Candidates found:  217
+To remove (planned): 217
+Removed (applied): 0
+
+DRY RUN — no changes made. Re-run with --commit to apply removals.
